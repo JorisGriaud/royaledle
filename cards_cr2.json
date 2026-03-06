@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "version": "2026",
+    "total_cards": 121,
+    "attributes": [
+      "name",
+      "id",
+      "key",
+      "elixir",
+      "rarity",
+      "type",
+      "arena_unlock",
+      "damage",
+      "damage_per_sec",
+      "hitpoints",
+      "hit_speed",
+      "targets",
+      "speed",
+      "range",
+      "count",
+      "attack_type",
+      "radius",
+      "duration",
+      "slowdown_ennemies",
+      "crown_tower_dammage",
+      "stun_duration",
+      "has_evolution",
+      "has_hero",
+      "release_year",
+      "icon",
+      "description"
+    ],
+    "rarity_values": ["Commune", "Rare", "Épique", "Légendaire", "Champion"],
+    "type_values": ["Troupe", "Sort", "Bâtiment"],
+    "targets_values": ["Sol", "Air", "Sol & Air", "Bâtiments"],
+    "speed_values": ["Lente", "Moyenne", "Rapide", "Très Rapide"],
+    "attack_type_values": ["Unique", "Zone"]
+  },
+  "cards": [
+    {
+      "name": "Arc-X",
+      "id": 1,
+      "key": "arc-x",
+      "elixir": 6,
+      "rarity": "Épique",
+      "type": "Bâtiment",
+      "arena_unlock": 14,
+      "damage": 43.0,
+      "damage_per_sec": null,
+      "hitpoints": 1600,
+      "hit_speed": 0.3,
+      "targets": "Sol",
+      "speed": null,
+      "range": 11.5,
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": 30,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": null,
+      "stun_duration": null,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Quelle jolie tour vous avez là. Il serait regrettable de voir cet arc-X la réduire en poussière depuis ce côté de l'arène..."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "name": "Zappy",
+      "id": 115,
+      "key": "zappy",
+      "elixir": 6,
+      "rarity": "Légendaire",
+      "type": "Troupe",
+      "arena_unlock": 11,
+      "damage": 1331,
+      "damage_per_sec": null,
+      "hitpoints": 1451,
+      "hit_speed": 4,
+      "targets": "Sol",
+      "speed": "Lent",
+      "range": 5,
+      "count": 1,
+      "attack_type": "Zone",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": null,
+      "stun_duration": null,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Zappy se charge lentement, puis décharge toute son énergie sur une énorme zone de dégâts. Vraiment, Zappy ne fait pas dans la dentelle. "
+    },
+
+     {
+      "name": "Eletro-dragon",
+      "id": 116,
+      "key": "eletro-dragon",
+      "elixir":5,
+      "rarity": "Epique",
+      "type": "Troupe",
+      "arena_unlock": 12,
+      "damage": 192,
+      "damage_per_sec": null,
+      "hitpoints": 998,
+      "hit_speed": 2.1,
+      "targets": "Sol & Air",
+      "speed": "Moyen",
+      "range":3.5,
+      "count": 1,
+      "attack_type": "Zone",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": null,
+      "stun_duration": 0.5,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2018,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Crache des arcs électriques qui touchent jusqu'à trois cibles. Moins mignon que le bébé dragon, moins farouche que le dragon de l'enfer, mais il mérite quand même qu'on s'y attache."
+    },
+     {
+      "name": "Eletro-esprit",
+      "id": 117,
+      "key": "eletro-esprit",
+      "elixir": 1,
+      "rarity": "Commune",
+      "type": "Troupe",
+      "arena_unlock": 4,
+      "damage": 99,
+      "damage_per_sec": null,
+      "hitpoints": 230,
+      "hit_speed": null,
+      "targets": "Sol & Air",
+      "speed": "Très Rapide",
+      "range": 2.5,
+      "count": 1,
+      "attack_type": "Zone",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": null,
+      "stun_duration": 0.5,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2020,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Il se jette gaiment sur les ennemis, étourdissant jusqu'à neuf unités et infligeant des dégâts de zone. En ce moment, il essaie aussi de se laisser pousser la moustache pour tenter de rivaliser avec le chevalier."
+    },
+     {
+      "name": "Eletro-geant",
+      "id": 118,
+      "key": "eletro-geant",
+      "elixir": 7,
+      "rarity": "Epique",
+      "type": "Troupe",
+      "arena_unlock": 5,
+      "damage": 163,
+      "damage_per_sec": 77,
+      "hitpoints": 3855,
+      "hit_speed": 2.1,
+      "targets": "Bâtiments",
+      "speed": "Lent",
+      "range": "Moyenne",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": 128,
+      "stun_duration": 0.5,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2020,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Grâce à son Zap Pack dernier cri, l'électro-géant étourdit et inflige des dégâts aux ennemis qui s'approchent de trop près en les électrocutant. Attention, quiconque critique son style sera zappé."
+    },
+    
+    {
+      "name": "Eletro-sorcier",
+      "id": 119,
+      "key": "eletro-sorcier",
+      "elixir": 4,
+      "rarity": "Légendaire",
+      "type": "Troupe",
+      "arena_unlock": 5,
+      "damage": 224,
+      "damage_per_sec": null,
+      "hitpoints": 714,
+      "hit_speed": 1.8,
+      "targets": "Sol & Air",
+      "speed": "Rapide",
+      "range": 5,
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": 2.5,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": null,
+      "stun_duration": 0.5,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Il atterrit dans un grand FLASH!, étourdissant les ennemis à proximité, et lance des éclairs avec ses deux mains. Quel frimeur."
+    },
+
+    {
+      "name": "Electrocuteurs",
+      "id": 120,
+      "key": "electrocuteurs",
+      "elixir": 4,
+      "rarity": "Rare",
+      "type": "Troupe",
+      "arena_unlock": 10,
+      "damage": 117,
+      "damage_per_sec": 55,
+      "hitpoints": 529,
+      "hit_speed":  2.1,
+      "targets": "Sol & Air",
+      "speed": "Moyenne",
+      "range": 4.5,
+      "count": 3,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": null,
+      "stun_duration": 0.5,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2017,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Fait apparaître des électrocuteurs miniatures contrôlés par... En fait, seul le maître ouvrier le sait."
+    },
+
+    {
+      "name": "Electrocution",
+      "id": 121,
+      "key": "eletrocution",
+      "elixir": 2,
+      "rarity": "Commune",
+      "type": "Sort",
+      "arena_unlock": 5,
+      "damage": 192,
+      "damage_per_sec": null,
+      "hitpoints": null,
+      "hit_speed": null,
+      "targets": "Sol & Air",
+      "speed": false,
+      "range": null,
+      "count": 1,
+      "attack_type": "Zone",
+      "radius": 2.5,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_dammage": 58,
+      "stun_duration": 0.5,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2017,
+      "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
+      "description": "Foudroie les ennemis, les étourdit brièvement et inflige des dégâts dans un faible rayon. Dégâts réduits sur les tours couronnées."
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
