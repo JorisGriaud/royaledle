@@ -90,7 +90,7 @@
       "has_evolution": false,
       "has_hero": true,
       "release_year": 2018,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/Avli3W7BxU9HQ2SoLiXnBgGx25FoNXUSFm7OcAk68ek.png",
       "description": "Mi-sorcier, mi-archer, il tire une flèche magique qui traverse tous les ennemis sur son passage en leur infligeant des dégâts. Aucun trucage c'est magique !"
     },
     {
@@ -118,7 +118,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png",
       "description": "Un duo d'attaquantes à distance légèrement protégées. Elles vous aideront à éliminer les unités terrestres et aériennes, mais ne comptez pas sur elles pour vos conseils coiffure."
     },
     {
@@ -146,8 +146,8 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
-      "description": ""
+      "icon": "https://api-assets.clashroyale.com/cards/300/fAOToOi1pRy7svN2xQS6mDkhQw2pj9m_17FauaNqyl4.png",
+      "description": "Génère un armée de squelettes. Je vous présente Kévin et ses potes Kenny, Katie, Karim, Kelly, etc."
     },
     {
       "name": "Artificière",
@@ -762,7 +762,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2025,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
       "description": "La boss du Gang de la forêt a enfin décidé de se montrer... ou presque. La cheffe des voleuses fonce vers ses cibles et devient invulnérable pendant la ruée. Quand ça tourne au vinaigre, elle dégaine ses grenades surprises!"
     },
     {
