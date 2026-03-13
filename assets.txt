@@ -1,7 +1,5 @@
     Requête réussie
 
-Gemini a dit
-
 Voici le contenu formaté avec uniquement les champs "name" et "iconUrls", séparés par un retour à la ligne entre chaque objet, tel que demandé :
 
 Knight
