@@ -16,6 +16,11 @@ largeur_rect = 400
 hauteur_rect = 100
 hauteur_fixe = 100
 
+#dimension carré
+largeur_carre=75
+hauteur_carre=75
+hauteur_fixe=100
+
 def classic(): #programme manu
     pass
 
@@ -25,17 +30,17 @@ def emoji(): #programme evan
 def description():
     pass
 
-image_bouton1 = Image.open("classic.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
+image_bouton1 = Image.open("classic.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
 photo_bouton1 = ImageTk.PhotoImage(image_bouton1)
 bouton1 = Button(fenetre, image=photo_bouton1, relief="flat", borderwidth=0, command=lambda: classic)
 bouton1.image = photo_bouton1 
 
-image_bouton2 = Image.open("emoji.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
+image_bouton2 = Image.open("emoji.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
 photo_bouton2 = ImageTk.PhotoImage(image_bouton2)
 bouton2 = Button(fenetre, image=photo_bouton2, relief="flat", borderwidth=0, command=lambda: emoji)
 bouton2.image = photo_bouton2
 
-image_bouton3 = Image.open("description.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
+image_bouton3 = Image.open("description.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
 photo_bouton3 = ImageTk.PhotoImage(image_bouton3)
 bouton3 = Button(fenetre, image=photo_bouton3, relief="flat", borderwidth=0, command=lambda: description)
 bouton3.image = photo_bouton3
@@ -80,13 +85,13 @@ def redimensionner_canvas(event):
     label_image.lift()
 
     # Placer le bouton et le mettre au-dessus
-    bouton1.place(x=x1-75, y=y1, width=largeur_rect, height=hauteur_rect)
+    bouton1.place(x=x1+65, y=y1+75, width=largeur_carre, height=hauteur_carre)
     bouton1.lift()
 
-    bouton2.place(x=x1, y=y1, width=largeur_rect, height=hauteur_rect)
+    bouton2.place(x=x1+165, y=y1+75, width=largeur_carre, height=hauteur_carre)
     bouton2.lift()
 
-    bouton3.place(x=x1+75, y=y1, width=largeur_rect, height=hauteur_rect)
+    bouton3.place(x=x1+265, y=y1+75, width=largeur_carre, height=hauteur_carre)
     bouton3.lift()
 
     
