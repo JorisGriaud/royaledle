@@ -2,8 +2,8 @@ import json
 
 def add_icons():
     assets_path = 'assets.json'
-    cards_path = 'cards_cr2.json'
-    output_path = 'cards_cr2_updated.json'
+    cards_path = 'cards_cr1.json'
+    output_path = 'cards_cr_updated.json'
 
     with open(assets_path, 'r', encoding='utf-8') as f:
         assets_data = json.load(f)
