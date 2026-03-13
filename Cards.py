@@ -189,8 +189,8 @@ class Cards():
         for i in range(nb_card):
             if self.cards[i]['key'] == name:
                 return Card(self.cards[i])
-            else: return None
+        return None
 
 cards = Cards()
 
-# print(cards.get_number_of_cards())
+print(cards.get_card_by_name("cimetiere").get_icon_url())
