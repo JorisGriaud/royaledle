@@ -55,7 +55,7 @@ photo_bouton6 = ImageTk.PhotoImage(image_bouton6)
 bouton6 = Button(fenetre, image=photo_bouton6, relief="flat", borderwidth=0, command=lambda: description)
 bouton6.image = photo_bouton6
 
-logo = Image.open("cdetoutebeaute.png").resize((largeur_rect, hauteur_rect+200))  # Redimensionner à la taille du logo
+logo = Image.open("logoofficielroyaledle.png").resize((largeur_rect, hauteur_rect+200))  # Redimensionner à la taille du logo
 photo_logo = ImageTk.PhotoImage(logo)
 
 # Créer un Label avec l'image
@@ -118,7 +118,7 @@ def redimensionner_canvas_debut(event):
     bouton6.place(x=x1, y=y1+350, width=largeur_rect, height=hauteur_rect)
     bouton6.lift()
 
-    
+
 # Canvas
 canvas = Canvas(fenetre, highlightthickness=0)
 canvas.pack(fill=BOTH, expand=True)
