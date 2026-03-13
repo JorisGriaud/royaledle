@@ -133,7 +133,7 @@
       "elixir": 3,
       "rarity": "Epique",
       "type": "Troupe",
-      "arena_unlock": 6,
+      "arena_unlock": 2,
       "damage": 81,
       "damage_per_sec": null,
       "hitpoints": 81,
@@ -180,7 +180,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2020,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
       "description": "Voilà ce qui arrive si on laisse une archère trop s'ennuyer. Elle tire un feu d'artifice qui explose en une pluie d'étincelles à l'impact, infligeant des dégâts à la cible et tout ce qui se trouve derrière."
     },
     {
@@ -209,7 +209,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png",
       "description": "Ils ont beau faire joli dans le ciel, vous n'avez pas envie de voir ces ballons se rassembler à l'horizon : ils lancent des bombes puissantes et, lorsqu'ils sont abattus, ils s'écrasent en infligeant des dégâts de zone."
     },
     {
@@ -238,7 +238,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png",
       "description": ""
     },
     {
@@ -267,7 +267,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png",
       "description": "Fait apparaître une paire de barbares au niveau boosté. Ils ressemblent aux barbares habituels, en plus costauds, plus beaux, plus rapides et plus forts."
     },
     {
@@ -296,7 +296,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2025,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/NA6W8S1JBYBlOPwD3dNvJLFvVDKq-UuBs_J3i3ewLFI.png",
       "description": "La fréquence à laquelle elle doit aiguiser ses haches est stupéfiante... Mais après tout, ce serait aussi votre cas si vous frappiez sur tout 24h sur 24."
     },
     {
@@ -325,7 +325,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/12n1CesxKIcqVYntjxcF36EFA-ONw7Z-DoL0_rQrbdo.png",
       "description": "Petit squelette sans grande protection qui lance des bombes. Inflige des dégâts de zone capables d'anéantir une nuée d'ennemis."
     },
     {
@@ -354,7 +354,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png",
       "description": "Et bim, une boule de feu. Incinère une petite zone, infligeant des dégâts élevés. Dégâts réduits sur les tours couronnées."
     },
     {
@@ -383,7 +383,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/SU4qFXmbQXWjvASxVI6z9IJuTYolx4A0MKK90sTIE88.png",
       "description": ""
     },
     {
@@ -412,7 +412,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/9XL5BP2mqzV8kza6KF8rOxrpCZTyuGLp2l413DTjEoM.png",
       "description": "Il lance sa hache comme un boomerang, frappant tous les ennemis à l'aller et au retour. C'est un miracle qu'il n'ait pas perdu un bras."
     },
     {
@@ -441,7 +441,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2024,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/vqTzGAjseQv9F5rf4tsFWeocvg0dyPw1j_nB1cmDZfI.png",
       "description": "Ce buisson s'avance incognito vers le bâtiment le plus proche. Très suspicieusement. Si le buisson suspicieux atteint son objectif ou est détruit par un sort, des gobelins camouflés surprennent l'ennemi!"
     },
     {
@@ -470,7 +470,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png",
       "description": "Fait des rototos-boules de feu qui infligent des dégâts de zone depuis les airs. Les bébés dragons naissent adorables, affamés et prêts pour un bon petit barbecue."
     },
     {
@@ -499,7 +499,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png",
       "description": "Deux barbares utilisant un tronc comme bélier pour charger le bâtiment le plus proche. Ils infligent des dégâts importants s'ils atteignent leur cible, puis attaquent l'épée à la main."
     },
     {
@@ -528,7 +528,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/E6RWrnCuk13xMX5OE1EQtLEKTZQV6B78d00y8PlXt6Q.png",
       "description": "Il abat des arbres le jour et poursuit la bûche la nuit. Son flacon de rage se renverse quand il est éliminé."
     },
     {
@@ -557,7 +557,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/ho0nOG2y3Ch86elHHcocQs8Fv_QNe0cFJ2CijsxABZA.png",
       "description": "Bâtiment générant régulièrement des barbares pour affronter l'ennemi. À vous les invasions barbares!"
     },
     {
@@ -586,7 +586,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/l8ZdzzNLcwB4u7ihGgxNFQOjCT_njFuAhZr7D6PRF7E.png",
       "description": "Bâtiment défensif qui génère des gobelins à lances quand des ennemis se trouvent à sa portée. Ne regardez pas à l'intérieur, vous ne voulez pas savoir de quoi ils sont faits!"
     },
     {
@@ -615,7 +615,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2019,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/vD24bBgK4rSq7wx5QEbuqChtPMRFviL_ep76GwQw1yA.png",
       "description": "Lorsque la cage est détruite, elle libère son gobelin félon. Et il n'est pas du genre à rigoler."
     },
     {
@@ -644,7 +644,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png",
       "description": "Dispositif de défense. Tire des boulets de canon aux effets meurtriers, mais ne peut pas cibler les combattants volants."
     },
     {
@@ -673,7 +673,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2018,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/QaJyerT7f7oMyZ3Fv1glKymtLSvx7YUXisAulxl7zRI.png",
       "description": "Et les voilà qui chargent à travers l'arène, piègent leurs ennemis, détruisent les tours et... s'arrêtent pour casser la croûte?!"
     },
     {
@@ -702,7 +702,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png",
       "description": "Un canon sur roues? Je parie qu'ils ne l'ont pas vu venir! Il perd ses roues lorsque son bouclier est brisé."
     },
     {
@@ -731,7 +731,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/VNabB1WKnYtYRSG7X_FZfnZjQDHTBs9A96OGMFmecrA.png",
       "description": "Rodé au combat au corps à corps, mais pas tant la précision. On lui pardonne, bien sûr, parce que des sourcils aussi fournis, ça se respecte!"
     },
     {
@@ -760,7 +760,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
       "description": "Génère une poignée de petites créatures volantes. Ce sont d'adorables petites boules... de destruction."
     },
     {
@@ -789,7 +789,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2025,
-      "icon": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
+      "icon": "https://api-assets.clashroyale.com/cards/300/nuceG9o7rAyvyc7D3sp2QSiRYtSOEgraq0NJkDf729s.png",
       "description": "La boss du Gang de la forêt a enfin décidé de se montrer... ou presque. La cheffe des voleuses fonce vers ses cibles et devient invulnérable pendant la ruée. Quand ça tourne au vinaigre, elle dégaine ses grenades surprises!"
     },
     {
@@ -818,7 +818,7 @@
       "has_evolution": true,
       "has_hero": true,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
       "description": "Un spécialiste du combat rapproché, cousin charmant et cultivé du barbare. On raconte que la magnificence de sa moustache a suffi à justifier son adoubement."
     },
     {
@@ -847,7 +847,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2021,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png",
       "description": "Un guerrier à la chevelure aussi remarquable que sa souplesse. Il sera ravi de vous faire une démonstration de ses talents de gymnaste."
     },
     {
@@ -876,7 +876,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png",
       "description": "Combattant de mêlée rapide visant les bâtiments, capable de sauter par-dessus la rivière. S'il entend crier « Chevaucheur de cochooon », il répond à l'appel jusque dans l'arène."
     },
     {
@@ -905,7 +905,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/Icp8BIyyfBTj1ncCJS7mb82SY7TPV-MAE-J2L2R48DI.png",
       "description": "Surprise! C'est la fête. La fête des squelettes, n'importe où dans l'arène. Youpi!"
     },
     {
@@ -934,7 +934,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/mHVCet-1TkwWq-pxVIU2ZWY9_2z7Z7wtP25ArEUsP_g.png",
       "description": "Copie toutes les troupes alliées de la zone cible. Les troupes clonées sont fragiles, mais tout aussi efficaces que les originales. N'affecte pas les bâtiments."
     },
     {
@@ -963,7 +963,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2018,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
       "description": "Les animaux de compagnie du roi se sont échappés! Ils adorent mâchouiller des pommes ou des tours ennemies, selon l'envie."
     },
     {
@@ -992,7 +992,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2020,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/LPg7AGjGI3_xmi7gLLgGC50yKM1jJ2teWkZfoHJcIZo.png",
       "description": "Pas d'accusé de réception nécessaire. Livré par les airs, le colis inflige des dégâts de zone, avant de libérer une recrue royale. La boîte vide est aussi très pratique pour l'espionnage."
     },
     {
@@ -1021,7 +1021,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/y5HDbKtTbWG6En6TGWU0xoVIGs1-iQpIP4HC-VM7u8A.png",
       "description": "Crache un faisceau de feu focalisé dont les dégâts augmentent au fil du temps. Porte un casque, car voler n'est pas sans danger."
     },
     {
@@ -1050,7 +1050,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2020,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/qPOtg9uONh47_NLxGhhFc_ww9PlZ6z3Ry507q1NZUXs.png",
       "description": "Ce duo de feu cause des dégâts de zone en survolant l'arène. Le dimanche, ils jouent des percussions pour un cours de danse macabre."
     },
     {
@@ -1079,7 +1079,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/16-BqusVvynIgYI8_Jci3LDC-r8AI_xaIYLgXqtlmS8.png",
       "description": "L'esprit de feu nourrit une passion brûlante pour les câlins trop chaleureux. Ce serait adorable s'il ne mettait pas le feu à tout ce qu'il touche."
     },
     {
@@ -1108,7 +1108,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png",
       "description": "Fait apparaître un petit esprit de glace plein d'entrain, capable de congeler un groupe d'ennemis. Un vrai vent de fraîcheur."
     },
     {
@@ -1137,7 +1137,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2020,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/GITl06sa2nGRLPvboyXbGEv5E3I-wAwn1Eqa5esggbc.png",
       "description": "Esprit espiègle qui adore faire des câlins aux ennemis, leur infligeant des dégâts et laissant derrière lui un sort de soin pour ses alliés. Au revoir, sort de guérison! On t'aimait bien... Mais on t'utilisait pas..."
     },
     {
@@ -1166,7 +1166,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png",
       "description": "Il faut dépenser de l'élixir pour en produire. Au cours de sa période d'activité, ce bâtiment produit 8 unités d'élixir. Ne fait pas partie des cartes de départ."
     },
     {
@@ -1195,7 +1195,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2018,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/3En2cz0ISQAaMTHY3hj3rTveFN2kJYq-H4VxvdJNvCM.png",
       "description": "Invisible, il dérive à travers l'arène, jusqu'à ce qu'un ennemi le réveille... et il attaque! Puis après quelques secondes sans attaquer, il redevient invisible. Zzzz..."
     },
     {
@@ -1224,7 +1224,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png",
       "description": "Arrose de flèches une large zone, infligeant des dégâts à tous les ennemis touchés. Dégâts réduits sur les tours couronnées."
     },
     {
@@ -1253,7 +1253,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2021,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/eN2TKUYbih-26yBi0xy5LVFOA0zDftgDqxxnVfdIg1o.png",
       "description": "Bâtiment capable de se frayer un chemin souterrain pour ressurgir n'importe où dans l'arène et invoquer des gobelins un par un. Lorsqu'elle est détruite, la foreuse invoque quelques gobelins de plus, histoire de ne rien laisser au hasard."
     },
     {
@@ -1282,7 +1282,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/fpnESbYqe5GyZmaVVYe-SEu7tE0Kxh_HZyVigzvLjks.png",
       "description": "La foudre étourdit et inflige des dégâts aux trois bâtiments ou combattants ennemis ayant le plus de points de vie dans la zone cible. Dégâts réduits sur les tours couronnées."
     },
     {
@@ -1311,7 +1311,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/iqbDiG7yYRIzvCPXdt9zPb3IvMt7F7Gi4wIPnh2x4aI.png",
       "description": "La fournaise génère un esprit de feu à la fois. Elle est aussi conseillée pour les galettes cuites au feu de bois."
     },
     {
@@ -1340,7 +1340,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2018,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/KV48DfwVHKx9XCjzBdk3daT_Eb52Me4VgjVO7WctRc4.png",
       "description": "Génère un trio de fripons malicieux! Le garçon mène la charge, tandis que les filles utilisent leurs frondes pour bombarder les ennemis de chewing-gum magique."
     },
     {
@@ -1369,7 +1369,7 @@
       "has_evolution": false,
       "has_hero": true,
       "release_year": 2018,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
       "description": "Il roule sur tout ce qui se trouve sur son passage en infligeant des dégâts, puis un barbare en sort quand il se brise. Comment s'est-il faufilé là-dedans?"
     },
     {
@@ -1398,7 +1398,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
       "description": "Fait surgir trois gobelins n'importe où dans l'arène. On va s'éclater les gars!"
     },
     {
@@ -1427,7 +1427,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/vCB4DWCcrGbTkarjcOiVz4aNDx6GWLm0yUepg9E1MGo.png",
       "description": "C'est la fête des squelettes dans le ciel, jusqu'à ce que tous les ballons éclatent... Ensuite, la fête des squelettes continue sur la terre ferme!"
     },
     {
@@ -1456,7 +1456,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png",
       "description": "Six gobelins surgissent, trois armés de couteaux, trois armés de lances, pour un coût en élixir réduit. C'est comme un pack éco pour gobelins!"
     },
     {
@@ -1485,7 +1485,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/1ArKfLJxYo6_NU_S9cAeIrfbXqWH0oULVJXedxBXQlU.png",
       "description": "Trois sacs d'os impitoyables armés de boucliers. Enlevez-leur leurs boucliers et qu'est-ce qui reste? Trois sacs d'os impitoyables."
     },
     {
@@ -1514,7 +1514,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/yHGpoEnmUWPGV_hBbhn-Kk-Bs838OjGzWzJJlQpQKQA.png",
       "description": "Trois attaquants volants, rapides et sans armure. Les roses sont rouges et les gargouilles sont bleues, elles volent dans les cieux et zigouillent tout ce qui bouge."
     },
     {
@@ -1543,7 +1543,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/I1M20_Zs_p_BS1NaNIVQjuMJkYI_1-ePtwYZahn0JXQ.png",
       "description": "Immobilise et inflige des dégâts aux combattants et bâtiments ennemis qui ne peuvent plus se déplacer ou attaquer. Que personne ne bouge! Dégâts réduits sur les tours couronnées."
     },
     {
@@ -1572,7 +1572,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2024,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/KVVOgdn40xasFLYuQv8Go_U_LCV7wSG9q9eE1H7f3Qk.png",
       "description": "BOUM! Le gobelin explosif inflige des dégâts de zone et explose à sa mort. Quand ses PV sont bas, il charge le bâtiment le plus proche."
     },
     {
@@ -1601,7 +1601,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2018,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/SoW16cY3jXBwaTDvb39DkqiVsoFVaDWbzf5QBYphJrY.png",
       "description": "Ce gobelin géant tout vert et tout joyeux avance lourdement vers les bâtiments ennemis. Il transporte deux gobelins à lances partout où il va. C'est un peu bizarre, mais ça marche."
     },
     {
@@ -1630,7 +1630,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/BmpK3bqEAviflqHCdxxnfm-_l3pRPJw3qxHkwS55nCY.png",
       "description": "Court vite, tire loin et mâche du chewing-gum. Son secret pour souffler des fléchettes la bouche pleine de chewing-gum magique? Des années de leçons de didgeridoo."
     },
     {
@@ -1659,7 +1659,7 @@
       "has_evolution": false,
       "has_hero": true,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/X_DQUye_OaS3QN6VC9CPw05Fit7wvSm3XegXIXKP--0.png",
       "description": "Quatre attaquants de mêlée rapides et sans armure. Petits, rapides, verts et méchants!"
     },
     {
@@ -1688,7 +1688,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/FSDFotjaXidI4ku_WFpVCTWS1hKGnFh1sxX0lxM43_E.png",
       "description": "Trois attaquants à distance dépourvus d'armure. Qui a bien pu leur apprendre à manier la lance? Qui a pu penser que c'était une bonne idée?"
     },
     {
@@ -1717,7 +1717,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2024,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/mQ20B49dXdk7Nv0lMdLw175M3YvkSpN6KNnho8UKBd8.png",
       "description": "C'est VIVANT! Le Monstre se dirige lentement vers les bâtiments ennemis pendant que le Docteur prépare le piège. Quand il appuie sur le bouton, le Docteur électrifie le lien qui le lie au Monstre, faisant rôtir les ennemis proches!"
     },
     {
@@ -1746,7 +1746,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/npdmCnET7jmVjJvjJQkFnNSNnDxYHDBigbvIAloFMds.png",
       "description": "Lent mais robuste, il attaque uniquement les bâtiments. Lorsqu'il est détruit, il explose, se divise en deux golemites et inflige des dégâts de zone."
     },
     {
@@ -1775,7 +1775,7 @@
       "has_evolution": false,
       "has_hero": true,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/r05cmpwV1o7i7FHodtZwW3fmjbXCW34IJCsDEV5cZC4.png",
       "description": "Costaud, il cible les bâtiments et explose lorsqu'il est détruit, ralentissant les ennemis à proximité. Il est entièrement constitué de glace, pas vrai? Absolument."
     },
     {
@@ -1804,7 +1804,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2019,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/puhMsZjCIqy21HW3hYxjrk_xt8NIPyFqjRy-BeLKZwo.png",
       "description": "Se divise en deux golemites d'élixir une fois détruit, qui à leur tour, se séparent en deux boules d'élixir une fois vaincus. Quand votre adversaire détruit une boule, il obtient de l'élixir!"
     },
     {
@@ -1833,7 +1833,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2020,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png",
       "description": "À chaque attaque, elle active son aura de guérison et restaure ses points de vie et ceux de ses alliés. Lorsqu'elle ne combat pas, elle se guérit elle-même."
     },
     {
@@ -1862,7 +1862,7 @@
       "has_evolution": false,
       "has_hero": true,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/Axr4ox5_b7edmLsoHxBX3vmgijAIibuF6RImTbqLlXE.png",
       "description": "Lent mais dur à cuire, il attaque uniquement les bâtiments. Une véritable équipe de démolisseurs à lui tout seul!"
     },
     {
@@ -1891,7 +1891,7 @@
       "has_evolution": true,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png",
       "description": "Si la destruction des bâtiments ennemis avec son énorme canon est son devoir, sa passion est de dompter sa barbe blonde tout en finesse."
     },
     {
@@ -1920,7 +1920,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2025,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/UogMnGHQXT-TOVXRxslKdAKXUPhqUvrD_hV9x8lbzdE.png",
       "description": "Vos armes ont besoin d'un coup de peps? Vous êtes au bon endroit. La géante runique enchante les troupes les plus proches d'elle, ce qui leur fait infliger des dégâts bonus toutes les trois attaques. Seules deux troupes peuvent être enchantées en même temps."
     },
     {
@@ -1949,7 +1949,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
       "description": "Six attaquants volants, rapides et sans armure. Leurs adversaires ne manqueront pas de voir trente-six chandelles."
     },
     {
@@ -1978,7 +1978,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2025,
-      "icon": "https://api-assets.clashroyale.com/cards/300/CLxP2o0iX7q9peMkekI8Ki4DgWixra8L5aUbiAeBU9U.png",
+      "icon": "https://api-assets.clashroyale.com/cards/300/MWWBZqiQeRBXSqEITVMj46nO_uCIUsqBidvUw9K2twY.png",
       "description": "Admirez l'Impératrice spirituelle, première du nom, Gardienne des esprits, Chevaucheuse de dragons. Invoquez-la en tant qu'unité terrestre dévastatrice à 3 élixirs ou libérez son esprit draconique pour 6 élixirs."
     },
     {
@@ -2007,7 +2007,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2016,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png",
       "description": "Un flacon de rage renversé a changé un tronc d'arbre innocent en 'La bûche'. Maintenant, assoiffé de vengeance, ce monstre écrase tout sur son passage! Dégâts réduits sur les tours couronnées."
     },
     {
@@ -2036,7 +2036,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2024,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/-iLlotr6GCFndL_1BSBqWBb6DnsHBhLerd5EblZDNfU.png",
       "description": "La machine gobeline a deux poings bien durs pour les combats en mêlée, et un lance-roquettes pour tout faire péter à distance. Elle est aussi pilotée par un bébé fou..."
     },
     {
@@ -2065,7 +2065,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2017,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/hzKNE3QwFcrSrDDRuVW3QY_OnrDPijSiIp-PsWgFevE.png",
       "description": "La première machine du maître ouvrier a débarqué dans l'arène! Il s'agit d'un engin volant rapide et amusant, mais fragile!"
     },
     {
@@ -2094,7 +2094,7 @@
       "has_evolution": false,
       "has_hero": false,
       "release_year": 2024,
-      "icon": "",
+      "icon": "https://api-assets.clashroyale.com/cards/300/OQPfGgT5mHEUvPuKKt0plZT0PNtIjCqUgQ3Rm86dQ2k.png",
       "description": "Trouble double et malheur et brouille, brûle le feu, le chaudron bouille! Les troupes ennemies dans la zone subissent plus de dégâts et se transforment en gobelins à leur mort. Inflige des dégâts sur la durée."
     },
     {
