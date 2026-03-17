@@ -153,7 +153,7 @@ class Cards():
         return self.meta['speed_values']
 
     def get_attack_type_values(self):
-        """ Return possible attacj type values"""
+        """ Return possible attack type values"""
         return self.meta['attack_type_values']
 
 
@@ -193,4 +193,4 @@ class Cards():
 
 cards = Cards()
 
-print(cards.get_card_by_name("cimetiere").get_icon_url())
+# print(cards.get_card_by_id(94).get_name())
