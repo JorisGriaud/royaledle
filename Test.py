@@ -1,14 +1,18 @@
 from tkinter import *
 from PIL import Image, ImageTk
+from pathlib import Path
+dossier = Path("assets")
+fichiers_png = list(dossier.glob("*.png"))
+fichiers_ico = list(dossier.glob("*.ico"))
 
 fenetre = Tk()
 fenetre.title("RoyaleDLE")
 fenetre.geometry("1525x800") 
-fenetre.iconbitmap("logo.ico")
+fenetre.iconbitmap(dossier/"logo.ico")
 
 # Charger l'image originale
 #image_originale = Image.open("fond.png")
-image_originale = Image.open("unnamed.png")    
+image_originale = Image.open(dossier/"unnamed.png")    
 photo_ref = None
 
 # Dimensions du rectangle
@@ -30,37 +34,37 @@ def emoji(): #programme evan
 def description():
     pass
 
-image_bouton1 = Image.open("classic.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
+image_bouton1 = Image.open(dossier/"classic.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
 photo_bouton1 = ImageTk.PhotoImage(image_bouton1)
 bouton1 = Button(fenetre, image=photo_bouton1, relief="flat", borderwidth=0, command=lambda: classic)
 bouton1.image = photo_bouton1 
 
-image_bouton2 = Image.open("emoji.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
+image_bouton2 = Image.open(dossier/"emoji.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
 photo_bouton2 = ImageTk.PhotoImage(image_bouton2)
 bouton2 = Button(fenetre, image=photo_bouton2, relief="flat", borderwidth=0, command=lambda: emoji)
 bouton2.image = photo_bouton2
 
-image_bouton3 = Image.open("description.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
+image_bouton3 = Image.open(dossier/"description.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
 photo_bouton3 = ImageTk.PhotoImage(image_bouton3)
 bouton3 = Button(fenetre, image=photo_bouton3, relief="flat", borderwidth=0, command=lambda: description)
 bouton3.image = photo_bouton3
 
-image_bouton4 = Image.open("descdeb.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
+image_bouton4 = Image.open(dossier/"descdeb.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
 photo_bouton4 = ImageTk.PhotoImage(image_bouton4)
 bouton4 = Button(fenetre, image=photo_bouton4, relief="flat", borderwidth=0, command=lambda: classic)
 bouton4.image = photo_bouton4
 
-image_bouton5 = Image.open("emojdeb.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
+image_bouton5 = Image.open(dossier/"emojdeb.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
 photo_bouton5 = ImageTk.PhotoImage(image_bouton5)
 bouton5 = Button(fenetre, image=photo_bouton5, relief="flat", borderwidth=0, command=lambda: emoji)
 bouton5.image = photo_bouton5
 
-image_bouton6 = Image.open("classdeb.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
+image_bouton6 = Image.open(dossier/"classdeb.png").resize((largeur_rect, hauteur_rect))  # Redimensionner à la taille du bouton
 photo_bouton6 = ImageTk.PhotoImage(image_bouton6)
 bouton6 = Button(fenetre, image=photo_bouton6, relief="flat", borderwidth=0, command=lambda: description)
 bouton6.image = photo_bouton6
 
-logo = Image.open("logoofficielroyaledle.png").resize((largeur_rect, hauteur_rect+200))  # Redimensionner à la taille du logo
+logo = Image.open(dossier/"logoofficielroyaledle.png").resize((largeur_rect, hauteur_rect+200))  # Redimensionner à la taille du logo
 photo_logo = ImageTk.PhotoImage(logo)
 
 # Créer un Label avec l'image
