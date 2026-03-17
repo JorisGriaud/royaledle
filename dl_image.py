@@ -4,14 +4,20 @@ import requests
 
 cards = Cards()
 
-def DownloadFile(url, name):
-    local_filename = url.split('/')[-1]
+def DownloadFile(url, local_filename):
     r = requests.get(url)
-    f = open(local_filename, 'wb')
+    f = open(f'./assets/clash_royale_cards/{local_filename}.png', 'wb')
     for chunk in r.iter_content(chunk_size=512 * 1024):
-        if chunk: # filter out keep-alive new chunks
+        if chunk:
             f.write(chunk)
     f.close()
     return
 
-DownloadFile("https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png")
+nbre_card = cards.get_number_of_cards()
+
+
+for i in range(nbre_card):
+    card = cards.get_card_by_id(i)
+    card_name = card.get_key()
+    card_url_image = card.get_icon_url()
+    DownloadFile(card_url_image, card_name)

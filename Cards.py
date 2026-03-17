@@ -192,5 +192,3 @@ class Cards():
         return None
 
 cards = Cards()
-
-# print(cards.get_card_by_id(94).get_name())
