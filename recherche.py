@@ -16,7 +16,7 @@ class Recherche():
         # Bouton envoyer
         self.image_bouton = Image.open("assets/bouton_entrer.png").resize((self.largeur_bouton, self.hauteur_bouton))  # Redimensionner à la taille du bouton
         self.photo_bouton = ImageTk.PhotoImage(self.image_bouton)
-        self.bouton = Button(self.fenetre, image=self.photo_bouton, relief="flat", borderwidth=0, command=None)
+        self.bouton = Button(self.fenetre, image=self.photo_bouton, relief="flat", borderwidth=0, command=enter_button)
         self.bouton.image = self.photo_bouton
 
         # Zone de texte
@@ -28,6 +28,9 @@ class Recherche():
         self.canvas.pack(fill=BOTH, expand=True)
         self.canvas.bind("<Configure>", self.place_research)
 
+    def enter_button(self):
+        pass
+    
     def update_suggestions(self):
         pass
 
@@ -46,7 +49,7 @@ class Recherche():
         self.bouton.place(x=x1 + self.largeur_entry, y=y1, width=self.largeur_bouton, height=self.hauteur_bouton)
         self.bouton.lift()
 
-        self.entry.place(x=x1, y=y1, width=self.largeur_entry)
+        self.entry.place(x=x1, y=y1, width=self.largeur_entry, height=100)
 
 
 
