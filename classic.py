@@ -24,7 +24,7 @@ image_originale = Image.open("assets/unnamed.png")
 
 def GetRandomCard():
     nbre_cards = cards.get_number_of_cards()
-    nbre_aleatoire = randint(0, nbre_cards) - 1
+    nbre_aleatoire = randint(0, nbre_cards)
     card = cards.get_card_by_id(nbre_aleatoire)
     print(card.get_name()) # Debug
     return card
