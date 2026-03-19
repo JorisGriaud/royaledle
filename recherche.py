@@ -1,10 +1,12 @@
 from tkinter import *
 from PIL import Image, ImageTk
 import os
+from Cards import Cards
 
 class Recherche():
-    def __init__(self, fenetre):
+    def __init__(self, fenetre, cards_list):
         self.fenetre = fenetre
+        self.cards = cards_list
 
         # Dimension bouton et image
         self.largeur_bouton = 30
@@ -15,6 +17,10 @@ class Recherche():
 
         # Texte placeholder zone de recherche
         self.placeholder = "Rechercher une carte ..."
+
+        # Dimension de l'image de la carte
+        self.largeur_carte = 35 # 35
+        self.hauteur_carte = 45 # 45
 
         # Bouton envoyer
         self.image_bouton = Image.open("assets/bouton_entrer.png").resize((self.largeur_bouton, self.hauteur_bouton))  # Redimensionner à la taille du bouton
@@ -30,15 +36,15 @@ class Recherche():
         self.entry.bind('<KeyRelease>', self.update_suggestions)
 
         # Label
-        self.label_carte = Label(self.fenetre,relief="flat", borderwidth=0, text='Carte')
-        self.label_elixir = Label(self.fenetre,relief="flat", borderwidth=0, text="Coût d'élixir")
-        self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Rareté")
-        self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type")
-        self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Cible")
-        self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type de portée")
-        self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse d'attaque")
-        self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse")
-        self.label_rarete = Label(self.fenetre,relief="solid", borderwidth=0, text="Date de sortie")
+        # self.label_carte = Label(self.fenetre,relief="flat", borderwidth=0, text='Carte')
+        # self.label_elixir = Label(self.fenetre,relief="flat", borderwidth=0, text="Coût d'élixir")
+        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Rareté")
+        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type")
+        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Cible")
+        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type de portée")
+        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse d'attaque")
+        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse")
+        # self.label_rarete = Label(self.fenetre,relief="solid", borderwidth=0, text="Date de sortie")
 
         # Canvas zone de recherche
         self.canvas1 = Canvas(self.fenetre, highlightthickness=0)
@@ -47,12 +53,35 @@ class Recherche():
         
         # Conteneur des suggestions
         self.container = Frame(fenetre, bg="white", highlightbackground="grey", highlightthickness=1)
-        # self.scrollbar = Scrollbar(self.container, orient="vertical", command=self.canvas2.yview) # TODO
 
-        # Canva suggestions
-        self.canvas2 = Canvas(self.container, highlightthickness=0)
-        self.canvas2.pack(fill=BOTH, expand=True)
-        self.canvas2.bind("<Configure>", self.place_suggestion)
+        # Canvas suggestions
+        self.canvas2 = Canvas(self.container, bg="white", highlightthickness=0)
+        
+        # Scrollbar
+        self.scrollbar = Scrollbar(self.container, orient="vertical", command=self.canvas2.yview)
+        self.scrollbar.pack(side=RIGHT, fill=Y)
+        
+        self.canvas2.pack(side=LEFT, fill=BOTH, expand=True)
+        self.canvas2.configure(yscrollcommand=self.scrollbar.set)
+        
+        # Cadre de suggestion
+        self.suggestion_frame = Frame(self.canvas2, bg="white")
+        
+        # Fenêtre du canvas
+        self.canvas2_frame_id = self.canvas2.create_window((0, 0), window=self.suggestion_frame, anchor="nw")
+        
+        # Liaison du redimensionnement
+        self.suggestion_frame.bind("<Configure>", self.on_frame_configure) # Met à jour la zone de défilement du canvas
+
+        self.canvas2.bind("<Configure>", self.on_canvas_configure) # Force le frame intérieur à prendre toute la largeur du canvas
+
+        self.listbox_visible = False
+
+    def on_frame_configure(self, event):
+        self.canvas2.configure(scrollregion=self.canvas2.bbox("all"))
+
+    def on_canvas_configure(self, event):
+        self.canvas2.itemconfig(self.canvas2_frame_id, width=event.width)
 
     def enter_button(self):
         pass
@@ -68,20 +97,53 @@ class Recherche():
             self.entry.config(fg='gray', font=('Roboto', 12))
 
     def update_suggestions(self, event):
-        pass
+        search_term = self.entry.get().lower().strip()
+
+        # Nettoyer les anciennes suggestions
+        for widget in self.suggestion_frame.winfo_children():
+            widget.destroy()
+        
+        # Ne pas afficher si le champ est vide ou contient le placeholder
+        if len(search_term) == 0 or self.entry.get() == self.placeholder:
+            self.container.place_forget()
+            self.listbox_visible = False
+            return
+
+        # Récupérer les dimensions
+        largeur = self.canvas1.winfo_width()
+        hauteur = self.canvas1.winfo_height()
+        
+        largeur_totale = self.largeur_entry + self.largeur_bouton
+        x1 = (largeur - largeur_totale) // 2
+        y1 = (hauteur - self.hauteur_bouton) // 2 - 100 + self.hauteur_bouton
+
+        filtered_data = [item for item in self.cards if search_term in item["name"].lower()]
+        
+        if filtered_data:
+            for item in filtered_data:
+                self.create_suggestion_row(item)
+            
+            # Afficher le conteneur avec une hauteur fixe de 270px
+            self.container.place(x=x1, y=y1, width=self.largeur_bouton + self.largeur_entry, height=270)
+            self.container.lift()
+            
+            self.listbox_visible = True
+        else:
+            self.container.place_forget()
+            self.listbox_visible = False
 
     def place_research(self, event=None):
         if event:
             largeur = event.width
             hauteur = event.height
         else:
-            self.canvas.update() # Force la mise à jour pour avoir les bonnes dimensions
-            largeur = self.canvas.winfo_width()
-            hauteur = self.canvas.winfo_height()
+            self.canvas1.update() # Force la mise à jour pour avoir les bonnes dimensions
+            largeur = self.canvas1.winfo_width()
+            hauteur = self.canvas1.winfo_height()
         
         largeur_totale = self.largeur_entry + self.largeur_bouton
         x1 = (largeur - largeur_totale) // 2
-        y1 = (hauteur - self.hauteur_bouton) // 2
+        y1 = (hauteur - self.hauteur_bouton) // 2 - 100
 
         self.bouton.place(x=x1 + self.largeur_entry, y=y1, width=self.largeur_bouton, height=self.hauteur_bouton)
         self.bouton.lift()
@@ -89,20 +151,28 @@ class Recherche():
         self.entry.place(x=x1, y=y1, width=self.largeur_entry, height=self.hauteur_bouton)
         self.entry.lift()
 
-    def place_suggestion(self, event=None):
-        if event:
-            largeur = event.width
-            hauteur = event.height
-        else:
-            self.canvas.update() # Force la mise à jour pour avoir les bonnes dimensions
-            largeur = self.canvas.winfo_width()
-            hauteur = self.canvas.winfo_height()
-        
-        largeur_totale = self.largeur_entry + self.largeur_bouton
-        x1 = (largeur - largeur_totale) // 2
-        y1 = (hauteur - self.hauteur_bouton) // 2 + self.hauteur_bouton
+    def create_suggestion_row(self, item):
+        row = Frame(self.suggestion_frame, bg="white", cursor="hand2")
+        row.pack(fill=X, padx=2, pady=2)
 
-        self.label_carte.place(x=x1,y=y1)
+        img_widget = None
+        if os.path.exists(item["path"]):
+            try:
+                img = Image.open(item["path"]).resize((self.largeur_carte, self.hauteur_carte), Image.Resampling.LANCZOS)
+                photo = ImageTk.PhotoImage(img)
+                img_widget = Label(row, image=photo, bg="white")
+                img_widget.image = photo 
+                img_widget.pack(side=LEFT, padx=5)
+            except:
+                img_widget = Label(row, text="[?]", bg="white", width=4)
+                img_widget.pack(side=LEFT, padx=5)
+        else:
+            img_widget = Label(row, text="[?]", bg="white", width=4)
+            img_widget.pack(side=LEFT, padx=5)
+
+        name_label = Label(row, text=item["name"], font=('Roboto', 11), bg="white")
+        name_label.pack(side=LEFT, pady=5)
+
 
 
 fenetre = Tk()
@@ -110,6 +180,8 @@ fenetre.title("RoyaleDLE - Test")
 fenetre.geometry("1525x800") 
 fenetre.iconbitmap("assets/logo.ico")
 
-Recherche(fenetre)
+cards = Cards().get_all_card_name_with_image_path()
+
+Recherche(fenetre, cards)
 
 fenetre.mainloop()
