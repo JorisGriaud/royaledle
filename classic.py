@@ -1,5 +1,5 @@
 from Cards import Cards
-from recherche import AutocompleteSearch
+from recherche import Recherche
 
 from tkinter import *
 from random import randint
@@ -38,7 +38,7 @@ def main(fenetre):
     bouton1.place(x=100, y=100, width=largeur_carre, height=hauteur_carre)
     bouton1.lift()
 
-    AutocompleteSearch(fenetre, all_cards_list)
+    Recherche(fenetre, all_cards_list)
 
     fenetre.mainloop()
 
@@ -48,4 +48,3 @@ if __name__ == "__main__":
     fenetre.geometry("1525x800") 
     fenetre.iconbitmap("assets/logo.ico")
     main(fenetre)
-    # GetRandomCard()
