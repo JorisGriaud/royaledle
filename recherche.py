@@ -10,6 +10,9 @@ class Recherche():
         self.largeur_bouton = 30
         self.hauteur_bouton = 30
 
+        # Dimension de la zone de saisie de texte
+        self.largeur_entry = 300
+
         # Bouton envoyer
         self.image_bouton = Image.open("assets/bouton_entrer.png").resize((self.largeur_bouton, self.hauteur_bouton))  # Redimensionner à la taille du bouton
         self.photo_bouton = ImageTk.PhotoImage(self.image_bouton)
@@ -37,13 +40,13 @@ class Recherche():
             largeur = self.canvas.winfo_width()
             hauteur = self.canvas.winfo_height()
         
-        x1 = (largeur - self.largeur_bouton) // 2 + self.largeur_entry
+        x1 = (largeur - self.largeur_bouton) // 2
         y1 = (hauteur - self.hauteur_bouton) // 2
 
-        self.bouton.place(x=x1, y=y1, width=self.largeur_bouton, height=self.hauteur_bouton)
+        self.bouton.place(x=x1 + self.largeur_entry, y=y1, width=self.largeur_bouton, height=self.hauteur_bouton)
         self.bouton.lift()
 
-        self.entry.place(x=630, y=350, width=300)
+        self.entry.place(x=x1, y=y1, width=self.largeur_entry)
 
 
 
