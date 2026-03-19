@@ -111,11 +111,19 @@ class Card():
     
     def get_icon_url(self):
         """ Return the url icon of the card"""
-        return self.card['icon']
+        return self.card['icon_url']
     
     def get_description(self):
         """ Return the description of the card"""
         return self.card['description']
+
+    def get_icon_path(self):
+        """ Return the icon path of the card"""
+        return self.card['icon_path']
+
+    def get_emojis(self):
+        """ Return a list of emojis of the card"""
+        return self.card['emojis']
 
 class Cards():
 
@@ -190,7 +198,18 @@ class Cards():
             if self.cards[i]['key'] == name:
                 return Card(self.cards[i])
         return None
+    
+    def get_all_card_name_with_image_path(self):
+        """
+        Claim all card's name sorted in A to Z with this image relative path
+                
+        Return:
+        (List) List of dictionnary with all the card's name with his image path
+        """
+        cards_name_image_list = []
+        nbre_card = self.get_number_of_cards()
+        for i in range(0, nbre_card -1):
+            cards_name_image_list.append({"name": self.get_card_by_id(i).get_name(), "path":self.get_card_by_id(i).get_icon_path()})
+        return cards_name_image_list
 
 cards = Cards()
-
-# print(cards.get_card_by_id(94).get_name())
