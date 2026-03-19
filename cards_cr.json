@@ -28,7 +28,8 @@
       "release_year",
       "icon",
       "description",
-      "emojis"
+      "emojis",
+      "icon_path"
     ],
     "rarity_values": [
       "Commune",
@@ -93,7 +94,8 @@
         "🎯",
         "🧱",
         "⚔️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/arc-x.png"
     },
     {
       "name": "Archer Magique",
@@ -128,7 +130,8 @@
         "🏹",
         "✨",
         "🎯"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/archer-magique.png"
     },
     {
       "name": "Archères",
@@ -163,7 +166,8 @@
         "👩‍🦰",
         "🎯",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/archeres.png"
     },
     {
       "name": "Armée de squelettes",
@@ -198,7 +202,8 @@
         "🦴",
         "💀",
         "💀"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/armee-de-squelettes.png"
     },
     {
       "name": "Artificière",
@@ -233,7 +238,8 @@
         "🏹",
         "🎆",
         "💥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/artificiere.png"
     },
     {
       "name": "Ballon",
@@ -268,7 +274,8 @@
         "💣",
         "☁️",
         "🏰"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/ballon.png"
     },
     {
       "name": "Barbares",
@@ -303,7 +310,8 @@
         "🧔",
         "💢",
         "🤺"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/barbares.png"
     },
     {
       "name": "Barbares d'élite",
@@ -338,7 +346,8 @@
         "🧔",
         "🏃",
         "💢"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/barbares-d-élite.png"
     },
     {
       "name": "Berserker",
@@ -373,7 +382,8 @@
         "😡",
         "🩸",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/berserker.png"
     },
     {
       "name": "Bombardier",
@@ -408,7 +418,8 @@
         "🧨",
         "💥",
         "🦴"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/bombardier.png"
     },
     {
       "name": "Boule de feu",
@@ -443,7 +454,8 @@
         "💥",
         "🎯",
         "☄️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/boule-de-feu.png"
     },
     {
       "name": "Bouliste",
@@ -478,7 +490,8 @@
         "🥤",
         "🟣",
         "🎳"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/bouliste.png"
     },
     {
       "name": "Bourreau",
@@ -513,7 +526,8 @@
         "🔄",
         "👺",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/bourreau.png"
     },
     {
       "name": "Buisson suspicieux",
@@ -548,7 +562,8 @@
         "👀",
         "🕵️",
         "🍃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/buisson-suspicieux.png"
     },
     {
       "name": "Bébé dragon",
@@ -583,7 +598,8 @@
         "🟢",
         "🐲",
         "👶"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/bebe-dragon.png"
     },
     {
       "name": "Bélier de combat",
@@ -618,7 +634,8 @@
         "🧔",
         "🏰",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/belier-de-combat.png"
     },
     {
       "name": "Bûcheron",
@@ -653,7 +670,8 @@
         "🏃",
         "🪓",
         "🧪"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/bucheron.png"
     },
     {
       "name": "Cabane de barbares",
@@ -688,7 +706,8 @@
         "⚔️",
         "🧱",
         "🏠"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/cabane-de-barbares.png"
     },
     {
       "name": "Cabane de gobelins",
@@ -723,7 +742,8 @@
         "🏹",
         "🍃",
         "🏠"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/cabane-de-gobelins.png"
     },
     {
       "name": "Cage gobeline",
@@ -758,7 +778,8 @@
         "👺",
         "😡",
         "🧱"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/cage-gobeline.png"
     },
     {
       "name": "Canon",
@@ -793,7 +814,8 @@
         "🧱",
         "💥",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/canon.png"
     },
     {
       "name": "Cavabélière",
@@ -828,7 +850,8 @@
         "🏰",
         "🐐",
         "👩🏾"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/cavabeliere.png"
     },
     {
       "name": "Charrette à canon",
@@ -863,7 +886,8 @@
         "🧱",
         "🛒",
         "💣"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/charrette-a-canon.png"
     },
     {
       "name": "Chasseur",
@@ -898,7 +922,8 @@
         "🎩",
         "🛡️",
         "🔫"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/chasseur.png"
     },
     {
       "name": "Chauves-souris",
@@ -933,7 +958,8 @@
         "☁️",
         "🌌",
         "🦇"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/chauves-souris.png"
     },
     {
       "name": "Cheffe des voleuses",
@@ -968,7 +994,8 @@
         "🎭",
         "👑",
         "💨"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/cheffe-des-voleuses.png"
     },
     {
       "name": "Chevalier",
@@ -1003,7 +1030,8 @@
         "🛡️",
         "🧔",
         "🏰"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/chevalier.png"
     },
     {
       "name": "Chevalier d'or",
@@ -1038,7 +1066,8 @@
         "🛡️",
         "🧔",
         "✨"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/chevalier-d-or.png"
     },
     {
       "name": "Chevaucheur de cochon",
@@ -1073,7 +1102,8 @@
         "🧔",
         "🏰",
         "🐗"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/chevaucheur-de-cochon.png"
     },
     {
       "name": "Cimetière",
@@ -1108,7 +1138,8 @@
         "💀",
         "🪄",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/cimetiere.png"
     },
     {
       "name": "Clonage",
@@ -1143,7 +1174,8 @@
         "✨",
         "🫧",
         "👥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/clonage.png"
     },
     {
       "name": "Cochons royaux",
@@ -1178,7 +1210,8 @@
         "👑",
         "🐽",
         "🐷"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/cochons-royaux.png"
     },
     {
       "name": "Colis royal",
@@ -1213,7 +1246,8 @@
         "☁️",
         "💥",
         "📦"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/colis-royal.png"
     },
     {
       "name": "Dragon de l'enfer",
@@ -1248,7 +1282,8 @@
         "🛡️",
         "☀️",
         "🐲"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/dragon-de-l-enfer.png"
     },
     {
       "name": "Dragon squelettes",
@@ -1283,7 +1318,8 @@
         "🦴",
         "🔥",
         "🐲"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/dragon-squelettes.png"
     },
     {
       "name": "Esprit de feu",
@@ -1318,7 +1354,8 @@
         "💥",
         "🟠",
         "👻"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/esprit-de-feu.png"
     },
     {
       "name": "Esprit de glace",
@@ -1353,7 +1390,8 @@
         "🔵",
         "❄️",
         "👻"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/esprit-de-glace.png"
     },
     {
       "name": "Esprit de guérison",
@@ -1388,7 +1426,8 @@
         "🩹",
         "💛",
         "👻"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/esprit-de-guérison.png"
     },
     {
       "name": "Extracteur d'élixir",
@@ -1423,7 +1462,8 @@
         "🟣",
         "🧱",
         "💧"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/extracteur-d'élixir.png"
     },
     {
       "name": "Fantôme royal",
@@ -1458,7 +1498,8 @@
         "🌫️",
         "👻",
         "👑"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/fantôme-royal.png"
     },
     {
       "name": "Flèches",
@@ -1493,7 +1534,8 @@
         "🎯",
         "☁️",
         "🏹"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/flèches.png"
     },
     {
       "name": "Foreuse gobeline",
@@ -1528,7 +1570,8 @@
         "👺",
         "🪵",
         "🧱"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/foreuse-gobeline.png"
     },
     {
       "name": "Foudre",
@@ -1563,7 +1606,8 @@
         "🪄",
         "🌩️",
         "⚡"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/foudre.png"
     },
     {
       "name": "Fournaise",
@@ -1598,7 +1642,8 @@
         "👻",
         "🏗️",
         "🔥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/fournaise.png"
     },
     {
       "name": "Fripons TODO: à voir",
@@ -1633,7 +1678,8 @@
         "👧",
         "🍬",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/fripons.png"
     },
     {
       "name": "Fût à barbare",
@@ -1668,7 +1714,8 @@
         "🧔",
         "🛞",
         "⚔️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/fut-a-barbare.png"
     },
     {
       "name": "Fût à gobelins",
@@ -1703,7 +1750,8 @@
         "🟢",
         "👺",
         "🚀"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/fut-a-gobelins.png"
     },
     {
       "name": "Fût à squelettes",
@@ -1738,7 +1786,8 @@
         "🪵",
         "🛢️",
         "💀"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/fut-a-squelettes.png"
     },
     {
       "name": "Gang de gobelins",
@@ -1773,7 +1822,8 @@
         "🟢",
         "🗡️",
         "🏹"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gang-de-gobelins.png"
     },
     {
       "name": "Guardes",
@@ -1808,7 +1858,8 @@
         "🗡️",
         "💀",
         "🦴"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/guardes.png"
     },
     {
       "name": "Gargouilles",
@@ -1843,7 +1894,8 @@
         "🪽",
         "🔵",
         "☁️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gargouilles.png"
     },
     {
       "name": "Gel",
@@ -1878,7 +1930,8 @@
         "⏱️",
         "❄️",
         "🧊"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gel.png"
     },
     {
       "name": "Gobelin explosif",
@@ -1913,7 +1966,8 @@
         "💣",
         "💥",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gobelin-explosif.png"
     },
     {
       "name": "Gobelin géant",
@@ -1948,7 +2002,8 @@
         "👹",
         "🏹",
         "🍃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gobelin-geant.png"
     },
     {
       "name": "Gobelin à sarbacane",
@@ -1983,7 +2038,8 @@
         "🎋",
         "🎯",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gobelin-a-sarbacane.png"
     },
     {
       "name": "Gobelins",
@@ -2018,7 +2074,8 @@
         "👺",
         "🗡️",
         "🍃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gobelin.png"
     },
     {
       "name": "Gobelins à lance",
@@ -2053,7 +2110,8 @@
         "👺",
         "🏹",
         "🍃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gobelin-a-lance.png"
     },
     {
       "name": "Gobelinstein",
@@ -2088,7 +2146,8 @@
         "🧪",
         "👨‍🔬",
         "🧟‍♂️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/gobelinstein.png"
     },
     {
       "name": "Golem",
@@ -2123,7 +2182,8 @@
         "💥",
         "🧱",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/golem.png"
     },
     {
       "name": "Golem de glace",
@@ -2158,7 +2218,8 @@
         "🛡️",
         "💥",
         "🧊"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/golem-de-glace.png"
     },
     {
       "name": "Golem élixir",
@@ -2193,7 +2254,8 @@
         "🪨",
         "💧",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/golem-elixir.png"
     },
     {
       "name": "Guérisseuse armée",
@@ -2228,7 +2290,8 @@
         "⚔️",
         "✨",
         "🩹"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/guerisseuse-armee.png"
     },
     {
       "name": "Géant",
@@ -2263,7 +2326,8 @@
         "👊",
         "🧱",
         "🏰"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/geant.png"
     },
     {
       "name": "Géant royal",
@@ -2298,7 +2362,8 @@
         "👑",
         "🏰",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/geant-royal.png"
     },
     {
       "name": "Géante runique",
@@ -2333,7 +2398,8 @@
         "✨",
         "🧱",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/geante-runique.png"
     },
     {
       "name": "Horde de gargouilles",
@@ -2368,7 +2434,8 @@
         "🟦",
         "😱",
         "😈"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/horde-de-gargouilles.png"
     },
     {
       "name": "Impératrice spirituelle",
@@ -2403,7 +2470,8 @@
         "🪄",
         "👸",
         "🐲"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/imperatrice-spirituelle.png"
     },
     {
       "name": "La bûche",
@@ -2438,7 +2506,8 @@
         "🎯",
         "💥",
         "🪵"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/la-buche.png"
     },
     {
       "name": "Machine gobeline",
@@ -2473,7 +2542,8 @@
         "🟢",
         "🚀",
         "⚙️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/machine-gobeline.png"
     },
     {
       "name": "Machine volante",
@@ -2508,7 +2578,8 @@
         "🔫",
         "☁️",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/machine-volante.png"
     },
     {
       "name": "Malédiction gobeline",
@@ -2543,7 +2614,8 @@
         "🟢",
         "🔄",
         "🫧"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/malédiction-gobeline.png"
     },
     {
       "name": "Mamie sorcière",
@@ -2578,7 +2650,8 @@
         "🐷",
         "🪄",
         "✨"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mamie-sorciere.png"
     },
     {
       "name": "Maître mineur",
@@ -2613,7 +2686,8 @@
         "🧔",
         "💣",
         "🔥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/maitre-mineur.png"
     },
     {
       "name": "Mineur",
@@ -2649,7 +2723,8 @@
         "❓",
         "❓",
         "❓"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mineur.png"
     },
     {
       "name": "Mini Pekka",
@@ -2685,7 +2760,8 @@
         "❓",
         "❓",
         "❓"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mini-pekka.png"
     },
     {
       "name": "Miroir",
@@ -2720,7 +2796,8 @@
         "✨",
         "🪄",
         "🃏"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/miroir.png"
     },
     {
       "name": "Moine",
@@ -2755,7 +2832,8 @@
         "🧔",
         "👊",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/moine.png"
     },
     {
       "name": "Molosse de lave",
@@ -2790,7 +2868,8 @@
         "🪽",
         "🧱",
         "🐌"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/molosse de lave.png"
     },
     {
       "name": "Mortier",
@@ -2825,7 +2904,8 @@
         "🪨",
         "🧱",
         "💥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mortier.png"
     },
     {
       "name": "Mousquetaire",
@@ -2860,7 +2940,8 @@
         "👩‍🦱",
         "🎯",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mousquetaire.png"
     },
     {
       "name": "Méga boule de neige",
@@ -2895,7 +2976,8 @@
         "❄️",
         "⚪",
         "🥶"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mega boule de neige.png"
     },
     {
       "name": "Méga Chevalier",
@@ -2930,7 +3012,8 @@
         "👊",
         "💥",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mega chevalier.png"
     },
     {
       "name": "Mega gargouille",
@@ -2965,7 +3048,8 @@
         "🛡️",
         "🔵",
         "☁️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/mega gargouille.png"
     },
     {
       "name": "Néant",
@@ -3000,7 +3084,8 @@
         "☄️",
         "🔦",
         "⚛️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/neant.png"
     },
     {
       "name": "Pekka",
@@ -3036,7 +3121,8 @@
         "❓",
         "❓",
         "❓"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/pekka.png"
     },
     {
       "name": "Petit Prince",
@@ -3071,7 +3157,8 @@
         "🧔",
         "🏹",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/petit prince.png"
     },
     {
       "name": "Phénix",
@@ -3106,7 +3193,8 @@
         "🟠",
         "🔥",
         "🐦‍🔥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/phenix.png"
     },
     {
       "name": "Pierre tombale",
@@ -3141,7 +3229,8 @@
         "💀",
         "🧱",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/pierre tombale.png"
     },
     {
       "name": "Poison",
@@ -3176,7 +3265,8 @@
         "🤢",
         "💀",
         "🪄"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/poison.png"
     },
     {
       "name": "Prince",
@@ -3211,7 +3301,8 @@
         "🗡️",
         "🛡️",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/prince.png"
     },
     {
       "name": "Prince ténébreux",
@@ -3246,7 +3337,8 @@
         "🛡️",
         "🔨",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/prince-tenebreux.png"
     },
     {
       "name": "Princesse",
@@ -3281,7 +3373,8 @@
         "🎯",
         "👸",
         "🏹"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/princesse.png"
     },
     {
       "name": "Pécheur",
@@ -3316,7 +3409,8 @@
         "🧔",
         "🐟",
         "⚓"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/pecheur.png"
     },
     {
       "name": "Rage",
@@ -3351,7 +3445,8 @@
         "😡",
         "🟣",
         "🪄"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/rage.png"
     },
     {
       "name": "Recrues Royales",
@@ -3386,7 +3481,8 @@
         "🧱",
         "😤",
         "🪵"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/recrues-royales.png"
     },
     {
       "name": "Reine des Archers",
@@ -3421,7 +3517,8 @@
         "🏹",
         "👑",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/reine-des-archers.png"
     },
     {
       "name": "Roi squelette",
@@ -3456,7 +3553,8 @@
         "💀",
         "🪦",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/roi-squelette.png"
     },
     {
       "name": "Ronces",
@@ -3491,7 +3589,8 @@
         "🪢",
         "🍃",
         "🌿"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/ronces.png"
     },
     {
       "name": "Roquette",
@@ -3526,7 +3625,8 @@
         "🐌",
         "🚬",
         "🚀"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/roquette.png"
     },
     {
       "name": "Sapeurs",
@@ -3561,7 +3661,8 @@
         "💀",
         "🧱",
         "💥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/sapeurs.png"
     },
     {
       "name": "Sorcier",
@@ -3596,7 +3697,8 @@
         "💥",
         "🏃",
         "🧙"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/sorcier.png"
     },
     {
       "name": "Sorcier de glace",
@@ -3631,7 +3733,8 @@
         "🧊",
         "🥶",
         "🧙"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/sorcier de glace.png"
     },
     {
       "name": "Sorcière",
@@ -3666,7 +3769,8 @@
         "💀",
         "🪄",
         "🌑"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/sorciere.png"
     },
     {
       "name": "Sorcière de la nuit",
@@ -3701,7 +3805,8 @@
         "🦇",
         "🗡️",
         "🌑"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/sorciere de la nuit.png"
     },
     {
       "name": "Squelette géant",
@@ -3736,7 +3841,8 @@
         "💣",
         "🦴",
         "🧱"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/squelette geant.png"
     },
     {
       "name": "Squelettes",
@@ -3772,7 +3878,8 @@
         "❓",
         "❓",
         "❓"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/squelettes.png"
     },
     {
       "name": "Séisme",
@@ -3807,7 +3914,8 @@
         "🏚️",
         "🧱",
         "🪄"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/seisme.png"
     },
     {
       "name": "Tesla",
@@ -3842,7 +3950,8 @@
         "🔌",
         "🧱",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/tesla.png"
     },
     {
       "name": "Tornade",
@@ -3877,7 +3986,8 @@
         "🎯",
         "🪄",
         "🌪️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/tornade.png"
     },
     {
       "name": "Tour de l'enfer",
@@ -3912,7 +4022,8 @@
         "☀️",
         "🧱",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/tour de l'enfer.png"
     },
     {
       "name": "Tour à bombe",
@@ -3947,7 +4058,8 @@
         "💀",
         "🧱",
         "💥"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/tour a bombe.png"
     },
     {
       "name": "Trois mousquetaires",
@@ -3982,7 +4094,8 @@
         "🔫",
         "👩‍🦱",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/trois mousquetaires.png"
     },
     {
       "name": "Valkyrie",
@@ -4017,7 +4130,8 @@
         "🔄",
         "👩‍🦰",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/valkyrie.png"
     },
     {
       "name": "Voleuse",
@@ -4052,7 +4166,8 @@
         "🤫",
         "🧥",
         "🦯"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/voleuse.png"
     },
     {
       "name": "Zappy",
@@ -4087,7 +4202,8 @@
         "🛞",
         "🧱",
         "⚡"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/zappy.png"
     },
     {
       "name": "Eletro-dragon",
@@ -4123,7 +4239,8 @@
         "❓",
         "❓",
         "❓"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/eletro-dragon.png"
     },
     {
       "name": "Eletro-esprit",
@@ -4158,7 +4275,8 @@
         "🔵",
         "🪄",
         "👻"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/eletro-esprit.png"
     },
     {
       "name": "Eletro-géant",
@@ -4193,7 +4311,8 @@
         "🧔",
         "🧱",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/eletro-geant.png"
     },
     {
       "name": "Eletro-sorcier",
@@ -4228,7 +4347,8 @@
         "⚡",
         "💡",
         "🏃"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/eletro-sorcier.png"
     },
     {
       "name": "Electrocuteurs",
@@ -4263,7 +4383,8 @@
         "⚡",
         "🛞",
         "🛡️"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/electrocuteurs.png"
     },
     {
       "name": "Electrocution",
@@ -4298,7 +4419,8 @@
         "💡",
         "🎯",
         "🪄"
-      ]
+      ],
+      "icon_path": "assets/clash_royale_cards/eletrocution.png"
     }
   ]
 }
