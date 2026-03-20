@@ -2755,11 +2755,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png",
       "description": "L'arène est une zone certifiée sans papillon. Les PEKKA éviteront ainsi toute distraction et se concentreront sur la destruction.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "⛓️",
+        "🦾",
+        "🛡️",
+        "🤖"
       ],
       "icon_path": "assets/clash_royale_cards/mini-pekka.png"
     },

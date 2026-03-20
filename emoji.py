@@ -32,7 +32,7 @@ def emojis(cards):
 def main(fenetre):
     image_bouton2 = Image.open("assets/emoji.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
     photo_bouton2 = ImageTk.PhotoImage(image_bouton2)
-    bouton2 = Button(fenetre, image=photo_bouton2, relief="flat", borderwidth=0, command=emojis(cards))
+    bouton2 = Button(fenetre, image=photo_bouton2, relief="flat", borderwidth=0, command=lambda: emojis(cards))
     bouton2.image = photo_bouton2
 
     bouton2.place(x=100, y=100, width=largeur_carre, height=hauteur_carre)
