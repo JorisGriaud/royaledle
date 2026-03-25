@@ -4,9 +4,10 @@ import os
 from Cards import Cards
 
 class Recherche():
-    def __init__(self, fenetre, cards_list):
+    def __init__(self, fenetre, cards_list, callback=None):
         self.fenetre = fenetre
         self.cards = cards_list
+        self.callback = callback
 
         # Dimension bouton et image
         self.largeur_bouton = 30
@@ -25,7 +26,7 @@ class Recherche():
         # Bouton envoyer
         self.image_bouton = Image.open("assets/bouton_entrer.png").resize((self.largeur_bouton, self.hauteur_bouton))  # Redimensionner à la taille du bouton
         self.photo_bouton = ImageTk.PhotoImage(self.image_bouton)
-        self.bouton = Button(self.fenetre, image=self.photo_bouton, relief="flat", borderwidth=0, command=self.enter_button)
+        self.bouton = Button(self.fenetre, image=self.photo_bouton, relief="flat", borderwidth=0, command=self.on_enter)
         self.bouton.image = self.photo_bouton
 
         # Zone de texte
@@ -35,22 +36,6 @@ class Recherche():
         self.entry.bind('<FocusOut>', self.on_focus_out)
         self.entry.bind('<KeyRelease>', self.update_suggestions)
 
-        # Label
-        # self.label_carte = Label(self.fenetre,relief="flat", borderwidth=0, text='Carte')
-        # self.label_elixir = Label(self.fenetre,relief="flat", borderwidth=0, text="Coût d'élixir")
-        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Rareté")
-        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type")
-        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Cible")
-        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type de portée")
-        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse d'attaque")
-        # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse")
-        # self.label_rarete = Label(self.fenetre,relief="solid", borderwidth=0, text="Date de sortie")
-
-        # Canvas zone de recherche
-        self.canvas1 = Canvas(self.fenetre, highlightthickness=0)
-        self.canvas1.pack(fill=BOTH, expand=True)
-        self.canvas1.bind("<Configure>", self.place_research)
-        
         # Conteneur des suggestions
         self.container = Frame(fenetre, bg="white", highlightbackground="grey", highlightthickness=1)
 
@@ -75,6 +60,9 @@ class Recherche():
 
         self.canvas2.bind("<Configure>", self.on_canvas_configure) # Force le frame intérieur à prendre toute la largeur du canvas
 
+        # Placer les éléments de recherche au premier démarrage
+        self.fenetre.after(100, self.place_research)
+        
         self.listbox_visible = False
 
     def on_frame_configure(self, event):
@@ -82,9 +70,6 @@ class Recherche():
 
     def on_canvas_configure(self, event):
         self.canvas2.itemconfig(self.canvas2_frame_id, width=event.width)
-
-    def enter_button(self):
-        pass
     
     def on_focus_in(self, event):
         if self.entry.get() == self.placeholder:
@@ -110,12 +95,12 @@ class Recherche():
             return
 
         # Récupérer les dimensions
-        largeur = self.canvas1.winfo_width()
-        hauteur = self.canvas1.winfo_height()
+        largeur = self.fenetre.winfo_width()
+        hauteur = self.fenetre.winfo_height()
         
         largeur_totale = self.largeur_entry + self.largeur_bouton
         x1 = (largeur - largeur_totale) // 2
-        y1 = (hauteur - self.hauteur_bouton) // 2 - 100 + self.hauteur_bouton
+        y1 = (hauteur - self.hauteur_bouton) // 2 - 80 + self.hauteur_bouton
 
         filtered_data = [item for item in self.cards if search_term in item["name"].lower()]
         
@@ -133,23 +118,22 @@ class Recherche():
             self.listbox_visible = False
 
     def place_research(self, event=None):
-        if event:
-            largeur = event.width
-            hauteur = event.height
-        else:
-            self.canvas1.update() # Force la mise à jour pour avoir les bonnes dimensions
-            largeur = self.canvas1.winfo_width()
-            hauteur = self.canvas1.winfo_height()
+        if not self.bouton:
+            return
+        largeur = self.fenetre.winfo_width()
+        hauteur = self.fenetre.winfo_height()
         
         largeur_totale = self.largeur_entry + self.largeur_bouton
         x1 = (largeur - largeur_totale) // 2
-        y1 = (hauteur - self.hauteur_bouton) // 2 - 100
+        y1 = (hauteur - self.hauteur_bouton) // 2 - 80
 
         self.bouton.place(x=x1 + self.largeur_entry, y=y1, width=self.largeur_bouton, height=self.hauteur_bouton)
         self.bouton.lift()
 
         self.entry.place(x=x1, y=y1, width=self.largeur_entry, height=self.hauteur_bouton)
         self.entry.lift()
+
+        self.entry.bind("<KeyPress>", self.on_key_press)
 
     def create_suggestion_row(self, item):
         row = Frame(self.suggestion_frame, bg="white", cursor="hand2")
@@ -173,15 +157,47 @@ class Recherche():
         name_label = Label(row, text=item["name"], font=('Roboto', 11), bg="white")
         name_label.pack(side=LEFT, pady=5)
 
+        # Clic
+        def make_selection(event, name=item["name"]):
+            self.on_select(name)
 
+        row.bind("<Button-1>", make_selection)
+        name_label.bind("<Button-1>", make_selection)
+        img_widget.bind("<Button-1>", make_selection)
 
-fenetre = Tk()
-fenetre.title("RoyaleDLE - Test")
-fenetre.geometry("1525x800") 
-fenetre.iconbitmap("assets/logo.ico")
+        # Hover
+        row.bind("<Enter>", lambda e: row.config(bg="#f0f0f0"))
+        row.bind("<Leave>", lambda e: row.config(bg="white"))
 
-cards = Cards().get_all_card_name_with_image_path()
+    def on_select(self, selected_item):
+        self.entry.delete(0, END)
+        self.entry.insert(0, selected_item)
+        self.on_enter()
+        self.entry.delete(0, END)
+        self.container.place_forget()
+        self.listbox_visible = False
+        return selected_item
 
-Recherche(fenetre, cards)
+    def on_key_press(self, event):
+        if not event:
+            return
+        self.event = event
+        if self.event.keycode == 13: # keycode 13 : Touche entrer
+            self.on_enter()
+    
+    def on_enter(self):
+        if self.entry.get() == None:
+            self.fenetre.focus()
+            return
+        elif self.entry.get() != None:
+            self.input = self.entry.get()
+            self.entry.delete(0, END)
+            self.container.place_forget()
+            self.fenetre.focus()
+            self.listbox_visible = False
+            if self.callback:
+                self.callback(self.input)
+                return # TODO : Faire que quand on clique sur entrer cela prenne la 1ere carte de la suggestion
 
-fenetre.mainloop()
+    def get_input(self):
+        return self.input

@@ -29,22 +29,32 @@ def GetRandomCard():
     print(card.get_name()) # Debug
     return card
 
+def OnSearchInput(valeur):
+    # print(f'La description est : {cards.get_card_by_name(valeur).get_description()}')
+    return cards.get_card_by_name(valeur)
+
 def main(fenetre):
-    image_bouton1 = Image.open("assets/classic.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
-    photo_bouton1 = ImageTk.PhotoImage(image_bouton1)
-    bouton1 = Button(fenetre, image=photo_bouton1, relief="flat", borderwidth=0, command=GetRandomCard)
-    bouton1.image = photo_bouton1 
 
-    bouton1.place(x=100, y=100, width=largeur_carre, height=hauteur_carre)
-    bouton1.lift()
+    # Label
+    # self.label_carte = Label(self.fenetre,relief="flat", borderwidth=0, text='Carte')
+    # self.label_elixir = Label(self.fenetre,relief="flat", borderwidth=0, text="Coût d'élixir")
+    # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Rareté")
+    # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type")
+    # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Cible")
+    # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Type de portée")
+    # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse d'attaque")
+    # self.label_rarete = Label(self.fenetre,relief="flat", borderwidth=0, text="Vitesse")
+    # self.label_rarete = Label(self.fenetre,relief="solid", borderwidth=0, text="Date de sortie")
+    Recherche(fenetre, all_cards_list, OnSearchInput)
 
-    Recherche(fenetre, all_cards_list)
-
-    fenetre.mainloop()
+    
 
 if __name__ == "__main__":
     fenetre = Tk()
     fenetre.title("RoyaleDLE - Classic")
-    fenetre.geometry("1525x800") 
+    fenetre.geometry("1525x800")
     fenetre.iconbitmap("assets/logo.ico")
+    
     main(fenetre)
+
+    fenetre.mainloop()
