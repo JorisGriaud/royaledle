@@ -9,7 +9,7 @@ from pathlib import Path
 
 cards = Cards()
 all_cards_list = cards.get_all_card_name_with_image_path()
-
+recherche=Recherche()
 # Dimensions du rectangle
 largeur_rect = 400
 hauteur_rect = 100
@@ -22,22 +22,31 @@ hauteur_fixe=100
 
 image_originale = Image.open("assets/unnamed.png")    
 
-def emojis(cards):
+def carte(cards):
     nbre_cards = cards.get_number_of_cards()
     nbre_aleatoire = randint(0, nbre_cards) - 1
     card = cards.get_card_by_id(nbre_aleatoire)
-    print(card.get_emojis()) # Debug
     return card
+
+def emoji(carte):
+    return carte.get_emojis()
+
 
 def main(fenetre):
     image_bouton2 = Image.open("assets/emoji.png").resize((largeur_carre, hauteur_carre))  # Redimensionner à la taille du bouton
     photo_bouton2 = ImageTk.PhotoImage(image_bouton2)
-    bouton2 = Button(fenetre, image=photo_bouton2, relief="flat", borderwidth=0, command=lambda: emojis(cards))
+    bouton2 = Button(fenetre, image=photo_bouton2, relief="flat", borderwidth=0, command=lambda: carte(cards))
     bouton2.image = photo_bouton2
-
     bouton2.place(x=100, y=100, width=largeur_carre, height=hauteur_carre)
     bouton2.lift()
 
+    #while recherche != card:
+        
+        
+        
+    #image_bouton2 = Image.open(f"assets/clash_royale_cards/{card}.png").resize(largeur_carre+300, hauteur_carre+100)
+    #photo_bouton2 = ImageTk.PhotoImage(image_bouton2)
+    #bouton2 = Button(fenetre, image=photo_bouton2,relief="flat", borderwidth=0, command=lambda: bouton2.destroy())
 
     fenetre.mainloop()
 
