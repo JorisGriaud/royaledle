@@ -1,0 +1,150 @@
+import json
+
+def get_emojis_for_card(card_name_en):
+    emoji_map = {
+        "X-Bow": ["🏹", "🎯", "🧱", "⚔️"],
+        "Magic Archer": ["🧙", "🏹", "✨", "🎯"],
+        "Archers": ["🏹", "👩‍🦰", "🎯", "🛡️"],
+        "Skeleton Army": [ "⚔️", "🦴","💀", "💀"],
+        "Firecracker": ["🧨", "🏹", "🎆", "💥"],
+        "Balloon": ["🎈", "💣", "☁️", "🏰"],
+        "Barbarians": ["⚔️", "🧔", "💢", "🤺"],
+        "Elite Barbarians": ["⚔️", "🧔", "🏃", "💢"],
+        "Berserker": ["🪓", "😡", "🩸", "🏃"],
+        "Bomber": ["💣", "🧨", "💥", "🦴"],
+        "Fireball": ["🔥", "💥", "🎯", "☄️"],
+        "Bowler": ["🪨", "🥤", "🟣","🎳"],
+        "Executioner": ["🪓", "🔄", "👺", "🛡️"],
+        "Suspicious Bush": ["🌳", "👀", "🕵️","🍃"],
+        "Baby Dragon": ["🔥", "🟢","🐲","👶"],
+        "Battle Ram": ["🪵", "🧔", "🏰", "💥"],
+        "Lumberjack": ["😡", "🏃","🪓", "🧪"],
+        "Barbarian Hut": ["🧔", "⚔️", "🧱","🏠"],
+        "Goblin Hut": ["👺", "🏹", "🍃", "🏠"],
+        "Goblin Cage": ["⛓️", "👺", "😡", "🧱"],
+        "Cannon": ["💣", "🧱", "💥", "🛡️"],
+        "Ram Rider": ["⛓️", "🏰", "🐐", "👩🏾"],
+        "Cannon Cart": ["🛞", "🧱", "🛒", "💣"],
+        "Hunter": ["🧔", "🎩", "🛡️","🔫"],
+        "Bats": ["🌑", "☁️", "🌌", "🦇"],
+        "Boss Bandit": ["👺", "🎭", "👑", "💨"],
+        "Knight": ["⚔️", "🛡️", "🧔", "🏰"],
+        "Golden Knight": ["⚔️", "🛡️", "🧔", "✨"],
+        "Hog Rider": ["🔨", "🧔", "🏰", "🐗"],
+        "Graveyard": ["💀", "🪄", "🦴", "🪦"],
+        "Clone": ["🪄", "✨", "🫧", "👥"],
+        "Royal Hogs": ["🏰", "👑", "🐽", "🐷", ],
+        "Royal Delivery": ["🛡️", "☁️", "💥", "📦"],
+        "Inferno Dragon": ["🔥", "🛡️", "☀️", "🐲"],
+        "Skeleton Dragons": ["☁️", "🦴", "🔥", "🐲"],
+        "Fire Spirit": ["🔥", "💥", "🟠", "👻"],
+        "Ice Spirit": ["🥶", "🔵", "❄️", "👻"],
+        "Heal Spirit": ["✨", "🩹", "💛", "👻"],
+        "Elixir Collector": ["🧪", "🟣", "🧱", "💧"],
+        "Royal Ghost": ["🗡️", "🌫️", "👻", "👑"],
+        "Arrows": ["🌧️", "🎯", "☁️", "🏹"],
+        "Goblin Drill": ["🔩", "👺", "🪵", "🧱"],
+        "Lightning": ["☁️", "🪄", "🌩️", "⚡"],
+        "Furnace": ["🧱", "👻", "🏗️","🔥"],
+        "Rascals": ["👦", "👧", "🍬", "🛡️"],
+        "Barbarian Barrel": ["🪵", "🧔", "🛞", "⚔️"],
+        "Goblin Barrel": ["🪵", "🟢", "👺", "🚀"],
+        "Skeleton Barrel": ["🎈", "🪵", "🛢️", "💀"],
+        "Goblin Gang": ["👺", "🟢", "🗡️", "🏹"],
+        "Guards": ["🛡️", "🗡️", "💀", "🦴"],
+        "Minions": ["😈", "🪽", "🔵", "☁️"],
+        "Freeze": ["🥶", "⏱️", "❄️", "🧊"],
+        "Goblin Demolisher": ["👺", "💣", "💥", "🏃"],
+        "Goblin Giant": ["👺", "👹", "🏹", "🍃"],
+        "Dart Goblin": ["👺", "🎋", "🎯", "🏃"],
+        "Goblins": ["🟢", "👺", "🗡️", "🍃"],
+        "Spear Goblins": ["🟢", "👺", "🏹", "🍃"],
+        "Goblinstein": ["🧟", "🧪", "⚡", "🔋"],
+        "Golem": ["🪨", "💥", "🧱", "🛡️"],
+        "Ice Golem": ["❄️", "🛡️", "💥", "🧊"],
+        "Elixir Golem": ["🟣", "🪨", "💧", "🛡️"],
+        "Battle Healer": ["😇", "⚔️", "✨", "🩹"],
+        "Giant": ["🧔", "👊", "🧱", "🏰"],
+        "Royal Giant": ["🧔", "👑", "🏰", "🛡️"],
+        "Rune Giant": ["🧔", "✨", "🧱", "🛡️"],
+        "Minion Horde": ["🖐️", "🟦", "😱", "😈"],
+        "Spirit Empress": ["✨", "🪄","👸", "🐲"],
+        "The Log": ["🪄", "🎯", "💥", "🪵"],
+        "Princess": ["🏰", "🎯","👸", "🏹"],
+        "Electro Wizard": ["🧙", "⚡", "💡", "🏃"],
+        "Ice Wizard": ["❄️", "🧊", "🥶","🧙"],
+        "Wizard": ["🔥", "💥", "🏃","🧙"],
+        "Pekka": ["🧱", "🛡️","🤖", "🗡️"],
+        "Mini Pekka": ["🧱", "🏃","🤖", "🗡️"],
+        "Mega Knight": ["🛡️", "👊", "💥", "🛡️"],
+        "Sparky": ["⚡", "🛞", "🧱", "⚡"],
+        "Inferno Tower": ["🔥", "☀️", "🧱", "🛡️"],
+        "Tesla": ["⚡", "🔌", "🧱", "🛡️"],
+        "Bomb Tower": ["💣", "💀", "🧱", "💥"],
+        "Mortar": ["💣", "🪨", "🧱", "💥"],
+        "Tombstone": ["🪦", "💀", "🧱", "🛡️"],
+        "Prince": ["🏇", "🗡️", "🛡️", "🏃"],
+        "Dark Prince": ["🏇", "🛡️", "🔨", "🏃"],
+        "Valkyrie": ["🪓", "🔄", "👩‍🦰", "🛡️"],
+        "Musketeer": ["🔫", "👩‍🦱", "🎯", "🏃"],
+        "Three Musketeers": ["🎯", "🔫", "👩‍🦱", "🏃"],
+        "Flying Machine": ["🚁", "🔫", "☁️", "🛡️"],
+        "Battle Ram": ["🪵", "🧔", "🏰", "🛡️"],
+        "Mother Witch": ["🧙", "🐷", "🪄", "✨"],
+        "Night Witch": ["🧙", "🦇", "🗡️", "🌑"],
+        "Witch": ["🧙", "💀", "🪄", "🌑"],
+        "Graveyard": ["🪦", "💀", "🪄", "🛡️"],
+        "Poison": ["🧪", "🤢", "💀", "🪄"],
+        "Tornado": ["🌀", "🎯", "🪄","🌪️"],
+        "Earthquake": ["🫨", "🏚️", "🧱", "🪄"],
+        "Giant Snowball": ["🪄","❄️", "⚪", "🥶"],
+        "Zap": ["⚡", "💡", "🎯", "🪄"],
+        "Rage": ["🧪", "😡", "🟣", "🪄"],
+        "Mirror": ["🪞", "✨", "🪄", "🃏"],
+        "Fisherman": ["🎣", "🧔", "🐟", "⚓"],
+        "Electro Giant": ["⚡", "🧔", "🧱", "🛡️"],
+        "Giant Skeleton": ["💀", "💣", "🦴", "🧱"],
+        "Royal Recruits": ["🛡️", "🧱", "😤", "🪵"],
+        "Wall Breakers": ["💣", "💀", "🧱", "💥"],
+        "Electro Spirit": ["⚡", "🔵", "🪄", "👻"],
+        "Mega Minion": ["😈", "🛡️", "🔵", "☁️"],
+        "Zappies": ["🤖", "⚡", "🛞", "🛡️"],
+        "Skeleton King": ["👑", "💀", "🪦", "🛡️"],
+        "Archer Queen": ["👸", "🏹", "👑", "🛡️"],
+        "Mighty Miner": ["⛏️", "🧔", "💣", "🔥"],
+        "Monk": ["🧘", "🧔", "👊", "🛡️"],
+        "Little Prince": ["🤴", "🧔", "🏹", "🛡️"],
+        "Goblinstein": ["⚡", "🧪", "👨‍🔬", "🧟‍♂️"],
+        "Bandit" : ["🎭", "🤫", "🧥", "🦯"],
+        "Lava Hound" : ["🌋", "🪽", "🧱", "🐌"],
+        "Goblin Machine" : ["🤖", "🟢", "🚀", "⚙️"],
+        "Phoenix" : ["🪽", "🟠", "🔥", "🐦‍🔥"],
+        "Goblin Curse" : ["🪄", "🟢", "🔄", "🫧"],
+        "Vines" : ["🟢","🪢", "🍃","🌿"],
+        "Void" : ["🌌", "☄️", "🔦", "⚛️"],
+        "Rocket" : ["☢️", "🐌", "🚬", "🚀"]
+
+
+    }
+    # Default emojis if not found
+    return emoji_map.get(card_name_en, ["❓", "❓", "❓", "❓", "❓"])
+
+def process_cards():
+    with open('cards_cr.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Update meta attributes
+    if 'meta' in data and 'attributes' in data['meta']:
+        if 'emojis' not in data['meta']['attributes']:
+            data['meta']['attributes'].append('emojis')
+
+    # Update cards
+    for card in data.get('cards', []):
+        name_en = card.get('name_en')
+        card['emojis'] = get_emojis_for_card(name_en)
+
+    with open('cards_cr.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+if __name__ == "__main__":
+    process_cards()
