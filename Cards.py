@@ -59,7 +59,7 @@ class Card():
 
     def get_targets(self):
         """ Return the target of the card"""
-        return self.card['tagets']
+        return self.card['targets']
 
     def get_speed(self):
         """ Return the speed of the card"""
@@ -175,7 +175,7 @@ class Cards():
         id (int): Card's id
         
         Return:
-        (dict) Dictionnary of the card
+        (Class) Class of the card
         """
         nb_card = self.get_number_of_cards()
         if id > nb_card or id < 0:
@@ -191,11 +191,27 @@ class Cards():
         name (string): Card's name in lowercase without space and accent
         
         Return:
-        (dict) Dictionnary of the card
+        (Class) Class of the card
         """
         nb_card = self.get_number_of_cards()
         for i in range(nb_card):
-            if self.cards[i]['key'] == name:
+            if self.cards[i]['name'] == name:
+                return Card(self.cards[i])
+        return None
+    
+    def get_card_by_key(self, key: str):
+        """
+        Claim card by his key
+        
+        Param:
+        key (string): Card's name in lowercase without space and accent
+        
+        Return:
+        (Class) Class of the card
+        """
+        nb_card = self.get_number_of_cards()
+        for i in range(nb_card):
+            if self.cards[i]['key'] == key:
                 return Card(self.cards[i])
         return None
     

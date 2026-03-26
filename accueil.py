@@ -1,6 +1,7 @@
 from tkinter import *
 from PIL import Image, ImageTk
 
+from recherche import Recherche
 from classic import main as main_classic
 # from emoji import main as main_emoji
 # from description import main as main_description
@@ -40,7 +41,7 @@ class Accueil():
 
         self.image_bouton4 = Image.open("assets/descdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
         self.photo_bouton4 = ImageTk.PhotoImage(self.image_bouton4)
-        self.bouton4 = Button(self.fenetre, image=self.photo_bouton4, relief="flat", borderwidth=0, command=self.classic)
+        self.bouton4 = Button(self.fenetre, image=self.photo_bouton4, relief="flat", borderwidth=0, command=self.description)
         self.bouton4.image = self.photo_bouton4
 
         self.image_bouton5 = Image.open("assets/emojdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
@@ -50,7 +51,7 @@ class Accueil():
 
         self.image_bouton6 = Image.open("assets/classdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
         self.photo_bouton6 = ImageTk.PhotoImage(self.image_bouton6)
-        self.bouton6 = Button(self.fenetre, image=self.photo_bouton6, relief="flat", borderwidth=0, command=self.description)
+        self.bouton6 = Button(self.fenetre, image=self.photo_bouton6, relief="flat", borderwidth=0, command=self.classic)
         self.bouton6.image = self.photo_bouton6
 
         self.logo = Image.open("assets/logoofficielroyaledle.png").resize((self.largeur_rect, self.hauteur_rect+200))  # Redimensionner à la taille du logo
@@ -89,19 +90,19 @@ class Accueil():
         self.canvas.create_image(0, 0, image=self.photo_ref, anchor=NW)
 
         x1 = (largeur - self.largeur_rect) // 2
-        y1 = self.hauteur_fixe    
+        y1 = self.hauteur_fixe
 
         self.label_image.place(x=x1, y=y1-50,width=self.largeur_rect, height=self.hauteur_rect)  # Position du logo
         self.label_image.lift()
 
         # Placer le bouton et le mettre au-dessus
-        self.bouton1.place(x=x1+65, y=y1+75, width=self.largeur_carre, height=self.hauteur_carre)
+        self.bouton1.place(x=x1+65, y=y1 + 75, width=self.largeur_carre, height=self.hauteur_carre)
         self.bouton1.lift()
 
-        self.bouton2.place(x=x1+165, y=y1+75, width=self.largeur_carre, height=self.hauteur_carre)
+        self.bouton2.place(x=x1+165, y=y1 + 75, width=self.largeur_carre, height=self.hauteur_carre)
         self.bouton2.lift()
 
-        self.bouton3.place(x=x1+265, y=y1+75, width=self.largeur_carre, height=self.hauteur_carre)
+        self.bouton3.place(x=x1+265, y=y1 + 75, width=self.largeur_carre, height=self.hauteur_carre)
         self.bouton3.lift()
 
     def redimensionner_canvas_debut(self, event):
