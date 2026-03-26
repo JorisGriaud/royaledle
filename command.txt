@@ -1,0 +1,2 @@
+git checkout <nom_de_la_branche>
+git merge main

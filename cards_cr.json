@@ -304,7 +304,7 @@
       "has_hero": false,
       "release_year": 2016,
       "icon": "https://api-assets.clashroyale.com/cards/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png",
-      "description": "",
+      "description": "Une horde d'attaquants de mêlée pourvus d'une moustache d'enfer et d'un tempérament tout aussi infernal.",
       "emojis": [
         "⚔️",
         "🧔",
@@ -2755,10 +2755,11 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png",
       "description": "L'arène est une zone certifiée sans papillon. Les PEKKA éviteront ainsi toute distraction et se concentreront sur la destruction.",
       "emojis": [
-        "⛓️",
-        "🦾",
-        "🛡️",
-        "🤖"
+        "❓",
+        "❓",
+        "❓",
+        "❓",
+        "❓"
       ],
       "icon_path": "assets/clash_royale_cards/mini-pekka.png"
     },
@@ -2789,7 +2790,7 @@
       "has_hero": false,
       "release_year": 2016,
       "icon": "https://api-assets.clashroyale.com/cards/300/wC6Cm9rKLEOk72zTsukVwxewKIoO4ZcMJun54zCPWvA.png",
-      "description": "Reproduit la dernièere carte jouée pour +1 unité d'elixir. Ne fait pas partie des cartes de départ.",
+      "description": "Reproduit la dernière carte jouée pour +1 unité d'elixir. Ne fait pas partie des cartes de départ.",
       "emojis": [
         "🪞",
         "✨",
@@ -4205,10 +4206,10 @@
       "icon_path": "assets/clash_royale_cards/zappy.png"
     },
     {
-      "name": "Eletro-dragon",
+      "name": "Electro-dragon",
       "name_en": "Electro Dragon",
       "id": 115,
-      "key": "eletro-dragon",
+      "key": "electro-dragon",
       "elixir": 5,
       "rarity": "Epique",
       "type": "Troupe",
@@ -4239,13 +4240,13 @@
         "❓",
         "❓"
       ],
-      "icon_path": "assets/clash_royale_cards/eletro-dragon.png"
+      "icon_path": "assets/clash_royale_cards/electro-dragon.png"
     },
     {
-      "name": "Eletro-esprit",
+      "name": "Electro-esprit",
       "name_en": "Electro Spirit",
       "id": 116,
-      "key": "eletro-esprit",
+      "key": "electro-esprit",
       "elixir": 1,
       "rarity": "Commune",
       "type": "Troupe",
@@ -4275,13 +4276,13 @@
         "🪄",
         "👻"
       ],
-      "icon_path": "assets/clash_royale_cards/eletro-esprit.png"
+      "icon_path": "assets/clash_royale_cards/electro-esprit.png"
     },
     {
-      "name": "Eletro-géant",
+      "name": "Electro-géant",
       "name_en": "Electro Giant",
       "id": 117,
-      "key": "eletro-geant",
+      "key": "electro-geant",
       "elixir": 7,
       "rarity": "Epique",
       "type": "Troupe",
@@ -4311,13 +4312,13 @@
         "🧱",
         "🛡️"
       ],
-      "icon_path": "assets/clash_royale_cards/eletro-geant.png"
+      "icon_path": "assets/clash_royale_cards/electro-geant.png"
     },
     {
-      "name": "Eletro-sorcier",
+      "name": "Electro-sorcier",
       "name_en": "Electro Wizard",
       "id": 118,
-      "key": "eletro-sorcier",
+      "key": "electro-sorcier",
       "elixir": 4,
       "rarity": "Légendaire",
       "type": "Troupe",
@@ -4347,7 +4348,7 @@
         "💡",
         "🏃"
       ],
-      "icon_path": "assets/clash_royale_cards/eletro-sorcier.png"
+      "icon_path": "assets/clash_royale_cards/electro-sorcier.png"
     },
     {
       "name": "Electrocuteurs",
@@ -4389,7 +4390,7 @@
       "name": "Electrocution",
       "name_en": "Zap",
       "id": 120,
-      "key": "eletrocution",
+      "key": "electrocution",
       "elixir": 2,
       "rarity": "Commune",
       "type": "Sort",
@@ -4419,7 +4420,7 @@
         "🎯",
         "🪄"
       ],
-      "icon_path": "assets/clash_royale_cards/eletrocution.png"
+      "icon_path": "assets/clash_royale_cards/electrocution.png"
     }
   ]
 }
