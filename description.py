@@ -51,7 +51,6 @@ def progression():
       t[mot]=tab[mot]
       print(t)
       proposition=input("Quelle est la carte ? ")
-   print(tab)
    print("Bravo la carte était",carte)
       
   
