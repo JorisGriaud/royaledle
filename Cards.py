@@ -59,7 +59,7 @@ class Card():
 
     def get_targets(self):
         """ Return the target of the card"""
-        return self.card['tagets']
+        return self.card['targets']
 
     def get_speed(self):
         """ Return the speed of the card"""
