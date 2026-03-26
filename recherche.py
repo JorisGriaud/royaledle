@@ -185,7 +185,7 @@ class Recherche():
         if self.event.keycode == 13: # keycode 13 : Touche entrer
             self.on_enter()
     
-    def on_enter(self):
+    def on_enter(self): # TODO: enlever la carte de la suggestion
         if self.entry.get() == None:
             self.fenetre.focus()
             return
@@ -198,6 +198,3 @@ class Recherche():
             if self.callback:
                 self.callback(self.input)
                 return # TODO : Faire que quand on clique sur entrer cela prenne la 1ere carte de la suggestion
-
-    def get_input(self):
-        return self.input
