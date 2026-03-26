@@ -193,11 +193,9 @@ class Recherche():
             self.input = self.entry.get()
             self.entry.delete(0, END)
             self.container.place_forget()
-            self.fenetre.focus()
+            self.cards.pop(Cards().get_card_by_name(self.input).get_id())
+            # self.fenetre.focus()
             self.listbox_visible = False
             if self.callback:
                 self.callback(self.input)
-                return # TODO : Faire que quand on clique sur entrer cela prenne la 1ere carte de la suggestion
-
-    def get_input(self):
-        return self.input
+                return
