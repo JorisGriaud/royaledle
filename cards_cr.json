@@ -2768,7 +2768,7 @@
       "name_en": "Mirror",
       "id": 75,
       "key": "miroir",
-      "elixir": "?",
+      "elixir": 0,
       "rarity": "Epique",
       "type": "Troupe",
       "arena_unlock": 15,
