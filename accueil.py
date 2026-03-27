@@ -3,7 +3,7 @@ from PIL import Image, ImageTk
 
 from recherche import Recherche
 from classic import main as main_classic
-# from emoji import main as main_emoji
+from emoji import main as main_emoji
 # from description import main as main_description
 
 class Accueil():
@@ -137,7 +137,7 @@ class Accueil():
 
     def emoji(self):
         self.redimensionner_canvas()
-        return
+        main_emoji(self.fenetre)
 
     def description(self):
         self.redimensionner_canvas()

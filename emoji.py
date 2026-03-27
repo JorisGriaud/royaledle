@@ -26,15 +26,8 @@ def main(fenetre):
     card = tirer_carte()
     nbtour = [1]  # on commence à 1 emoji affiché
 
-    image_bouton2 = Image.open("assets/emoji.png").resize((largeur_carre, hauteur_carre))
-    photo_bouton2 = ImageTk.PhotoImage(image_bouton2)
-    bouton2 = Button(fenetre, image=photo_bouton2, relief="flat", borderwidth=0,command=lambda: afficher_emoji(card, nbtour[0]))
-    bouton2.image = photo_bouton2
-    bouton2.place(x=100, y=100, width=largeur_carre, height=hauteur_carre)
-    bouton2.lift()
-
-    label_emoji = Label(fenetre, text="", font=("Segoe UI Emoji", 50))
-    label_emoji.place(x=550, y=180)
+    label_emoji = Label(fenetre, text="", font=("Segoe UI Emoji", 30))
+    label_emoji.place(x=630, y=250)
 
     # Afficher le premier emoji au démarrage
     afficher_emoji(card, nbtour[0])
