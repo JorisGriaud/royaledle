@@ -34,20 +34,32 @@ def main(fenetre):
     bouton2.lift()
 
     label_emoji = Label(fenetre, text="", font=("Segoe UI Emoji", 50))
-    label_emoji.place(x=250, y=200)
+    label_emoji.place(x=550, y=180)
 
     # Afficher le premier emoji au démarrage
     afficher_emoji(card, nbtour[0])
 
     def carte_selec(nom_carte):
-        """Appelé à chaque fois que l'utilisateur valide une carte"""
         if nbtour[0] < 4:
             nbtour[0] += 1              # on révèle un emoji de plus
             afficher_emoji(card, nbtour[0])
         
         # Vérifier si la carte est la bonne
         if nom_carte.lower() == card.get_name().lower():
-            label_emoji.config(text="Bonne réponse !")
+            image_bouton3 = Image.open("assets/Bienjoué.png").resize((500, 350))
+            photo_bouton3 = ImageTk.PhotoImage(image_bouton3)
+            bouton3 = Button(fenetre, image=photo_bouton3, relief="flat", borderwidth=0,command=lambda:[fenetre.after(0, bouton3.destroy()),recommencer()])
+            bouton3.image = photo_bouton3 
+            bouton3.place(x=500, y=150, width=500, height=500)
+            bouton3.lift()
+
+
+    def recommencer():
+        nonlocal card
+        card = tirer_carte()
+        nbtour[0] = 0          
+        carte_selec(card)
+        label_emoji.config(text="")
 
     recherche = Recherche(fenetre, all_cards_list, callback=carte_selec)
 

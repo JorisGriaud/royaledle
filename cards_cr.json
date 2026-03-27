@@ -2718,11 +2718,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Y4yWvdwBCg2FpAZgs8T09Gy34WOwpLZW-ttL52Ae8NE.png",
       "description": "Le mineur creuse des tunnels souterrains et apparâit n'importe où dans l'arène. Ce n'est pas de la magie, juste une pelle. Une pelle qui inflige des dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "🕯️",
+        "🕳️",
+        "👷",
+        "⛏️"
       ],
       "icon_path": "assets/clash_royale_cards/mineur.png"
     },
@@ -2755,11 +2754,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png",
       "description": "L'arène est une zone certifiée sans papillon. Les PEKKA éviteront ainsi toute distraction et se concentreront sur la destruction.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "🔪",
+        "⚡",
+        "🥞",
+        "🤖"
       ],
       "icon_path": "assets/clash_royale_cards/mini-pekka.png"
     },
@@ -3116,11 +3114,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/MlArURKhn_zWAZY-Xj1qIRKLVKquarG25BXDjUQajNs.png",
       "description": "Une combattante de mêlée peu rapide, pourvue d'une épaisse armure. Impulsive mais sacrément percutante.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "💜",
+        "⚔️",
+        "🛡️",
+        "🤖"
       ],
       "icon_path": "assets/clash_royale_cards/pekka.png"
     },
@@ -3873,11 +3870,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/oO7iKMU5m0cdxhYPZA3nWQiAUh2yoGgdThLWB1rVSec.png",
       "description": "Trois combattants de mélée, rapides mais très faibles. Encercler vos ennemis avec ces tas d'os !",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "🏃",
+        "🦴",
+        "🗡️",
+        "💀"
       ],
       "icon_path": "assets/clash_royale_cards/squelettes.png"
     },
@@ -4234,11 +4230,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/tN9h6lnMNPCNsx0LMFmvpHgznbDZ1fBRkx-C7UfNmfY.png",
       "description": "Crache des arcs électriques qui touchent jusqu'à trois cibles. Moins mignon que le bébé dragon, moins farouche que le dragon de l'enfer, mais il mérite quand même qu'on s'y attache.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "🔹",
+        "🔋",
+        "⚡",
+        "🐉"
       ],
       "icon_path": "assets/clash_royale_cards/electro-dragon.png"
     },
