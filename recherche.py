@@ -102,10 +102,10 @@ class Recherche():
         x1 = (largeur - largeur_totale) // 2
         y1 = (hauteur - self.hauteur_bouton) // 2 - 80 + self.hauteur_bouton
 
-        filtered_data = [item for item in self.cards if search_term in item["name"].lower()]
-        
-        if filtered_data:
-            for item in filtered_data:
+        self.filtered_data = [item for item in self.cards if search_term in item["name"].lower()]
+
+        if self.filtered_data:
+            for item in self.filtered_data:
                 self.create_suggestion_row(item)
             
             # Afficher le conteneur avec une hauteur fixe de 270px
@@ -192,8 +192,11 @@ class Recherche():
         elif self.entry.get() != None:
             self.input = self.entry.get()
             self.entry.delete(0, END)
-            self.container.place_forget()
-            self.cards.pop(Cards().get_card_by_name(self.input).get_id())
+            self.container.place_forget() # TODO: Vérifier si le nom de la carte existe
+            for index_item in range(len(self.cards) - 1,):
+                if self.cards[index_item]["name"] == self.input:
+                    remove_item = self.cards.pop(index_item)
+                    # print("Carte supprimé :", remove_item)
             # self.fenetre.focus()
             self.listbox_visible = False
             if self.callback:
