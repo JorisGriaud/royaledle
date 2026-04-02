@@ -15,27 +15,38 @@ def tirer_carte():
     nbre_aleatoire = randint(0, nbre_cards - 1)
     return cards.get_card_by_id(nbre_aleatoire)
 
-def afficher_emoji(card, num):
+def afficher_emoji(fenetre, card, num):
+    global emoji_labels
+    # Détruire les labels précédents
+    for lbl in emoji_labels:
+        lbl.destroy()
+    emoji_labels = []
     emojis = card.get_emojis()
-    emoj_choisi = [emojis[i] for i in range(min(num, len(emojis)))]
-    label_emoji.config(text=" ".join(emoj_choisi))
+    for i in range(num):
+        if i < len(emojis):
+            path = "assets/emojis/" + emojis[i]
+            img = Image.open(path).resize((largeur_carre, hauteur_carre))
+            photo = ImageTk.PhotoImage(img)
+            lbl = Label(fenetre, image=photo)
+            lbl.image = photo
+            lbl.place(x=630 + i * (largeur_carre + 5), y=350)
+            emoji_labels.append(lbl)
 
 def main(fenetre):
-    global label_emoji
+    global emoji_labels
 
     card = tirer_carte()
     nbtour = [1]  # on commence à 1 emoji affiché
 
-    label_emoji = Label(fenetre, text="", font=("Segoe UI Emoji", 30))
-    label_emoji.place(x=630, y=250)
+    emoji_labels = []
 
     # Afficher le premier emoji au démarrage
-    afficher_emoji(card, nbtour[0])
+    afficher_emoji(fenetre, card, nbtour[0])
 
     def carte_selec(nom_carte):
         if nbtour[0] < 4:
             nbtour[0] += 1              # on révèle un emoji de plus
-            afficher_emoji(card, nbtour[0])
+            afficher_emoji(fenetre, card, nbtour[0])
         
         # Vérifier si la carte est la bonne
         if nom_carte.lower() == card.get_name().lower():
@@ -50,9 +61,8 @@ def main(fenetre):
     def recommencer():
         nonlocal card
         card = tirer_carte()
-        nbtour[0] = 0          
-        carte_selec(card)
-        label_emoji.config(text="")
+        nbtour[0] = 1          
+        afficher_emoji(fenetre, card, nbtour[0])
 
     recherche = Recherche(fenetre, all_cards_list, callback=carte_selec)
 
