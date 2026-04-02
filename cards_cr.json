@@ -3639,7 +3639,7 @@
       "hitpoints": 330,
       "hit_speed": null,
       "targets": "Bâtiments",
-      "speed": " Très Rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 2,
       "attack_type": "Zone",
