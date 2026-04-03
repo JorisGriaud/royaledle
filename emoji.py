@@ -3,12 +3,28 @@ from recherche import Recherche
 from tkinter import *
 from random import randint
 from PIL import Image, ImageTk
+import webbrowser
 
 cards = Cards()
 all_cards_list = cards.get_all_card_name_with_image_path()
 
 largeur_carre = 75
 hauteur_carre = 75
+
+def pub(fenetre):
+    image_boutonpub = Image.open("assets/pub.png").resize((400, 500))
+    photo_boutonpub = ImageTk.PhotoImage(image_boutonpub)
+    boutonpub = Button(fenetre, image=photo_boutonpub, relief="flat", borderwidth=0,command=lambda: webbrowser.open("https://www.helloasso.com/associations/bde-eseo-angers/evenements/le-cercle-d-ardoise-studio-eseo?utm_source=ig&utm_medium=social&utm_content=link_in_bio"))
+    boutonpub.image = photo_boutonpub 
+    boutonpub.place(x=1100, y=150, width=400, height=500)
+    boutonpub.lift()
+    image_boutonpub2 = Image.open("assets/pub.png").resize((400, 500))
+    photo_boutonpub2 = ImageTk.PhotoImage(image_boutonpub2)
+    boutonpub2 = Button(fenetre, image=photo_boutonpub2, relief="flat", borderwidth=0,command=lambda: webbrowser.open("https://www.helloasso.com/associations/bde-eseo-angers/evenements/le-cercle-d-ardoise-studio-eseo?utm_source=ig&utm_medium=social&utm_content=link_in_bio"))
+    boutonpub2.image = photo_boutonpub2 
+    boutonpub2.place(x=100, y=150, width=400, height=500)
+    boutonpub2.lift()
+
 
 def tirer_carte():
     nbre_cards = cards.get_number_of_cards()
@@ -38,7 +54,7 @@ def afficher_emoji(fenetre, card, num):
 
 def main(fenetre):
     global emoji_labels
-
+    pub(fenetre)
     card = tirer_carte()
     nbtour = [1]  # on commence à 1 emoji affiché
 
@@ -73,7 +89,7 @@ def main(fenetre):
                 photo = ImageTk.PhotoImage(img)
                 label = Label(fenetre, image=photo)
                 label.image = photo
-                label.place(x=150, y=100 + len(wrong_labels) * (largeur_carre + 5))
+                label.place(x=700, y=450 + len(wrong_labels) * (largeur_carre + 5))
                 wrong_labels.append(label)
 
     def recommencer():
