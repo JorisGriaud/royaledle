@@ -24,7 +24,11 @@ def afficher_emoji(fenetre, card, num):
     emojis = card.get_emojis()
     for i in range(num):
         if i < len(emojis):
-            path = "assets/emojis/" + emojis[i]
+            emoji_name = emojis[i]
+            # Ajouter l'extension .png si elle n'est pas présente
+            if not emoji_name.endswith('.png'):
+                emoji_name += '.png'
+            path = "assets/emojis/" + emoji_name
             img = Image.open(path).resize((largeur_carre, hauteur_carre))
             photo = ImageTk.PhotoImage(img)
             lbl = Label(fenetre, image=photo)
@@ -73,7 +77,7 @@ def main(fenetre):
                 wrong_labels.append(label)
 
     def recommencer():
-        nonlocal card
+        nonlocal card, wrong_labels
         # Détruire les labels des mauvaises suppositions
         for label in wrong_labels:
             label.destroy()
