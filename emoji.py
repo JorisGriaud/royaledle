@@ -59,7 +59,7 @@ def main(fenetre):
             photo_bouton3 = ImageTk.PhotoImage(image_bouton3)
             bouton3 = Button(fenetre, image=photo_bouton3, relief="flat", borderwidth=0,command=lambda:[fenetre.after(0, bouton3.destroy()),recommencer()])
             bouton3.image = photo_bouton3 
-            bouton3.place(x=500, y=150, width=500, height=500)
+            bouton3.place(x=500, y=150, width=500, height=350)
             bouton3.lift()
         
         else :
