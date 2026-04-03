@@ -22,7 +22,7 @@ def pub(fenetre):
     photo_boutonpub2 = ImageTk.PhotoImage(image_boutonpub2)
     boutonpub2 = Button(fenetre, image=photo_boutonpub2, relief="flat", borderwidth=0,command=lambda: webbrowser.open("https://www.helloasso.com/associations/bde-eseo-angers/evenements/le-cercle-d-ardoise-studio-eseo?utm_source=ig&utm_medium=social&utm_content=link_in_bio"))
     boutonpub2.image = photo_boutonpub2 
-    boutonpub2.place(x=100, y=150, width=400, height=500)
+    boutonpub2.place(x=30, y=150, width=400, height=500)
     boutonpub2.lift()
 
 
