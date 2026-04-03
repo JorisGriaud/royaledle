@@ -31,7 +31,7 @@ def main(fenetre):
     label_rarete = Label(labels_frame, relief="flat", borderwidth=0, text="Rareté", font=16)
     label_type = Label(labels_frame, relief="flat", borderwidth=0, text="Type", font=16)
     label_cible = Label(labels_frame, relief="flat", borderwidth=0, text="Cible", font=16)
-    label_portee = Label(labels_frame, relief="flat", borderwidth=0, text="Portée", font=16)
+    label_portee = Label(labels_frame, relief="flat", borderwidth=0, text="Portée/Radius", font=16)
     label_vitesse_attaque = Label(labels_frame, relief="flat", borderwidth=0, text="Vitesse d'attaque", font=16)
     label_vitesse = Label(labels_frame, relief="flat", borderwidth=0, text="Vitesse", font=16)
     label_date = Label(labels_frame, relief="solid", borderwidth=0, text="Date de sortie", font=16)
@@ -151,14 +151,32 @@ def main(fenetre):
             else:
                 data_cible.config(text=card.get_targets(), bg='red')
             
-            # Range "⬆️ ⬇️"
+            # Range/Radius "⬆️ ⬇️"
             if card.get_range() == None and card_to_guess.get_range() == None:
                 data_portee.config(text="S.O", bg="#42F31F")
-            elif card.get_range() == card_to_guess.get_range():
-                data_portee.config(text=card.get_range(), bg="#42F31F")
-            else:
-                data_portee.config(text=card.get_range(), bg='red')
-            
+            elif card.get_type() == "Sort":
+                if card.get_radius() == card_to_guess.get_radius():
+                    data_portee.config(text=card.get_radius(), bg="#42F31F")
+                elif isinstance(card.get_radius(), float) and isinstance(card_to_guess.get_radius(), float):
+                    if card.get_radius() > card_to_guess.get_radius():
+                        data_portee.config(text=str(card.get_radius()) + "   ⬇️", bg="red")
+                    elif card.get_radius() < card_to_guess.get_radius():
+                        data_portee.config(text=str(card.get_radius()) + "   ⬆️", bg="red")
+                elif isinstance(card_to_guess.get_range(), float or int) and card.get_range() == None or isinstance(card.get_range(), str):
+                    data_portee.config(text="S.O   ⬆️", bg="red")
+
+            elif card.get_type() == "Troupe" or card.get_type() == "Bâtiment":
+                if card.get_range() == card_to_guess.get_range():
+                    data_portee.config(text=card.get_range(), bg="#42F31F")
+                elif isinstance(card.get_range(), float or int) and isinstance(card_to_guess.get_range(), float or int):        
+                    if card.get_range() > card_to_guess.get_range():
+                        data_portee.config(text=str(card.get_range()) + "   ⬇️", bg="red")
+                    elif card.get_range() < card_to_guess.get_range():
+                        data_portee.config(text=str(card.get_range()) + "   ⬆️", bg="red")
+                elif isinstance(card.get_range(), float or int) and card_to_guess.get_range() == None or isinstance(card_to_guess.get_range(), str):
+                    data_portee.config(text=str(card.get_range()) + "   ⬇️", bg="red")
+
+
             # Hit Speed "⬆️ ⬇️"
             if card.get_hit_speed() == None and card_to_guess.get_hit_speed() == None:
                 data_vitesse_attaque.config(text="S.O", bg="#42F31F")
