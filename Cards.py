@@ -224,7 +224,7 @@ class Cards():
         """
         cards_name_image_list = []
         nbre_card = self.get_number_of_cards()
-        for i in range(0, nbre_card -1):
+        for i in range(0, nbre_card):
             cards_name_image_list.append({"name": self.get_card_by_id(i).get_name(), "path":self.get_card_by_id(i).get_icon_path()})
         return cards_name_image_list
 

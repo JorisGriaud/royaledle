@@ -64,6 +64,7 @@ class Recherche():
         self.fenetre.after(100, self.place_research)
         
         self.listbox_visible = False
+        self.filtered_data = []
 
     def on_frame_configure(self, event):
         self.canvas2.configure(scrollregion=self.canvas2.bbox("all"))
@@ -192,11 +193,17 @@ class Recherche():
         elif self.entry.get() != None:
             self.input = self.entry.get()
             self.entry.delete(0, END)
-            self.container.place_forget() # TODO: Vérifier si le nom de la carte existe
-            for index_item in range(len(self.cards) - 1,):
+            self.container.place_forget()
+            if Cards().get_card_by_name(self.input) is None:
+                # Prendre la première carte de la suggestion
+                if len(self.filtered_data) > 0:
+                    self.input = self.filtered_data[0]["name"]
+                else:
+                    return
+            for index_item in range(len(self.cards) - 1):
                 if self.cards[index_item]["name"] == self.input:
                     remove_item = self.cards.pop(index_item)
-                    # print("Carte supprimé :", remove_item)
+                    print("Carte supprimé :", remove_item)
             # self.fenetre.focus()
             self.listbox_visible = False
             if self.callback:
