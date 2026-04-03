@@ -4692,9 +4692,9 @@
       "slowdown_ennemies": null,
       "crown_tower_damage": null,
       "stun_duration": null,
-      "has_evolution": true,
+      "has_evolution": false,
       "has_hero": false,
-      "release_year": 2016,
+      "release_year": 2006,
       "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
       "description": "Cet autiste a un petit peu de mal à marcher normalement avec son enorme pouce. Il réclame plus de points qu'il en a. Il est le fervant utilisateur de la méthode d'apprendre par coeur les exercices. Mais tranquille il est open to work.",
       "emojis": [
@@ -4703,7 +4703,7 @@
         "lunettes.jpg",
         "lunettes.jpg"
       ],
-      "icon_path": "assets/easter_eggs/romain.png"
+      "icon_path": "assets/easter_eggs/romain.jpg"
     }
   ]
 }
