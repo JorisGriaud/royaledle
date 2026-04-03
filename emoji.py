@@ -17,9 +17,9 @@ def tirer_carte():
 
 def afficher_emoji(fenetre, card, num):
     global emoji_labels
-    # Détruire les labels précédents
-    for lbl in emoji_labels:
-        lbl.destroy()
+    # Détruire les labels précédents des emojis
+    for label in emoji_labels:
+        label.destroy()
     emoji_labels = []
     emojis = card.get_emojis()
     for i in range(num):
@@ -39,6 +39,7 @@ def main(fenetre):
     nbtour = [1]  # on commence à 1 emoji affiché
 
     emoji_labels = []
+    wrong_labels = []
 
     # Afficher le premier emoji au démarrage
     afficher_emoji(fenetre, card, nbtour[0])
@@ -56,10 +57,27 @@ def main(fenetre):
             bouton3.image = photo_bouton3 
             bouton3.place(x=500, y=150, width=500, height=500)
             bouton3.lift()
-
+        
+        else :
+            bonnecarte = None
+            for item in all_cards_list:
+                if item["name"] == nom_carte:
+                    bonnecarte = item["path"]
+                    break
+            if bonnecarte:
+                img = Image.open(bonnecarte).resize((largeur_carre, hauteur_carre))
+                photo = ImageTk.PhotoImage(img)
+                label = Label(fenetre, image=photo)
+                label.image = photo
+                label.place(x=150, y=100 + len(wrong_labels) * (largeur_carre + 5))
+                wrong_labels.append(label)
 
     def recommencer():
         nonlocal card
+        # Détruire les labels des mauvaises suppositions
+        for label in wrong_labels:
+            label.destroy()
+        wrong_labels = []
         card = tirer_carte()
         nbtour[0] = 1          
         afficher_emoji(fenetre, card, nbtour[0])
