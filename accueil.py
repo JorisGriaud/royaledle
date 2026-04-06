@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 from recherche import Recherche
 from classic import main as main_classic
 # from emoji import main as main_emoji
-# from description import main as main_description
+from description import main as main_description
 
 class Accueil():
     def __init__(self, fenetre):
@@ -141,5 +141,5 @@ class Accueil():
 
     def description(self):
         self.redimensionner_canvas()
-        
+        main_description(self.fenetre)
         return
