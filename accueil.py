@@ -27,32 +27,32 @@ class Accueil():
 
         self.image_bouton1 = Image.open("assets/classic.png").resize((self.largeur_carre, self.hauteur_carre))  # Redimensionner à la taille du bouton
         self.photo_bouton1 = ImageTk.PhotoImage(self.image_bouton1)
-        self.bouton1 = Button(self.fenetre, image=self.photo_bouton1, relief="flat", borderwidth=0, command=self.classic)
+        self.bouton1 = Button(self.fenetre, image=self.photo_bouton1, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.classic()])
         self.bouton1.image = self.photo_bouton1 
 
         self.image_bouton2 = Image.open("assets/emoji.png").resize((self.largeur_carre, self.hauteur_carre))  # Redimensionner à la taille du bouton
         self.photo_bouton2 = ImageTk.PhotoImage(self.image_bouton2)
-        self.bouton2 = Button(self.fenetre, image=self.photo_bouton2, relief="flat", borderwidth=0, command=self.emoji)
+        self.bouton2 = Button(self.fenetre, image=self.photo_bouton2, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.emoji()])
         self.bouton2.image = self.photo_bouton2
 
         self.image_bouton3 = Image.open("assets/description.png").resize((self.largeur_carre, self.hauteur_carre))  # Redimensionner à la taille du bouton
         self.photo_bouton3 = ImageTk.PhotoImage(self.image_bouton3)
-        self.bouton3 = Button(self.fenetre, image=self.photo_bouton3, relief="flat", borderwidth=0, command=self.description)
+        self.bouton3 = Button(self.fenetre, image=self.photo_bouton3, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.classidescription()])
         self.bouton3.image = self.photo_bouton3
 
         self.image_bouton4 = Image.open("assets/descdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
         self.photo_bouton4 = ImageTk.PhotoImage(self.image_bouton4)
-        self.bouton4 = Button(self.fenetre, image=self.photo_bouton4, relief="flat", borderwidth=0, command=self.description)
+        self.bouton4 = Button(self.fenetre, image=self.photo_bouton4, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.description()])
         self.bouton4.image = self.photo_bouton4
 
         self.image_bouton5 = Image.open("assets/emojdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
         self.photo_bouton5 = ImageTk.PhotoImage(self.image_bouton5)
-        self.bouton5 = Button(self.fenetre, image=self.photo_bouton5, relief="flat", borderwidth=0, command=self.emoji)
+        self.bouton5 = Button(self.fenetre, image=self.photo_bouton5, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre(),self.emoji()])
         self.bouton5.image = self.photo_bouton5
 
         self.image_bouton6 = Image.open("assets/classdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
         self.photo_bouton6 = ImageTk.PhotoImage(self.image_bouton6)
-        self.bouton6 = Button(self.fenetre, image=self.photo_bouton6, relief="flat", borderwidth=0, command=self.classic)
+        self.bouton6 = Button(self.fenetre, image=self.photo_bouton6, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.classic()])
         self.bouton6.image = self.photo_bouton6
 
         self.logo = Image.open("assets/logoofficielroyaledle.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du logo
@@ -140,7 +140,18 @@ class Accueil():
         self.redimensionner_canvas()
         main_emoji(self.fenetre)
 
+        
+
     def description(self):
         self.redimensionner_canvas()
         main_description(self.fenetre)
         return
+    
+    def nettoyer_fenetre(self):
+        widgets_accueil = {self.bouton1, self.bouton2, self.bouton3, 
+                        self.bouton4, self.bouton5, self.bouton6, 
+                        self.label_image, self.canvas}
+        for widget in self.fenetre.winfo_children():
+            if widget not in widgets_accueil:
+                widget.destroy()
+        self.canvas.delete("all")
