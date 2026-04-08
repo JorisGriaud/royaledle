@@ -3,8 +3,9 @@ from PIL import Image, ImageTk
 
 from recherche import Recherche
 from classic import main as main_classic
+from description import main as main_description
 from emoji import main as main_emoji
-# from description import main as main_description
+from description import main as main_description
 
 class Accueil():
     def __init__(self, fenetre):
