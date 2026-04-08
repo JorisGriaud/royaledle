@@ -59,6 +59,7 @@ def progression():
       
 def main(fenetre):
    hauteur = fenetre.winfo_height()
+   wrong_labels = []
    t=texteatroues()
    id=t[-1]
    carte=str(cards.get_card_by_id(id).get_name())
@@ -102,13 +103,15 @@ def main(fenetre):
             t[mot]=tab[mot]
             label_description.config(text=t)  
             data_carte.config(image=image, bg='red') 
+            wrong_labels.append(data_carte)
          else:
              data_carte.config(image=image, bg='#42F31F')
              label_description.config(text=tab)
-             img = Image.open("assets/victoiredescr.png").resize((250, 270))
-             photo = ImageTk.PhotoImage(img)
-             label = Label(fenetre, image=photo)
-             label.image = photo
+             img_bouton = Image.open("assets/victoiredescr.png").resize((250, 270))
+             photo_bouton = ImageTk.PhotoImage(img_bouton)
+             bouton3 = Button(fenetre, image=photo_bouton, relief="flat", borderwidth=0,command=lambda:[fenetre.after(0, bouton3.destroy()),recommencer()])
+             label = Label(fenetre, image=photo_bouton)
+             label.image = photo_bouton
              label.place(x=555, y=50)
 
 
