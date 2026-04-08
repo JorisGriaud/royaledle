@@ -30,6 +30,7 @@ def main(fenetre):
     card_to_guess = GetRandomCard()
 
     hauteur = fenetre.winfo_height()
+    largeur = fenetre.winfo_width()
 
     # Frame pour tout les labels 
     labels_frame = Frame(fenetre, bg="white")
@@ -245,8 +246,20 @@ def main(fenetre):
             if card.get_name() == card_to_guess.get_name():
                 pygame.mixer.music.load(f"assets/music/{choice(musics)}")
                 pygame.mixer.music.play(loops=-1)
-                # exit() # TODO : Faire message victoire
+                
+                img_recommencer = Image.open("assets/Bienjoué.png").resize((500, 350))
+                photo_bouton_recommencer = ImageTk.PhotoImage(img_recommencer)
+                bouton_recommencer = Button(fenetre, image=photo_bouton_recommencer, relief="flat", borderwidth=0, command=lambda:[fenetre.after(0, bouton_recommencer.destroy()), recommencer()])
+                bouton_recommencer.image = photo_bouton_recommencer
+                bouton_recommencer.place(x=500, y=150, width=500, height=350)
+                bouton_recommencer.lift()
+
         return
+
+    def recommencer():
+        for widget in results_frame.winfo_children():
+            widget.destroy()
+        main(fenetre)
 
     Recherche(fenetre, all_cards_list, OnSearchInput)
 
