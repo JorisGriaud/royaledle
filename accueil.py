@@ -5,7 +5,6 @@ from recherche import Recherche
 from classic import main as main_classic
 from description import main as main_description
 from emoji import main as main_emoji
-from description import main as main_description
 
 import pygame
 pygame.mixer.init() # initialise the pygame

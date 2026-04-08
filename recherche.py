@@ -219,7 +219,7 @@ class Recherche():
                 pygame.mixer.music.load(f"assets/music/LA_FLUTE_COSMIQUE_-_Pintade_Cosmique.mp3")
                 pygame.mixer.music.play(loops=0)
             else:
-                pygame.mixer.music.load(f"assets/sound/{random.choice(["Clash_Royale_Hehe_HaHa.mp3", "Crying_Goblin_Clash_Royale_Emotes.mp3"])}")
+                pygame.mixer.music.load(f"assets/sound/{random.choice(["Clash_Royale_Hehe_HaHa.mp3", "Crying_Goblin_Clash_Royale_Emotes.mp3", "crying_skeleton_emote_Clash_Royale.mp3"])}")
                 pygame.mixer.music.play(loops=0)
 
             if Cards().get_card_by_name(self.input) is None:
