@@ -37,22 +37,22 @@ def texteatroues():
     t.append(carte)
     return t
 
+def afficher_description(fenetre):
+   description=texteatroues()
+   description.pop(description.index(description[-1]))
+   hauteur = fenetre.winfo_height()
+   labels_frame = Frame(fenetre, bg="white")
+   label_description = Label(labels_frame, relief="flat", borderwidth=0, text="Chaque essai révèle un autre mot", font=("arial",11))
+   label_description.grid(row=0, column=0, pady=10)
+   label_description = Label(labels_frame, relief="flat", borderwidth=0, text=description, font=("arial",8))
+   label_description.place(x=0, y=40)
+   labels_frame.place(x=0, y=hauteur//2, relwidth=1, height=hauteur//3)
+   main(fenetre)
+   
 
-def progression():
-   t=texteatroues()
-   id=t[-1]
-   carte=str(cards.get_card_by_id(id).get_name()).lower()
-   description=choixdescription(t[-1])
-   description=str(description)
-   t.pop(t.index(t[-1]))
-   tab=description.split(sep=" ")
-   proposition=input("Quelle est la carte ? ")
-   while proposition.lower()!=carte:
-      mot=randint(0,len(t)-1)
-      while tab[mot] is t[mot]:
-         mot=randint(0,len(t)-1)
-      t[mot]=tab[mot]
-      proposition=input("Quelle est la carte ? ")
+
+
+
    
 
       
@@ -106,6 +106,7 @@ def main(fenetre):
             wrong_labels.append(data_carte)
          else:
              data_carte.config(image=image, bg='#42F31F')
+             wrong_labels.append(data_carte)
              label_description.config(text=tab)
              img_bouton = Image.open("assets/victoiredescr.png").resize((250, 270))
              photo_bouton = ImageTk.PhotoImage(img_bouton)
@@ -120,12 +121,13 @@ def main(fenetre):
 
             
    def recommencer():
+        all_cards_list = cards.get_all_card_name_with_image_path()
         nonlocal wrong_labels
         for label in wrong_labels:
             label.destroy()
-        wrong_labels = []  
+        wrong_labels = []
         card=choixcarte()        
-        texteatroues()
+        afficher_description(fenetre)
 
 
      
