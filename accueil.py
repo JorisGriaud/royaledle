@@ -5,7 +5,9 @@ from recherche import Recherche
 from classic import main as main_classic
 from description import main as main_description
 from emoji import main as main_emoji
-from description import main as main_description
+
+import pygame
+pygame.mixer.init() # initialise the pygame
 
 class Accueil():
     def __init__(self, fenetre):
@@ -143,7 +145,16 @@ class Accueil():
         
 
     def description(self):
+        pygame.mixer.music.load(f"assets/sound/Eaeaea_yaya_original_lovely_sad_24gh.mp3")
+        pygame.mixer.music.play(loops=-1)
         self.redimensionner_canvas()
+        return
+    
+    def play(self, song):
+        pygame.mixer.music.load(f"assets/sound/{song}")
+        pygame.mixer.music.load(f"assets/soun/{song}")
+        pygame.mixer.music.load(f"assets/sound/{song}")
+        pygame.mixer.music.play(loops=0)
         main_description(self.fenetre)
         return
     
