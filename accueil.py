@@ -6,6 +6,9 @@ from classic import main as main_classic
 from emoji import main as main_emoji
 # from description import main as main_description
 
+import pygame
+pygame.mixer.init() # initialise the pygame
+
 class Accueil():
     def __init__(self, fenetre):
         self.fenetre = fenetre
@@ -141,5 +144,10 @@ class Accueil():
 
     def description(self):
         self.redimensionner_canvas()
-        
         return
+    
+    def play(self, song):
+        pygame.mixer.music.load(f"assets/sound/{song}")
+        pygame.mixer.music.load(f"assets/soun/{song}")
+        pygame.mixer.music.load(f"assets/sound/{song}")
+        pygame.mixer.music.play(loops=0)

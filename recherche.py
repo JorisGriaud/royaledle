@@ -2,6 +2,8 @@ from tkinter import *
 from PIL import Image, ImageTk
 import os
 from Cards import Cards
+import pygame
+import random
 
 class Recherche():
     def __init__(self, fenetre, cards_list, callback=None):
@@ -194,16 +196,40 @@ class Recherche():
             self.input = self.entry.get()
             self.entry.delete(0, END)
             self.container.place_forget()
+
+            if self.input == "Romain/Autiste":
+                pygame.mixer.music.load("assets/music/L’ÉLU DE L’INUTILE.mp3")
+                pygame.mixer.music.play(loops=-1)
+            elif self.input == "TK78 Acsenseur":
+                pygame.mixer.music.load("assets/music/01 - MattOfficiel - Vos mères les tricératops (feat. TK78).flac")
+                pygame.mixer.music.play(loops=0)
+            elif self.input == "TK78 Machine Personnelle":
+                pygame.mixer.music.load("assets/music/13 - Reda Taliani - n'brik sans pitié.flac")
+                pygame.mixer.music.play(loops=0)
+            elif self.input == "Mister Coaster Clown":
+                pygame.mixer.music.load("assets/music/La_nouvelle_musique_de_Buffalo_Grill.mp3")
+                pygame.mixer.music.play(loops=0)
+            elif self.input == "Cimetière" or self.input == "Géant royal":
+                pygame.mixer.music.load(f"assets/music/{random.choice(["RATTRAPAGES & CIMETIÈRE.mp3", "RATTRAPAGES CENDRES.mp3"])}")
+                pygame.mixer.music.play(loops=1)
+            elif self.input == "Coudoux":
+                pygame.mixer.music.load(f"assets/music/La_Coudanse_de_Coudoux.mp3")
+                pygame.mixer.music.play(loops=0)
+            else:
+                pygame.mixer.music.load(f"assets/sound/{random.choice(["Clash_Royale_Hehe_HaHa.mp3", "Crying_Goblin_Clash_Royale_Emotes.mp3"])}")
+                pygame.mixer.music.play(loops=0)
+
             if Cards().get_card_by_name(self.input) is None:
                 # Prendre la première carte de la suggestion
                 if len(self.filtered_data) > 0:
                     self.input = self.filtered_data[0]["name"]
                 else:
                     return
-            for index_item in range(len(self.cards) - 1):
+            for index_item in reversed(range(len(self.cards))):
                 if self.cards[index_item]["name"] == self.input:
                     remove_item = self.cards.pop(index_item)
-                    print("Carte supprimé :", remove_item)
+                    # print("Carte supprimé :", remove_item)
+                    break
             # self.fenetre.focus()
             self.listbox_visible = False
             if self.callback:

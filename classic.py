@@ -151,7 +151,7 @@ def main(fenetre):
             else:
                 data_cible.config(text=card.get_targets(), bg='red')
             
-            # Range/Radius "⬆️ ⬇️"
+            # Range/Radius "⬆️ ⬇️" probleme avec Portée/Radius
             if card.get_range() == None and card_to_guess.get_range() == None:
                 data_portee.config(text="S.O", bg="#42F31F")
             elif card.get_type() == "Sort":
@@ -164,7 +164,6 @@ def main(fenetre):
                         data_portee.config(text=str(card.get_radius()) + "   ⬆️", bg="red")
                 elif isinstance(card_to_guess.get_range(), float or int) and card.get_range() == None or isinstance(card.get_range(), str):
                     data_portee.config(text="S.O   ⬆️", bg="red")
-
             elif card.get_type() == "Troupe" or card.get_type() == "Bâtiment":
                 if card.get_range() == card_to_guess.get_range():
                     data_portee.config(text=card.get_range(), bg="#42F31F")
@@ -183,9 +182,9 @@ def main(fenetre):
             elif card.get_hit_speed() == card_to_guess.get_hit_speed():
                 data_vitesse_attaque.config(text=card.get_hit_speed(), bg="#42F31F")
             elif card.get_hit_speed() == None:
-                data_vitesse_attaque.config(text="S.O   ⬆️" , bg="red")
-            elif card_to_guess.get_hit_speed() == None:
                 data_vitesse_attaque.config(text="S.O   ⬇️" , bg="red")
+            elif card_to_guess.get_hit_speed() == None:
+                data_vitesse_attaque.config(text="S.O   ⬆️" , bg="red")
             elif card.get_hit_speed() > card_to_guess.get_hit_speed():
                 data_vitesse_attaque.config(text=str(card.get_hit_speed()) + "s"  + "   ⬇️" , bg="red")
             elif card.get_hit_speed() < card_to_guess.get_hit_speed():
@@ -197,9 +196,9 @@ def main(fenetre):
             elif card.get_speed() == card_to_guess.get_speed():
                 data_vitesse.config(text=card.get_speed(), bg="#42F31F")
             elif card.get_speed() == None:
-                data_vitesse.config(text="S.O   ⬆️", bg='red')
-            elif card_to_guess.get_speed() == None:
                 data_vitesse.config(text="S.O   ⬇️", bg='red')
+            elif card_to_guess.get_speed() == None:
+                data_vitesse.config(text="S.O   ⬆️", bg='red')
             elif speed_dict[card.get_speed()] > speed_dict[card_to_guess.get_speed()]:
                 data_vitesse.config(text=card.get_speed() + "   ⬇️", bg='red')
             elif speed_dict[card.get_speed()] < speed_dict[card_to_guess.get_speed()]:
