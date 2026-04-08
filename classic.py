@@ -2,11 +2,20 @@ from Cards import Cards
 from recherche import Recherche
 
 from tkinter import *
-from random import randint
+from random import randint, choice
 from PIL import Image, ImageTk # pip install pillow
+import pygame
 
 cards = Cards()
-all_cards_list = cards.get_all_card_name_with_image_path()
+musics = ["01 - Kpoint - Ma 6t a craqué (feat. Ninho).flac", "02 - Kendji Girac - Me Quemo.flac", 
+          "BassPoutine.mp3", "Sois pauvre et tais toi !.mp3", "Vas-y José.mp3", 
+          "Y A Pas D'Amour.mp3", "03 - Black M - Spectateur.flac", "09 - Black M - La légende Black (feat. Dr. Beriz).flac",
+          "13 - Black M - Je ne dirai rien (feat. The Shin Sekaï & Doomams).flac", "01 - Black M - Je suis chez moi.flac", 
+          "PP haine - Les Sales Majestés -.mp3", "01 - Soldat Louis - Du rhum, des femmes.flac", 
+          "03 - Calogero - Face à la mer.flac", "01 - AleFra - Dream in Motion.flac", 
+          "03 - Francis Cabrel - Les murs de poussière (Remastered).flac", "02 - Bramsito - Sale mood(Explicit).flac",
+          "04 - Kaaris - Gun salute(Explicit).flac", "05 - Niska - Medellín(Explicit).flac", 
+          "01 - Tomawok - Angers City.flac"]
 
 def GetRandomCard():
     nbre_cards = cards.get_number_of_cards()
@@ -17,6 +26,7 @@ def GetRandomCard():
     return card
 
 def main(fenetre):
+    all_cards_list = cards.get_all_card_name_with_image_path()
     card_to_guess = GetRandomCard()
 
     hauteur = fenetre.winfo_height()
@@ -151,7 +161,7 @@ def main(fenetre):
             else:
                 data_cible.config(text=card.get_targets(), bg='red')
             
-            # Range/Radius "⬆️ ⬇️"
+            # Range/Radius "⬆️ ⬇️" probleme avec Portée/Radius
             if card.get_range() == None and card_to_guess.get_range() == None:
                 data_portee.config(text="S.O", bg="#42F31F")
             elif card.get_type() == "Sort":
@@ -162,18 +172,17 @@ def main(fenetre):
                         data_portee.config(text=str(card.get_radius()) + "   ⬇️", bg="red")
                     elif card.get_radius() < card_to_guess.get_radius():
                         data_portee.config(text=str(card.get_radius()) + "   ⬆️", bg="red")
-                elif isinstance(card_to_guess.get_range(), float or int) and card.get_range() == None or isinstance(card.get_range(), str):
+                elif isinstance(card_to_guess.get_range(), (float, int)) and (card.get_range() == None or isinstance(card.get_range(), str)):
                     data_portee.config(text="S.O   ⬆️", bg="red")
-
             elif card.get_type() == "Troupe" or card.get_type() == "Bâtiment":
                 if card.get_range() == card_to_guess.get_range():
                     data_portee.config(text=card.get_range(), bg="#42F31F")
-                elif isinstance(card.get_range(), float or int) and isinstance(card_to_guess.get_range(), float or int):        
+                elif isinstance(card.get_range(), (float, int)) and isinstance(card_to_guess.get_range(), (float, int)):        
                     if card.get_range() > card_to_guess.get_range():
                         data_portee.config(text=str(card.get_range()) + "   ⬇️", bg="red")
                     elif card.get_range() < card_to_guess.get_range():
                         data_portee.config(text=str(card.get_range()) + "   ⬆️", bg="red")
-                elif isinstance(card.get_range(), float or int) and card_to_guess.get_range() == None or isinstance(card_to_guess.get_range(), str):
+                elif isinstance(card.get_range(), (float, int)) and (card_to_guess.get_range() == None or isinstance(card_to_guess.get_range(), str)):
                     data_portee.config(text=str(card.get_range()) + "   ⬇️", bg="red")
 
 
@@ -183,9 +192,9 @@ def main(fenetre):
             elif card.get_hit_speed() == card_to_guess.get_hit_speed():
                 data_vitesse_attaque.config(text=card.get_hit_speed(), bg="#42F31F")
             elif card.get_hit_speed() == None:
-                data_vitesse_attaque.config(text="S.O   ⬆️" , bg="red")
-            elif card_to_guess.get_hit_speed() == None:
                 data_vitesse_attaque.config(text="S.O   ⬇️" , bg="red")
+            elif card_to_guess.get_hit_speed() == None:
+                data_vitesse_attaque.config(text="S.O   ⬆️" , bg="red")
             elif card.get_hit_speed() > card_to_guess.get_hit_speed():
                 data_vitesse_attaque.config(text=str(card.get_hit_speed()) + "s"  + "   ⬇️" , bg="red")
             elif card.get_hit_speed() < card_to_guess.get_hit_speed():
@@ -197,9 +206,9 @@ def main(fenetre):
             elif card.get_speed() == card_to_guess.get_speed():
                 data_vitesse.config(text=card.get_speed(), bg="#42F31F")
             elif card.get_speed() == None:
-                data_vitesse.config(text="S.O   ⬆️", bg='red')
-            elif card_to_guess.get_speed() == None:
                 data_vitesse.config(text="S.O   ⬇️", bg='red')
+            elif card_to_guess.get_speed() == None:
+                data_vitesse.config(text="S.O   ⬆️", bg='red')
             elif speed_dict[card.get_speed()] > speed_dict[card_to_guess.get_speed()]:
                 data_vitesse.config(text=card.get_speed() + "   ⬇️", bg='red')
             elif speed_dict[card.get_speed()] < speed_dict[card_to_guess.get_speed()]:
@@ -234,7 +243,9 @@ def main(fenetre):
             canvas.yview_moveto(1.0)
                 
             if card.get_name() == card_to_guess.get_name():
-                exit() # TODO : Faire message victoire
+                pygame.mixer.music.load(f"assets/music/{choice(musics)}")
+                pygame.mixer.music.play(loops=-1)
+                # exit() # TODO : Faire message victoire
         return
 
     Recherche(fenetre, all_cards_list, OnSearchInput)
