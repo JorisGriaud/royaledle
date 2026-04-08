@@ -5,7 +5,7 @@ from recherche import Recherche
 from classic import main as main_classic
 from description import main as main_description
 from emoji import main as main_emoji
-from description import main as main_description
+
 
 class Accueil():
     def __init__(self, fenetre):
@@ -37,7 +37,7 @@ class Accueil():
 
         self.image_bouton3 = Image.open("assets/description.png").resize((self.largeur_carre, self.hauteur_carre))  # Redimensionner à la taille du bouton
         self.photo_bouton3 = ImageTk.PhotoImage(self.image_bouton3)
-        self.bouton3 = Button(self.fenetre, image=self.photo_bouton3, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.classidescription()])
+        self.bouton3 = Button(self.fenetre, image=self.photo_bouton3, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.description()])
         self.bouton3.image = self.photo_bouton3
 
         self.image_bouton4 = Image.open("assets/descdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
