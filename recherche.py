@@ -64,6 +64,7 @@ class Recherche():
         self.fenetre.after(100, self.place_research)
         
         self.listbox_visible = False
+        self.filtered_data = []
 
     def on_frame_configure(self, event):
         self.canvas2.configure(scrollregion=self.canvas2.bbox("all"))
@@ -102,10 +103,10 @@ class Recherche():
         x1 = (largeur - largeur_totale) // 2
         y1 = (hauteur - self.hauteur_bouton) // 2 - 80 + self.hauteur_bouton
 
-        filtered_data = [item for item in self.cards if search_term in item["name"].lower()]
-        
-        if filtered_data:
-            for item in filtered_data:
+        self.filtered_data = [item for item in self.cards if search_term in item["name"].lower()]
+
+        if self.filtered_data:
+            for item in self.filtered_data:
                 self.create_suggestion_row(item)
             
             # Afficher le conteneur avec une hauteur fixe de 270px
@@ -193,11 +194,18 @@ class Recherche():
             self.input = self.entry.get()
             self.entry.delete(0, END)
             self.container.place_forget()
-            self.fenetre.focus()
+            if Cards().get_card_by_name(self.input) is None:
+                # Prendre la première carte de la suggestion
+                if len(self.filtered_data) > 0:
+                    self.input = self.filtered_data[0]["name"]
+                else:
+                    return
+            for index_item in range(len(self.cards) - 1):
+                if self.cards[index_item]["name"] == self.input:
+                    remove_item = self.cards.pop(index_item)
+                    print("Carte supprimé :", remove_item)
+            # self.fenetre.focus()
             self.listbox_visible = False
             if self.callback:
                 self.callback(self.input)
-                return # TODO : Faire que quand on clique sur entrer cela prenne la 1ere carte de la suggestion
-
-    def get_input(self):
-        return self.input
+                return

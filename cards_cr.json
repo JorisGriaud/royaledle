@@ -90,10 +90,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/zVQ9Hme1hlj9Dc6e1ORl9xWwglcSrP7ejow5mAhLUJc.png",
       "description": "Quelle jolie tour vous avez là. Il serait regrettable de voir cet arc-X la réduire en poussière depuis ce côté de l'arène...",
       "emojis": [
-        "🏹",
-        "🎯",
-        "🧱",
-        "⚔️"
+        "arc.png",
+        "cible.png",
+        "mur.png",
+        "épées.png"
       ],
       "icon_path": "assets/clash_royale_cards/arc-x.png"
     },
@@ -111,7 +111,7 @@
       "hitpoints": 529,
       "hit_speed": 1.1,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 7,
       "count": 1,
       "attack_type": "Zone",
@@ -126,10 +126,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Avli3W7BxU9HQ2SoLiXnBgGx25FoNXUSFm7OcAk68ek.png",
       "description": "Mi-sorcier, mi-archer, il tire une flèche magique qui traverse tous les ennemis sur son passage en leur infligeant des dégâts. Aucun trucage c'est magique !",
       "emojis": [
-        "🧙",
-        "🏹",
-        "✨",
-        "🎯"
+        "sorcier.png",
+        "arc.png",
+        "étoile.png",
+        "cible.png"
       ],
       "icon_path": "assets/clash_royale_cards/archer-magique.png"
     },
@@ -139,7 +139,7 @@
       "id": 2,
       "key": "archeres",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 0,
       "damage": 112,
@@ -147,7 +147,7 @@
       "hitpoints": 304,
       "hit_speed": 0.9,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 5,
       "count": 2,
       "attack_type": "Unique",
@@ -162,10 +162,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/W4Hmp8MTSdXANN8KdblbtHwtsbt0o749BbxNqmJYfA8.png",
       "description": "Un duo d'attaquantes à distance légèrement protégées. Elles vous aideront à éliminer les unités terrestres et aériennes, mais ne comptez pas sur elles pour vos conseils coiffure.",
       "emojis": [
-        "🏹",
-        "👩‍🦰",
-        "🎯",
-        "🛡️"
+        "arc.png",
+        "meuf.png",
+        "cible.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/archeres.png"
     },
@@ -198,10 +198,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/fAOToOi1pRy7svN2xQS6mDkhQw2pj9m_17FauaNqyl4.png",
       "description": "Génère un armée de squelettes. Je vous présente Kévin et ses potes Kenny, Katie, Karim, Kelly, etc.",
       "emojis": [
-        "⚔️",
-        "🦴",
-        "💀",
-        "💀"
+        "épées.png",
+        "os.png",
+        "crane.png",
+        "crane.png"
       ],
       "icon_path": "assets/clash_royale_cards/armee-de-squelettes.png"
     },
@@ -211,7 +211,7 @@
       "id": 4,
       "key": "artificiere",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 12,
       "damage": 320,
@@ -234,10 +234,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/c1rL3LO1U2D9-TkeFfAC18gP3AO8ztSwrcHMZplwL2Q.png",
       "description": "Voilà ce qui arrive si on laisse une archère trop s'ennuyer. Elle tire un feu d'artifice qui explose en une pluie d'étincelles à l'impact, infligeant des dégâts à la cible et tout ce qui se trouve derrière.",
       "emojis": [
-        "🧨",
-        "🏹",
-        "🎆",
-        "💥"
+        "artificière.png",
+        "arc",
+        "feuartifice.png",
+        "explosion.png"
       ],
       "icon_path": "assets/clash_royale_cards/artificiere.png"
     },
@@ -255,7 +255,7 @@
       "hitpoints": 1676,
       "hit_speed": 2,
       "targets": "Bâtiments",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -270,10 +270,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/qBipxLo-3hhCnPrApp2Nn3b2NgrSrvwzWytvREev0CY.png",
       "description": "Ils ont beau faire joli dans le ciel, vous n'avez pas envie de voir ces ballons se rassembler à l'horizon : ils lancent des bombes puissantes et, lorsqu'ils sont abattus, ils s'écrasent en infligeant des dégâts de zone.",
       "emojis": [
-        "🎈",
-        "💣",
-        "☁️",
-        "🏰"
+        "ballon.png",
+        "bombe.png",
+        "nuage.png",
+        "chateau.png"
       ],
       "icon_path": "assets/clash_royale_cards/ballon.png"
     },
@@ -283,7 +283,7 @@
       "id": 6,
       "key": "barbares",
       "elixir": 5,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 3,
       "damage": 192,
@@ -291,7 +291,7 @@
       "hitpoints": 691,
       "hit_speed": 1.4,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 5,
       "attack_type": "Unique",
@@ -306,10 +306,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png",
       "description": "Une horde d'attaquants de mêlée pourvus d'une moustache d'enfer et d'un tempérament tout aussi infernal.",
       "emojis": [
-        "⚔️",
-        "🧔",
-        "💢",
-        "🤺"
+        "épées.png",
+        "barbe.png",
+        "rage.png",
+        "escrime.png"
       ],
       "icon_path": "assets/clash_royale_cards/barbares.png"
     },
@@ -319,7 +319,7 @@
       "id": 7,
       "key": "barbares-d-élite",
       "elixir": 6,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 10,
       "damage": 384,
@@ -342,10 +342,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/C88C5JH_F3lLZj6K-tLcMo5DPjrFmvzIb1R2M6xCfTE.png",
       "description": "Fait apparaître une paire de barbares au niveau boosté. Ils ressemblent aux barbares habituels, en plus costauds, plus beaux, plus rapides et plus forts.",
       "emojis": [
-        "⚔️",
-        "🧔",
-        "🏃",
-        "💢"
+        "épées.png",
+        "barbe.png",
+        "run.png",
+        "rage.png"
       ],
       "icon_path": "assets/clash_royale_cards/barbares-d-élite.png"
     },
@@ -355,7 +355,7 @@
       "id": 8,
       "key": "berserker",
       "elixir": 2,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 9,
       "damage": 102,
@@ -378,10 +378,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/NA6W8S1JBYBlOPwD3dNvJLFvVDKq-UuBs_J3i3ewLFI.png",
       "description": "La fréquence à laquelle elle doit aiguiser ses haches est stupéfiante... Mais après tout, ce serait aussi votre cas si vous frappiez sur tout 24h sur 24.",
       "emojis": [
-        "🪓",
-        "😡",
-        "🩸",
-        "🏃"
+        "hache.png",
+        "colere.png",
+        "sang.png",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/berserker.png"
     },
@@ -391,7 +391,7 @@
       "id": 9,
       "key": "bombardier",
       "elixir": 2,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 2,
       "damage": 225,
@@ -399,7 +399,7 @@
       "hitpoints": 204,
       "hit_speed": 1.8,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 4.5,
       "count": 1,
       "attack_type": "Zone",
@@ -414,10 +414,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/12n1CesxKIcqVYntjxcF36EFA-ONw7Z-DoL0_rQrbdo.png",
       "description": "Petit squelette sans grande protection qui lance des bombes. Inflige des dégâts de zone capables d'anéantir une nuée d'ennemis.",
       "emojis": [
-        "💣",
-        "🧨",
-        "💥",
-        "🦴"
+        "bombe.png",
+        "artificière.png",
+        "explosion.png",
+        "os.png"
       ],
       "icon_path": "assets/clash_royale_cards/bombardier.png"
     },
@@ -450,10 +450,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/lZD9MILQv7O-P3XBr_xOLS5idwuz3_7Ws9G60U36yhc.png",
       "description": "Et bim, une boule de feu. Incinère une petite zone, infligeant des dégâts élevés. Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "🔥",
-        "💥",
-        "🎯",
-        "☄️"
+        "feu.png",
+        "explosion.png",
+        "cible",
+        "comete.png"
       ],
       "icon_path": "assets/clash_royale_cards/boule-de-feu.png"
     },
@@ -471,7 +471,7 @@
       "hitpoints": 2081,
       "hit_speed": 2.5,
       "targets": "Sol",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": 4,
       "count": 1,
       "attack_type": "Zone",
@@ -486,10 +486,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/SU4qFXmbQXWjvASxVI6z9IJuTYolx4A0MKK90sTIE88.png",
       "description": "",
       "emojis": [
-        "🪨",
-        "🥤",
-        "🟣",
-        "🎳"
+        "rocher.png",
+        "gloub.png",
+        "violet.png",
+        "quille.png"
       ],
       "icon_path": "assets/clash_royale_cards/bouliste.png"
     },
@@ -507,7 +507,7 @@
       "hitpoints": 1280,
       "hit_speed": 2.4,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 4.5,
       "count": 1,
       "attack_type": "Zone",
@@ -522,10 +522,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/9XL5BP2mqzV8kza6KF8rOxrpCZTyuGLp2l413DTjEoM.png",
       "description": "Il lance sa hache comme un boomerang, frappant tous les ennemis à l'aller et au retour. C'est un miracle qu'il n'ait pas perdu un bras.",
       "emojis": [
-        "🪓",
-        "🔄",
-        "👺",
-        "🛡️"
+        "hache.png",
+        "reverse.png",
+        "gob.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/bourreau.png"
     },
@@ -543,7 +543,7 @@
       "hitpoints": 304,
       "hit_speed": 1.4,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 2,
       "attack_type": "Unique",
@@ -558,10 +558,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/vqTzGAjseQv9F5rf4tsFWeocvg0dyPw1j_nB1cmDZfI.png",
       "description": "Ce buisson s'avance incognito vers le bâtiment le plus proche. Très suspicieusement. Si le buisson suspicieux atteint son objectif ou est détruit par un sort, des gobelins camouflés surprennent l'ennemi!",
       "emojis": [
-        "🌳",
-        "👀",
-        "🕵️",
-        "🍃"
+        "arbre.png",
+        "yeux.png",
+        "detective.png",
+        "feuille.png"
       ],
       "icon_path": "assets/clash_royale_cards/buisson-suspicieux.png"
     },
@@ -594,10 +594,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/cjC9n4AvEZJ3urkVh-rwBkJ-aRSsydIMqSAV48hAih0.png",
       "description": "Fait des rototos-boules de feu qui infligent des dégâts de zone depuis les airs. Les bébés dragons naissent adorables, affamés et prêts pour un bon petit barbecue.",
       "emojis": [
-        "🔥",
-        "🟢",
-        "🐲",
-        "👶"
+        "feu.png",
+        "vert.png",
+        "dragon.png",
+        "bebe.png"
       ],
       "icon_path": "assets/clash_royale_cards/bebe-dragon.png"
     },
@@ -615,7 +615,7 @@
       "hitpoints": 967,
       "hit_speed": null,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Zone",
@@ -630,10 +630,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/dyc50V2cplKi4H7pq1B3I36pl_sEH5DQrNHboS_dbbM.png",
       "description": "Deux barbares utilisant un tronc comme bélier pour charger le bâtiment le plus proche. Ils infligent des dégâts importants s'ils atteignent leur cible, puis attaquent l'épée à la main.",
       "emojis": [
-        "🪵",
-        "🧔",
-        "🏰",
-        "🛡️"
+        "buche.png",
+        "barbe.png",
+        "chateau.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/belier-de-combat.png"
     },
@@ -651,7 +651,7 @@
       "hitpoints": 1282,
       "hit_speed": 0.8,
       "targets": "Sol",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -666,10 +666,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/E6RWrnCuk13xMX5OE1EQtLEKTZQV6B78d00y8PlXt6Q.png",
       "description": "Il abat des arbres le jour et poursuit la bûche la nuit. Son flacon de rage se renverse quand il est éliminé.",
       "emojis": [
-        "😡",
-        "🏃",
-        "🪓",
-        "🧪"
+        "colere.png",
+        "run.png",
+        "hache.png",
+        "tube.png"
       ],
       "icon_path": "assets/clash_royale_cards/bucheron.png"
     },
@@ -687,7 +687,7 @@
       "hitpoints": 1164,
       "hit_speed": 15,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -702,10 +702,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/ho0nOG2y3Ch86elHHcocQs8Fv_QNe0cFJ2CijsxABZA.png",
       "description": "Bâtiment générant régulièrement des barbares pour affronter l'ennemi. À vous les invasions barbares!",
       "emojis": [
-        "🧔",
-        "⚔️",
-        "🧱",
-        "🏠"
+        "barbe.png",
+        "épées.png",
+        "mur",
+        "maison.png"
       ],
       "icon_path": "assets/clash_royale_cards/cabane-de-barbares.png"
     },
@@ -723,7 +723,7 @@
       "hitpoints": 1180,
       "hit_speed": 2.1,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": 6,
       "count": 1,
       "attack_type": "Unique",
@@ -738,10 +738,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/l8ZdzzNLcwB4u7ihGgxNFQOjCT_njFuAhZr7D6PRF7E.png",
       "description": "Bâtiment défensif qui génère des gobelins à lances quand des ennemis se trouvent à sa portée. Ne regardez pas à l'intérieur, vous ne voulez pas savoir de quoi ils sont faits!",
       "emojis": [
-        "👺",
-        "🏹",
-        "🍃",
-        "🏠"
+        "gob.png",
+        "arc",
+        "feuille.png",
+        "maison.png"
       ],
       "icon_path": "assets/clash_royale_cards/cabane-de-gobelins.png"
     },
@@ -774,10 +774,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/vD24bBgK4rSq7wx5QEbuqChtPMRFviL_ep76GwQw1yA.png",
       "description": "Lorsque la cage est détruite, elle libère son gobelin félon. Et il n'est pas du genre à rigoler.",
       "emojis": [
-        "⛓️",
-        "👺",
-        "😡",
-        "🧱"
+        "chaine.png",
+        "gob.png",
+        "colere.png",
+        "mur"
       ],
       "icon_path": "assets/clash_royale_cards/cage-gobeline.png"
     },
@@ -787,7 +787,7 @@
       "id": 20,
       "key": "canon",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Bâtiment",
       "arena_unlock": 3,
       "damage": 212,
@@ -810,10 +810,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/nZK1y-beLxO5vnlyUhK6-2zH2NzXJwqykcosqQ1cmZ8.png",
       "description": "Dispositif de défense. Tire des boulets de canon aux effets meurtriers, mais ne peut pas cibler les combattants volants.",
       "emojis": [
-        "💣",
-        "🧱",
-        "💥",
-        "🛡️"
+        "bombe.png",
+        "mur.png",
+        "explosion.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/canon.png"
     },
@@ -831,7 +831,7 @@
       "hitpoints": 1697,
       "hit_speed": 1.7,
       "targets": "Bâtiments",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -846,10 +846,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/QaJyerT7f7oMyZ3Fv1glKymtLSvx7YUXisAulxl7zRI.png",
       "description": "Et les voilà qui chargent à travers l'arène, piègent leurs ennemis, détruisent les tours et... s'arrêtent pour casser la croûte?!",
       "emojis": [
-        "⛓️",
-        "🏰",
-        "🐐",
-        "👩🏾"
+        "chaine.png",
+        "chateau.png",
+        "goat.png",
+        "fnoir.png"
       ],
       "icon_path": "assets/clash_royale_cards/cavabeliere.png"
     },
@@ -867,7 +867,7 @@
       "hitpoints": 1809,
       "hit_speed": 0.9,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 5.5,
       "count": 1,
       "attack_type": "Unique",
@@ -882,10 +882,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/aqwxRz8HXzqlMCO4WMXNA1txynjXTsLinknqsgZLbok.png",
       "description": "Un canon sur roues? Je parie qu'ils ne l'ont pas vu venir! Il perd ses roues lorsque son bouclier est brisé.",
       "emojis": [
-        "🛞",
-        "🧱",
-        "🛒",
-        "💣"
+        "roue.png",
+        "mur.png",
+        "cadie.png",
+        "bombe.png"
       ],
       "icon_path": "assets/clash_royale_cards/charrette-a-canon.png"
     },
@@ -903,7 +903,7 @@
       "hitpoints": 885,
       "hit_speed": 2.2,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 4,
       "count": 1,
       "attack_type": "Zone # TODO: à voir",
@@ -918,10 +918,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/VNabB1WKnYtYRSG7X_FZfnZjQDHTBs9A96OGMFmecrA.png",
       "description": "Rodé au combat au corps à corps, mais pas tant la précision. On lui pardonne, bien sûr, parce que des sourcils aussi fournis, ça se respecte!",
       "emojis": [
-        "🧔",
-        "🎩",
-        "🛡️",
-        "🔫"
+        "barbe.png",
+        "chapeau.png",
+        "bouclier.png",
+        "pistolet.png"
       ],
       "icon_path": "assets/clash_royale_cards/chasseur.png"
     },
@@ -931,7 +931,7 @@
       "id": 24,
       "key": "chauves-souris",
       "elixir": 2,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 5,
       "damage": 81,
@@ -939,7 +939,7 @@
       "hitpoints": 81,
       "hit_speed": 1.2,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 5,
       "attack_type": "Unique",
@@ -954,10 +954,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/EnIcvO21hxiNpoI-zO6MDjLmzwPbq8Z4JPo2OKoVUjU.png",
       "description": "Génère une poignée de petites créatures volantes. Ce sont d'adorables petites boules... de destruction.",
       "emojis": [
-        "🌑",
-        "☁️",
-        "🌌",
-        "🦇"
+        "lune.png",
+        "nuage.png",
+        "galaxie.png",
+        "chauve.png"
       ],
       "icon_path": "assets/clash_royale_cards/chauves-souris.png"
     },
@@ -990,10 +990,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/nuceG9o7rAyvyc7D3sp2QSiRYtSOEgraq0NJkDf729s.png",
       "description": "La boss du Gang de la forêt a enfin décidé de se montrer... ou presque. La cheffe des voleuses fonce vers ses cibles et devient invulnérable pendant la ruée. Quand ça tourne au vinaigre, elle dégaine ses grenades surprises!",
       "emojis": [
-        "👺",
-        "🎭",
-        "👑",
-        "💨"
+        "gob.png",
+        "theatre.png",
+        "couronne.png",
+        "fart.png"
       ],
       "icon_path": "assets/clash_royale_cards/cheffe-des-voleuses.png"
     },
@@ -1003,7 +1003,7 @@
       "id": 26,
       "key": "chevalier",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 0,
       "damage": 202,
@@ -1011,7 +1011,7 @@
       "hitpoints": 1766,
       "hit_speed": 1.2,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -1026,10 +1026,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/jAj1Q5rclXxU9kVImGqSJxa4wEMfEhvwNQ_4jiGUuqg.png",
       "description": "Un spécialiste du combat rapproché, cousin charmant et cultivé du barbare. On raconte que la magnificence de sa moustache a suffi à justifier son adoubement.",
       "emojis": [
-        "⚔️",
-        "🛡️",
-        "🧔",
-        "🏰"
+        "épées.png",
+        "bouclier.png",
+        "barbe.png",
+        "chateau.png"
       ],
       "icon_path": "assets/clash_royale_cards/chevalier.png"
     },
@@ -1047,7 +1047,7 @@
       "hitpoints": 1799,
       "hit_speed": 0.9,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -1062,10 +1062,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/WJd207D0O1sN-l1FTb8P9KhYL2oF5jY26vRUfTUW3FQ.png",
       "description": "Un guerrier à la chevelure aussi remarquable que sa souplesse. Il sera ravi de vous faire une démonstration de ses talents de gymnaste.",
       "emojis": [
-        "⚔️",
-        "🛡️",
-        "🧔",
-        "✨"
+        "épées.png",
+        "bouclier.png",
+        "barbe.png",
+        "étoile.png"
       ],
       "icon_path": "assets/clash_royale_cards/chevalier-d-or.png"
     },
@@ -1083,7 +1083,7 @@
       "hitpoints": 1697,
       "hit_speed": 1.6,
       "targets": "Bâtiments",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -1098,10 +1098,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png",
       "description": "Combattant de mêlée rapide visant les bâtiments, capable de sauter par-dessus la rivière. S'il entend crier « Chevaucheur de cochooon », il répond à l'appel jusque dans l'arène.",
       "emojis": [
-        "🔨",
-        "🧔",
-        "🏰",
-        "🐗"
+        "marteau.png",
+        "barbe.png",
+        "chateau.png",
+        "sanglier.png"
       ],
       "icon_path": "assets/clash_royale_cards/chevaucheur-de-cochon.png"
     },
@@ -1134,10 +1134,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Icp8BIyyfBTj1ncCJS7mb82SY7TPV-MAE-J2L2R48DI.png",
       "description": "Surprise! C'est la fête. La fête des squelettes, n'importe où dans l'arène. Youpi!",
       "emojis": [
-        "🪦",
-        "💀",
-        "🪄",
-        "🛡️"
+        "cimetiere.png",
+        "crane.png",
+        "baguette.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/cimetiere.png"
     },
@@ -1154,7 +1154,7 @@
       "damage_per_sec": null,
       "hitpoints": 1,
       "hit_speed": null,
-      "targets": "Sol & Air # TODO: à voir",
+      "targets": "Air & Sol",
       "speed": null,
       "range": null,
       "count": 1,
@@ -1170,10 +1170,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/mHVCet-1TkwWq-pxVIU2ZWY9_2z7Z7wtP25ArEUsP_g.png",
       "description": "Copie toutes les troupes alliées de la zone cible. Les troupes clonées sont fragiles, mais tout aussi efficaces que les originales. N'affecte pas les bâtiments.",
       "emojis": [
-        "🪄",
-        "✨",
-        "🫧",
-        "👥"
+        "baguette.png",
+        "étoile.png",
+        "bulle.png",
+        "double.png"
       ],
       "icon_path": "assets/clash_royale_cards/clonage.png"
     },
@@ -1191,7 +1191,7 @@
       "hitpoints": 837,
       "hit_speed": 1.2,
       "targets": "Bâtiments",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 4,
       "attack_type": "Unique",
@@ -1206,10 +1206,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/ASSQJG_MoVq9e81HZzo4bynMnyLNpNJMfSLb3hqydOw.png",
       "description": "Les animaux de compagnie du roi se sont échappés! Ils adorent mâchouiller des pommes ou des tours ennemies, selon l'envie.",
       "emojis": [
-        "🏰",
-        "👑",
-        "🐽",
-        "🐷"
+        "chateau.png",
+        "couronne.png",
+        "grouin.png",
+        "cochon.png"
       ],
       "icon_path": "assets/clash_royale_cards/cochons-royaux.png"
     },
@@ -1219,7 +1219,7 @@
       "id": 32,
       "key": "colis-royal",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Sort",
       "arena_unlock": 14,
       "damage": 437,
@@ -1227,7 +1227,7 @@
       "hitpoints": 546,
       "hit_speed": 1.3,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -1242,10 +1242,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/LPg7AGjGI3_xmi7gLLgGC50yKM1jJ2teWkZfoHJcIZo.png",
       "description": "Pas d'accusé de réception nécessaire. Livré par les airs, le colis inflige des dégâts de zone, avant de libérer une recrue royale. La boîte vide est aussi très pratique pour l'espionnage.",
       "emojis": [
-        "🛡️",
-        "☁️",
-        "💥",
-        "📦"
+        "bouclier.png",
+        "nuage.png",
+        "explosion.png",
+        "carton.png"
       ],
       "icon_path": "assets/clash_royale_cards/colis-royal.png"
     },
@@ -1262,8 +1262,8 @@
       "damage_per_sec": "80-960",
       "hitpoints": 1295,
       "hit_speed": 0.4,
-      "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "targets": "Air & Sol",
+      "speed": "Moyenne",
       "range": 3.5,
       "count": 1,
       "attack_type": "Unique",
@@ -1278,10 +1278,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/y5HDbKtTbWG6En6TGWU0xoVIGs1-iQpIP4HC-VM7u8A.png",
       "description": "Crache un faisceau de feu focalisé dont les dégâts augmentent au fil du temps. Porte un casque, car voler n'est pas sans danger.",
       "emojis": [
-        "🔥",
-        "🛡️",
-        "☀️",
-        "🐲"
+        "feu.png",
+        "bouclier.png",
+        "volcan.png",
+        "dragon.png"
       ],
       "icon_path": "assets/clash_royale_cards/dragon-de-l-enfer.png"
     },
@@ -1291,7 +1291,7 @@
       "id": 34,
       "key": "dragon-squelettes",
       "elixir": 4,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 4,
       "damage": 161,
@@ -1314,10 +1314,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/qPOtg9uONh47_NLxGhhFc_ww9PlZ6z3Ry507q1NZUXs.png",
       "description": "Ce duo de feu cause des dégâts de zone en survolant l'arène. Le dimanche, ils jouent des percussions pour un cours de danse macabre.",
       "emojis": [
-        "☁️",
-        "🦴",
-        "🔥",
-        "🐲"
+        "nuage.png",
+        "os.png",
+        "feu.png",
+        "dragon.png"
       ],
       "icon_path": "assets/clash_royale_cards/dragon-squelettes.png"
     },
@@ -1327,7 +1327,7 @@
       "id": 35,
       "key": "esprit-de-feu",
       "elixir": 1,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 4,
       "damage": 207,
@@ -1335,7 +1335,7 @@
       "hitpoints": 230,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": 2.5,
       "count": 1,
       "attack_type": "Zone",
@@ -1350,10 +1350,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/16-BqusVvynIgYI8_Jci3LDC-r8AI_xaIYLgXqtlmS8.png",
       "description": "L'esprit de feu nourrit une passion brûlante pour les câlins trop chaleureux. Ce serait adorable s'il ne mettait pas le feu à tout ce qu'il touche.",
       "emojis": [
-        "🔥",
-        "💥",
-        "🟠",
-        "👻"
+        "feu.png",
+        "explosion.png",
+        "orange.png",
+        "fantome.png"
       ],
       "icon_path": "assets/clash_royale_cards/esprit-de-feu.png"
     },
@@ -1363,7 +1363,7 @@
       "id": 36,
       "key": "esprit-de-glace",
       "elixir": 1,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 8,
       "damage": 110,
@@ -1371,7 +1371,7 @@
       "hitpoints": 230,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": 2.5,
       "count": 1,
       "attack_type": "Zone",
@@ -1386,10 +1386,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/lv1budiafU9XmSdrDkk0NYyqASAFYyZ06CPysXKZXlA.png",
       "description": "Fait apparaître un petit esprit de glace plein d'entrain, capable de congeler un groupe d'ennemis. Un vrai vent de fraîcheur.",
       "emojis": [
-        "🥶",
-        "🔵",
-        "❄️",
-        "👻"
+        "froid.png",
+        "bleu.png",
+        "flocon.png",
+        "fantome.png"
       ],
       "icon_path": "assets/clash_royale_cards/esprit-de-glace.png"
     },
@@ -1407,7 +1407,7 @@
       "hitpoints": 230,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": 2.5,
       "count": 1,
       "attack_type": "Zone",
@@ -1422,10 +1422,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/GITl06sa2nGRLPvboyXbGEv5E3I-wAwn1Eqa5esggbc.png",
       "description": "Esprit espiègle qui adore faire des câlins aux ennemis, leur infligeant des dégâts et laissant derrière lui un sort de soin pour ses alliés. Au revoir, sort de guérison! On t'aimait bien... Mais on t'utilisait pas...",
       "emojis": [
-        "✨",
-        "🩹",
-        "💛",
-        "👻"
+        "étoile.png",
+        "pansement.png",
+        "coeurj.png",
+        "fantome.png"
       ],
       "icon_path": "assets/clash_royale_cards/esprit-de-guérison.png"
     },
@@ -1458,10 +1458,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/BGLo3Grsp81c72EpxLLk-Sofk3VY56zahnUNOv3JcT0.png",
       "description": "Il faut dépenser de l'élixir pour en produire. Au cours de sa période d'activité, ce bâtiment produit 8 unités d'élixir. Ne fait pas partie des cartes de départ.",
       "emojis": [
-        "🧪",
-        "🟣",
-        "🧱",
-        "💧"
+        "tube.png",
+        "violet.png",
+        "mur.png",
+        "goutte.png"
       ],
       "icon_path": "assets/clash_royale_cards/extracteur-d'élixir.png"
     },
@@ -1471,7 +1471,7 @@
       "id": 39,
       "key": "fantôme-royal",
       "elixir": 3,
-      "rarity": "Légandaire",
+      "rarity": "Légendaire",
       "type": "Troupe",
       "arena_unlock": 12,
       "damage": 261,
@@ -1494,10 +1494,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/3En2cz0ISQAaMTHY3hj3rTveFN2kJYq-H4VxvdJNvCM.png",
       "description": "Invisible, il dérive à travers l'arène, jusqu'à ce qu'un ennemi le réveille... et il attaque! Puis après quelques secondes sans attaquer, il redevient invisible. Zzzz...",
       "emojis": [
-        "🗡️",
-        "🌫️",
-        "👻",
-        "👑"
+        "épée.png",
+        "nuage.png",
+        "fantome.png",
+        "couronne.png"
       ],
       "icon_path": "assets/clash_royale_cards/fantôme-royal.png"
     },
@@ -1507,7 +1507,7 @@
       "id": 40,
       "key": "flèches",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Sort",
       "arena_unlock": 0,
       "damage": 366,
@@ -1530,10 +1530,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Flsoci-Y6y8ZFVi5uRFTmgkPnCmMyMVrU7YmmuPvSBo.png",
       "description": "Arrose de flèches une large zone, infligeant des dégâts à tous les ennemis touchés. Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "🌧️",
-        "🎯",
-        "☁️",
-        "🏹"
+        "nuageeau.png",
+        "cible",
+        "nuage.png",
+        "arc"
       ],
       "icon_path": "assets/clash_royale_cards/flèches.png"
     },
@@ -1566,10 +1566,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/eN2TKUYbih-26yBi0xy5LVFOA0zDftgDqxxnVfdIg1o.png",
       "description": "Bâtiment capable de se frayer un chemin souterrain pour ressurgir n'importe où dans l'arène et invoquer des gobelins un par un. Lorsqu'elle est détruite, la foreuse invoque quelques gobelins de plus, histoire de ne rien laisser au hasard.",
       "emojis": [
-        "🔩",
-        "👺",
-        "🪵",
-        "🧱"
+        "vis.png",
+        "gob.png",
+        "buche.png",
+        "mur.png"
       ],
       "icon_path": "assets/clash_royale_cards/foreuse-gobeline.png"
     },
@@ -1602,10 +1602,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/fpnESbYqe5GyZmaVVYe-SEu7tE0Kxh_HZyVigzvLjks.png",
       "description": "La foudre étourdit et inflige des dégâts aux trois bâtiments ou combattants ennemis ayant le plus de points de vie dans la zone cible. Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "☁️",
-        "🪄",
-        "🌩️",
-        "⚡"
+        "nuage.png",
+        "baguette.png",
+        "nuageeclair.png",
+        "eclair.png"
       ],
       "icon_path": "assets/clash_royale_cards/foudre.png"
     },
@@ -1623,7 +1623,7 @@
       "hitpoints": 727,
       "hit_speed": 1.7,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 6,
       "count": 1,
       "attack_type": "Unique",
@@ -1638,20 +1638,20 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/iqbDiG7yYRIzvCPXdt9zPb3IvMt7F7Gi4wIPnh2x4aI.png",
       "description": "La fournaise génère un esprit de feu à la fois. Elle est aussi conseillée pour les galettes cuites au feu de bois.",
       "emojis": [
-        "🧱",
-        "👻",
-        "🏗️",
-        "🔥"
+        "mur.png",
+        "fantome.png",
+        "grue.png",
+        "feu.png"
       ],
       "icon_path": "assets/clash_royale_cards/fournaise.png"
     },
     {
-      "name": "Fripons TODO: à voir",
+      "name": "Fripons",
       "name_en": "Rascals",
       "id": 44,
       "key": "fripons",
       "elixir": 5,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 13,
       "damage": 125,
@@ -1659,7 +1659,7 @@
       "hitpoints": 261,
       "hit_speed": 1,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 5,
       "count": 3,
       "attack_type": "Unique",
@@ -1674,10 +1674,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/KV48DfwVHKx9XCjzBdk3daT_Eb52Me4VgjVO7WctRc4.png",
       "description": "Génère un trio de fripons malicieux! Le garçon mène la charge, tandis que les filles utilisent leurs frondes pour bombarder les ennemis de chewing-gum magique.",
       "emojis": [
-        "👦",
-        "👧",
-        "🍬",
-        "🛡️"
+        "garcon.png",
+        "fillette.png",
+        "bonbon.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/fripons.png"
     },
@@ -1695,7 +1695,7 @@
       "hitpoints": 691,
       "hit_speed": 1.4,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -1710,10 +1710,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Gb0G1yNy0i5cIGUHin8uoFWxqntNtRPhY_jeMXg7HnA.png",
       "description": "Il roule sur tout ce qui se trouve sur son passage en infligeant des dégâts, puis un barbare en sort quand il se brise. Comment s'est-il faufilé là-dedans?",
       "emojis": [
-        "🪵",
-        "🧔",
-        "🛞",
-        "⚔️"
+        "buche.png",
+        "barbe.png",
+        "roue.png",
+        "épées.png"
       ],
       "icon_path": "assets/clash_royale_cards/fut-a-barbare.png"
     },
@@ -1731,7 +1731,7 @@
       "hitpoints": 202,
       "hit_speed": 1.1,
       "targets": "Sol",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 3,
       "attack_type": "Unique",
@@ -1746,10 +1746,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/CoZdp5PpsTH858l212lAMeJxVJ0zxv9V-f5xC8Bvj5g.png",
       "description": "Fait surgir trois gobelins n'importe où dans l'arène. On va s'éclater les gars!",
       "emojis": [
-        "🪵",
-        "🟢",
-        "👺",
-        "🚀"
+        "buche.png",
+        "vert.png",
+        "gob.png",
+        "fusee.png"
       ],
       "icon_path": "assets/clash_royale_cards/fut-a-gobelins.png"
     },
@@ -1759,7 +1759,7 @@
       "id": 47,
       "key": "fut-a-squelettes",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 9,
       "damage": 81,
@@ -1782,10 +1782,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/vCB4DWCcrGbTkarjcOiVz4aNDx6GWLm0yUepg9E1MGo.png",
       "description": "C'est la fête des squelettes dans le ciel, jusqu'à ce que tous les ballons éclatent... Ensuite, la fête des squelettes continue sur la terre ferme!",
       "emojis": [
-        "🎈",
-        "🪵",
-        "🛢️",
-        "💀"
+        "ballon.png",
+        "buche.png",
+        "baril.png",
+        "crane.png"
       ],
       "icon_path": "assets/clash_royale_cards/fut-a-squelettes.png"
     },
@@ -1795,7 +1795,7 @@
       "id": 48,
       "key": "gang-de-gobelins",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 9,
       "damage": 81,
@@ -1803,7 +1803,7 @@
       "hitpoints": 133,
       "hit_speed": 1.7,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": 5,
       "count": 6,
       "attack_type": "Unique",
@@ -1818,15 +1818,15 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/NHflxzVAQT4oAz7eDfdueqpictb5vrWezn1nuqFhE4w.png",
       "description": "Six gobelins surgissent, trois armés de couteaux, trois armés de lances, pour un coût en élixir réduit. C'est comme un pack éco pour gobelins!",
       "emojis": [
-        "👺",
-        "🟢",
-        "🗡️",
-        "🏹"
+        "gob.png",
+        "vert.png",
+        "épée.png",
+        "arc"
       ],
       "icon_path": "assets/clash_royale_cards/gang-de-gobelins.png"
     },
     {
-      "name": "Guardes",
+      "name": "Gardes",
       "name_en": "Guards",
       "id": 49,
       "key": "guardes",
@@ -1854,10 +1854,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/1ArKfLJxYo6_NU_S9cAeIrfbXqWH0oULVJXedxBXQlU.png",
       "description": "Trois sacs d'os impitoyables armés de boucliers. Enlevez-leur leurs boucliers et qu'est-ce qui reste? Trois sacs d'os impitoyables.",
       "emojis": [
-        "🛡️",
-        "🗡️",
-        "💀",
-        "🦴"
+        "bouclier.png",
+        "épée.png",
+        "crane.png",
+        "os.png"
       ],
       "icon_path": "assets/clash_royale_cards/guardes.png"
     },
@@ -1867,7 +1867,7 @@
       "id": 50,
       "key": "gargouilles",
       "elixir": 3,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 0,
       "damage": 107,
@@ -1890,10 +1890,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/yHGpoEnmUWPGV_hBbhn-Kk-Bs838OjGzWzJJlQpQKQA.png",
       "description": "Trois attaquants volants, rapides et sans armure. Les roses sont rouges et les gargouilles sont bleues, elles volent dans les cieux et zigouillent tout ce qui bouge.",
       "emojis": [
-        "😈",
-        "🪽",
-        "🔵",
-        "☁️"
+        "demon.png",
+        "aile.png",
+        "bleu.png",
+        "nuage.png"
       ],
       "icon_path": "assets/clash_royale_cards/gargouilles.png"
     },
@@ -1926,10 +1926,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/I1M20_Zs_p_BS1NaNIVQjuMJkYI_1-ePtwYZahn0JXQ.png",
       "description": "Immobilise et inflige des dégâts aux combattants et bâtiments ennemis qui ne peuvent plus se déplacer ou attaquer. Que personne ne bouge! Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "🥶",
-        "⏱️",
-        "❄️",
-        "🧊"
+        "froid.png",
+        "reveil.png",
+        "flocon.png",
+        "glacon.png"
       ],
       "icon_path": "assets/clash_royale_cards/gel.png"
     },
@@ -1947,7 +1947,7 @@
       "hitpoints": 1300,
       "hit_speed": 1.1,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 5,
       "count": 1,
       "attack_type": "Zone",
@@ -1962,10 +1962,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/KVVOgdn40xasFLYuQv8Go_U_LCV7wSG9q9eE1H7f3Qk.png",
       "description": "BOUM! Le gobelin explosif inflige des dégâts de zone et explose à sa mort. Quand ses PV sont bas, il charge le bâtiment le plus proche.",
       "emojis": [
-        "👺",
-        "💣",
-        "💥",
-        "🏃"
+        "gob.png",
+        "bombe.png",
+        "explosion.png",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/gobelin-explosif.png"
     },
@@ -1983,7 +1983,7 @@
       "hitpoints": 3020,
       "hit_speed": 1.5,
       "targets": "Bâtiments",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -1998,10 +1998,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/SoW16cY3jXBwaTDvb39DkqiVsoFVaDWbzf5QBYphJrY.png",
       "description": "Ce gobelin géant tout vert et tout joyeux avance lourdement vers les bâtiments ennemis. Il transporte deux gobelins à lances partout où il va. C'est un peu bizarre, mais ça marche.",
       "emojis": [
-        "👺",
-        "👹",
-        "🏹",
-        "🍃"
+        "gob.png",
+        "demon1.png",
+        "arc",
+        "feuille.png"
       ],
       "icon_path": "assets/clash_royale_cards/gobelin-geant.png"
     },
@@ -2019,7 +2019,7 @@
       "hitpoints": 261,
       "hit_speed": 0.8,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": 6.5,
       "count": 1,
       "attack_type": "Unique",
@@ -2034,10 +2034,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/BmpK3bqEAviflqHCdxxnfm-_l3pRPJw3qxHkwS55nCY.png",
       "description": "Court vite, tire loin et mâche du chewing-gum. Son secret pour souffler des fléchettes la bouche pleine de chewing-gum magique? Des années de leçons de didgeridoo.",
       "emojis": [
-        "👺",
-        "🎋",
-        "🎯",
-        "🏃"
+        "gob.png",
+        "bambou.png",
+        "cible",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/gobelin-a-sarbacane.png"
     },
@@ -2047,7 +2047,7 @@
       "id": 55,
       "key": "gobelin",
       "elixir": 2,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 1,
       "damage": 120,
@@ -2055,7 +2055,7 @@
       "hitpoints": 202,
       "hit_speed": 1.1,
       "targets": "Sol",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 4,
       "attack_type": "Unique",
@@ -2070,10 +2070,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/X_DQUye_OaS3QN6VC9CPw05Fit7wvSm3XegXIXKP--0.png",
       "description": "Quatre attaquants de mêlée rapides et sans armure. Petits, rapides, verts et méchants!",
       "emojis": [
-        "🟢",
-        "👺",
-        "🗡️",
-        "🍃"
+        "vert.png",
+        "gob.png",
+        "épée.png",
+        "feuille.png"
       ],
       "icon_path": "assets/clash_royale_cards/gobelin.png"
     },
@@ -2083,7 +2083,7 @@
       "id": 56,
       "key": "gobelin-a-lance",
       "elixir": 2,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 1,
       "damage": 81,
@@ -2091,7 +2091,7 @@
       "hitpoints": 133,
       "hit_speed": 1.7,
       "targets": "Air & Sol ",
-      "speed": "Très rapide",
+      "speed": "Très Rapide",
       "range": 5,
       "count": 3,
       "attack_type": "Unique",
@@ -2106,10 +2106,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/FSDFotjaXidI4ku_WFpVCTWS1hKGnFh1sxX0lxM43_E.png",
       "description": "Trois attaquants à distance dépourvus d'armure. Qui a bien pu leur apprendre à manier la lance? Qui a pu penser que c'était une bonne idée?",
       "emojis": [
-        "🟢",
-        "👺",
-        "🏹",
-        "🍃"
+        "vert.png",
+        "gob.png",
+        "arc",
+        "feuille.png"
       ],
       "icon_path": "assets/clash_royale_cards/gobelin-a-lance.png"
     },
@@ -2127,7 +2127,7 @@
       "hitpoints": 721,
       "hit_speed": 1.8,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 5.5,
       "count": 1,
       "attack_type": "Unique",
@@ -2142,10 +2142,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/mQ20B49dXdk7Nv0lMdLw175M3YvkSpN6KNnho8UKBd8.png",
       "description": "C'est VIVANT! Le Monstre se dirige lentement vers les bâtiments ennemis pendant que le Docteur prépare le piège. Quand il appuie sur le bouton, le Docteur électrifie le lien qui le lie au Monstre, faisant rôtir les ennemis proches!",
       "emojis": [
-        "⚡",
-        "🧪",
-        "👨‍🔬",
-        "🧟‍♂️"
+        "eclair.png",
+        "tube.png",
+        "scientifique.png",
+        "zombie.png"
       ],
       "icon_path": "assets/clash_royale_cards/gobelinstein.png"
     },
@@ -2163,7 +2163,7 @@
       "hitpoints": 5120,
       "hit_speed": 2.5,
       "targets": "Bâtiments",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -2176,12 +2176,12 @@
       "has_hero": false,
       "release_year": 2016,
       "icon": "https://api-assets.clashroyale.com/cards/300/npdmCnET7jmVjJvjJQkFnNSNnDxYHDBigbvIAloFMds.png",
-      "description": "Lent mais robuste, il attaque uniquement les bâtiments. Lorsqu'il est détruit, il explose, se divise en deux golemites et inflige des dégâts de zone.",
+      "description": "Lente mais robuste, il attaque uniquement les bâtiments. Lorsqu'il est détruit, il explose, se divise en deux golemites et inflige des dégâts de zone.",
       "emojis": [
-        "🪨",
-        "💥",
-        "🧱",
-        "🛡️"
+        "rocher.png",
+        "explosion.png",
+        "mur.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/golem.png"
     },
@@ -2199,7 +2199,7 @@
       "hitpoints": 1315,
       "hit_speed": 2.5,
       "targets": "Bâtiments",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -2214,10 +2214,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/r05cmpwV1o7i7FHodtZwW3fmjbXCW34IJCsDEV5cZC4.png",
       "description": "Costaud, il cible les bâtiments et explose lorsqu'il est détruit, ralentissant les ennemis à proximité. Il est entièrement constitué de glace, pas vrai? Absolument.",
       "emojis": [
-        "❄️",
-        "🛡️",
-        "💥",
-        "🧊"
+        "flocon.png",
+        "bouclier.png",
+        "explosion.png",
+        "glacon.png"
       ],
       "icon_path": "assets/clash_royale_cards/golem-de-glace.png"
     },
@@ -2235,7 +2235,7 @@
       "hitpoints": 1569,
       "hit_speed": 1.1,
       "targets": "Bâtiments",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -2250,10 +2250,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/puhMsZjCIqy21HW3hYxjrk_xt8NIPyFqjRy-BeLKZwo.png",
       "description": "Se divise en deux golemites d'élixir une fois détruit, qui à leur tour, se séparent en deux boules d'élixir une fois vaincus. Quand votre adversaire détruit une boule, il obtient de l'élixir!",
       "emojis": [
-        "🟣",
-        "🪨",
-        "💧",
-        "🛡️"
+        "violet.png",
+        "rocher.png",
+        "goutte.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/golem-elixir.png"
     },
@@ -2271,7 +2271,7 @@
       "hitpoints": 1717,
       "hit_speed": 1.5,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -2286,10 +2286,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/KdwXcoigS2Kg-cgA7BJJIANbUJG6SNgjetRQ-MegZ08.png",
       "description": "À chaque attaque, elle active son aura de guérison et restaure ses points de vie et ceux de ses alliés. Lorsqu'elle ne combat pas, elle se guérit elle-même.",
       "emojis": [
-        "😇",
-        "⚔️",
-        "✨",
-        "🩹"
+        "ange.png",
+        "épées.png",
+        "étoile.png",
+        "pansement.png"
       ],
       "icon_path": "assets/clash_royale_cards/guerisseuse-armee.png"
     },
@@ -2307,7 +2307,7 @@
       "hitpoints": 3968,
       "hit_speed": 1.5,
       "targets": "Bâtiments",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -2320,12 +2320,12 @@
       "has_hero": true,
       "release_year": 2016,
       "icon": "https://api-assets.clashroyale.com/cards/300/Axr4ox5_b7edmLsoHxBX3vmgijAIibuF6RImTbqLlXE.png",
-      "description": "Lent mais dur à cuire, il attaque uniquement les bâtiments. Une véritable équipe de démolisseurs à lui tout seul!",
+      "description": "Lente mais dur à cuire, il attaque uniquement les bâtiments. Une véritable équipe de démolisseurs à lui tout seul!",
       "emojis": [
-        "🧔",
-        "👊",
-        "🧱",
-        "🏰"
+        "barbe.png",
+        "poing.png",
+        "mur.png",
+        "chateau.png"
       ],
       "icon_path": "assets/clash_royale_cards/geant.png"
     },
@@ -2335,7 +2335,7 @@
       "id": 63,
       "key": "geant-royal",
       "elixir": 5,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 7,
       "damage": 307,
@@ -2343,7 +2343,7 @@
       "hitpoints": 3164,
       "hit_speed": 1.8,
       "targets": "Bâtiments",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": 5,
       "count": 1,
       "attack_type": "Unique",
@@ -2358,10 +2358,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/mnlRaNtmfpQx2e6mp70sLd0ND-pKPF70Cf87_agEKg4.png",
       "description": "Si la destruction des bâtiments ennemis avec son énorme canon est son devoir, sa passion est de dompter sa barbe blonde tout en finesse.",
       "emojis": [
-        "🧔",
-        "👑",
-        "🏰",
-        "🛡️"
+        "barbe.png",
+        "couronne.png",
+        "chateau.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/geant-royal.png"
     },
@@ -2379,7 +2379,7 @@
       "hitpoints": 2662,
       "hit_speed": 1.5,
       "targets": "Bâtiments",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -2394,10 +2394,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/UogMnGHQXT-TOVXRxslKdAKXUPhqUvrD_hV9x8lbzdE.png",
       "description": "Vos armes ont besoin d'un coup de peps? Vous êtes au bon endroit. La géante runique enchante les troupes les plus proches d'elle, ce qui leur fait infliger des dégâts bonus toutes les trois attaques. Seules deux troupes peuvent être enchantées en même temps.",
       "emojis": [
-        "🧔",
-        "✨",
-        "🧱",
-        "🛡️"
+        "barbe.png",
+        "étoile.png",
+        "mur.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/geante-runique.png"
     },
@@ -2407,7 +2407,7 @@
       "id": 65,
       "key": "horde-de-gargouilles",
       "elixir": 5,
-      "rarity": "Commun",
+      "rarity": "Commune",
       "type": "Troupe",
       "arena_unlock": 10,
       "damage": 107,
@@ -2430,10 +2430,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Wyjq5l0IXHTkX9Rmpap6HaH08MvjbxFp1xBO9a47YSI.png",
       "description": "Six attaquants volants, rapides et sans armure. Leurs adversaires ne manqueront pas de voir trente-six chandelles.",
       "emojis": [
-        "🖐️",
-        "🟦",
-        "😱",
-        "😈"
+        "main.png",
+        "bleu.png",
+        "choque.png",
+        "demon.png"
       ],
       "icon_path": "assets/clash_royale_cards/horde-de-gargouilles.png"
     },
@@ -2451,7 +2451,7 @@
       "hitpoints": 1177,
       "hit_speed": 1.4,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 5,
       "count": 1,
       "attack_type": "Unique",
@@ -2466,10 +2466,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/MWWBZqiQeRBXSqEITVMj46nO_uCIUsqBidvUw9K2twY.png",
       "description": "Admirez l'Impératrice spirituelle, première du nom, Gardienne des esprits, Chevaucheuse de dragons. Invoquez-la en tant qu'unité terrestre dévastatrice à 3 élixirs ou libérez son esprit draconique pour 6 élixirs.",
       "emojis": [
-        "✨",
-        "🪄",
-        "👸",
-        "🐲"
+        "étoile.png",
+        "baguette.png",
+        "reine.png",
+        "dragon.png"
       ],
       "icon_path": "assets/clash_royale_cards/imperatrice-spirituelle.png"
     },
@@ -2502,10 +2502,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/_iDwuDLexHPFZ_x4_a0eP-rxCS6vwWgTs6DLauwwoaY.png",
       "description": "Un flacon de rage renversé a changé un tronc d'arbre innocent en 'La bûche'. Maintenant, assoiffé de vengeance, ce monstre écrase tout sur son passage! Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "🪄",
-        "🎯",
-        "💥",
-        "🪵"
+        "baguette.png",
+        "cible",
+        "explosion.png",
+        "buche.png"
       ],
       "icon_path": "assets/clash_royale_cards/la-buche.png"
     },
@@ -2523,7 +2523,7 @@
       "hitpoints": 2150,
       "hit_speed": 1.2,
       "targets": "Sol",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -2538,10 +2538,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/-iLlotr6GCFndL_1BSBqWBb6DnsHBhLerd5EblZDNfU.png",
       "description": "La machine gobeline a deux poings bien durs pour les combats en mêlée, et un lance-roquettes pour tout faire péter à distance. Elle est aussi pilotée par un bébé fou...",
       "emojis": [
-        "🤖",
-        "🟢",
-        "🚀",
-        "⚙️"
+        "bot.png",
+        "vert.png",
+        "fusee.png",
+        "rouage.png"
       ],
       "icon_path": "assets/clash_royale_cards/machine-gobeline.png"
     },
@@ -2574,10 +2574,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/hzKNE3QwFcrSrDDRuVW3QY_OnrDPijSiIp-PsWgFevE.png",
       "description": "La première machine du maître ouvrier a débarqué dans l'arène! Il s'agit d'un engin volant rapide et amusant, mais fragile!",
       "emojis": [
-        "🚁",
-        "🔫",
-        "☁️",
-        "🛡️"
+        "helicoptere.png",
+        "pistolet.png",
+        "nuage.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/machine-volante.png"
     },
@@ -2610,10 +2610,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/OQPfGgT5mHEUvPuKKt0plZT0PNtIjCqUgQ3Rm86dQ2k.png",
       "description": "Trouble double et malheur et brouille, brûle le feu, le chaudron bouille! Les troupes ennemies dans la zone subissent plus de dégâts et se transforment en gobelins à leur mort. Inflige des dégâts sur la durée.",
       "emojis": [
-        "🪄",
-        "🟢",
-        "🔄",
-        "🫧"
+        "baguette.png",
+        "vert.png",
+        "reverse.png",
+        "bulle.png"
       ],
       "icon_path": "assets/clash_royale_cards/malédiction-gobeline.png"
     },
@@ -2631,7 +2631,7 @@
       "hitpoints": 529,
       "hit_speed": 1,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 5.5,
       "count": 1,
       "attack_type": "Unique",
@@ -2646,10 +2646,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/fO-Xah8XZkYKaSK9SCp3wnzwxtvIhun9NVY-zzte1Ng.png",
       "description": "Mamie sorcière lance une malédiction aux ennemis à chaque attaque. Lorsqu'une troupe maudite est détruite, elle se transforme en un cochon qui se bat aux côtés de la mamie sorcière et cible les bâtiments. À part ça, elle fait aussi de très bons gâteaux!",
       "emojis": [
-        "🧙",
-        "🐷",
-        "🪄",
-        "✨"
+        "sorcier.png",
+        "cochon.png",
+        "baguette.png",
+        "étoile.png"
       ],
       "icon_path": "assets/clash_royale_cards/mamie-sorciere.png"
     },
@@ -2682,10 +2682,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Cd9R56yraxTvJiD8xJ2qT2OdsHyh94FqOAarXpbyelo.png",
       "description": "Il marche lentement... mais sa foreuse est énorme! Ce champion inflige des dégâts croissants à sa cible et peut changer de voie pour fuir le combat ou passer au plan B. Il n'est pas que du muscle, c'est aussi un cerveau!",
       "emojis": [
-        "⛏️",
-        "🧔",
-        "💣",
-        "🔥"
+        "pioche.png",
+        "barbe.png",
+        "bombe.png",
+        "feu.png"
       ],
       "icon_path": "assets/clash_royale_cards/maitre-mineur.png"
     },
@@ -2718,11 +2718,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Y4yWvdwBCg2FpAZgs8T09Gy34WOwpLZW-ttL52Ae8NE.png",
       "description": "Le mineur creuse des tunnels souterrains et apparâit n'importe où dans l'arène. Ce n'est pas de la magie, juste une pelle. Une pelle qui inflige des dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "boujie.png",
+        "troue.png",
+        "chantier.png",
+        "pioche.png"
       ],
       "icon_path": "assets/clash_royale_cards/mineur.png"
     },
@@ -2755,11 +2754,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Fmltc4j3Ve9vO_xhHHPEO3PRP3SmU2oKp2zkZQHRZT4.png",
       "description": "L'arène est une zone certifiée sans papillon. Les PEKKA éviteront ainsi toute distraction et se concentreront sur la destruction.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "couteau.png",
+        "eclair.png",
+        "pancake.png",
+        "bot.png"
       ],
       "icon_path": "assets/clash_royale_cards/mini-pekka.png"
     },
@@ -2768,7 +2766,7 @@
       "name_en": "Mirror",
       "id": 75,
       "key": "miroir",
-      "elixir": "?",
+      "elixir": 0,
       "rarity": "Epique",
       "type": "Troupe",
       "arena_unlock": 15,
@@ -2777,7 +2775,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": false,
-      "speed": false,
+      "speed": null,
       "range": false,
       "count": 1,
       "attack_type": false,
@@ -2792,10 +2790,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/wC6Cm9rKLEOk72zTsukVwxewKIoO4ZcMJun54zCPWvA.png",
       "description": "Reproduit la dernière carte jouée pour +1 unité d'elixir. Ne fait pas partie des cartes de départ.",
       "emojis": [
-        "🪞",
-        "✨",
-        "🪄",
-        "🃏"
+        "miroir.png",
+        "étoile.png",
+        "baguette.png",
+        "double.png"
       ],
       "icon_path": "assets/clash_royale_cards/miroir.png"
     },
@@ -2828,10 +2826,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/2onG4t4-CxqwFVZAn6zpWxFz3_mG2ksSj4Q7zldo1SM.png",
       "description": "Le Moine a vécu en ermite pendant des années pour parfaire son style de combat. Il utilise un combo de 3 coups sur ses ennemis, le dernier infligeant des dégâts supplémentaires et repoussant les ennemis.",
       "emojis": [
-        "🧘",
-        "🧔",
-        "👊",
-        "🛡️"
+        "moine.png",
+        "barbe.png",
+        "poing.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/moine.png"
     },
@@ -2849,7 +2847,7 @@
       "hitpoints": 3581,
       "hit_speed": 1.3,
       "targets": "Bâtiments",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": 3.5,
       "count": 1,
       "attack_type": "Unique",
@@ -2864,10 +2862,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/unicRQ975sBY2oLtfgZbAI56ZvaWz7azj-vXTLxc0r8.png",
       "description": "Le molosse de lave est une majestueuse créature volante qui attaque les bâtiments. Les roquets de lave sont des chiots énervés moins majestueux qui attaquent tout ce qu'ils trouvent.",
       "emojis": [
-        "🌋",
-        "🪽",
-        "🧱",
-        "🐌"
+        "volcan.png",
+        "aile.png",
+        "mur.png",
+        "escargot.png"
       ],
       "icon_path": "assets/clash_royale_cards/molosse de lave.png"
     },
@@ -2885,7 +2883,7 @@
       "hitpoints": 1369,
       "hit_speed": 5,
       "targets": "Sol",
-      "speed": false,
+      "speed": null,
       "range": 11.5,
       "count": 1,
       "attack_type": "Zone",
@@ -2900,10 +2898,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/lPOSw6H7YOHq2miSCrf7ZDL3ANjhJdPPDYOTujdNrVE.png",
       "description": "Bâtiment défensif à longue portée. Les rochers qu'il tire infligent des dégâts de zone. Il ne peut rien contre les cibles qui s'aventurent trop près de lui.",
       "emojis": [
-        "💣",
-        "🪨",
-        "🧱",
-        "💥"
+        "bombe.png",
+        "rocher.png",
+        "mur.png",
+        "explosion.png"
       ],
       "icon_path": "assets/clash_royale_cards/mortier.png"
     },
@@ -2936,10 +2934,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
       "description": "Ne vous laissez pas berner par sa coiffure sophistiquée. La mousquetaire atteint toujours sa cible avec son fidèle tromblon.",
       "emojis": [
-        "🔫",
-        "👩‍🦱",
-        "🎯",
-        "🏃"
+        "pistolet.png",
+        "femme.png",
+        "cible",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/mousquetaire.png"
     },
@@ -2957,7 +2955,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": null,
       "count": 1,
       "attack_type": "Zone",
@@ -2972,10 +2970,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/7MaJLa6hK9WN2_VIshuh5DIDfGwm0wEv98gXtAxLDPs.png",
       "description": "On dit qu'elle a commencé à rouler du haut du sommet glacé et ne s'est jamais arrêtée depuis, percutant et ralentissant les ennemis sur son chemin... Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "🪄",
-        "❄️",
-        "⚪",
-        "🥶"
+        "baguette.png",
+        "flocon.png",
+        "blanc.png",
+        "froid.png"
       ],
       "icon_path": "assets/clash_royale_cards/mega boule de neige.png"
     },
@@ -3008,10 +3006,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/O2NycChSNhn_UK9nqBXUhhC_lILkiANzPuJjtjoz0CE.png",
       "description": "Il atterrit avec la force de 1 000 moustaches, puis saute d'ennemi en ennemi en infligeant d'énormes dégâts de zone. Poussez-vous!",
       "emojis": [
-        "🛡️",
-        "👊",
-        "💥",
-        "🛡️"
+        "bouclier.png",
+        "poing.png",
+        "explosion.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/mega chevalier.png"
     },
@@ -3044,10 +3042,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/-T_e4YLbuhPBKbYnBwQfXgynNpp5eOIN_0RracYwL9c.png",
       "description": "Créature volante, cuirassée et puissante. Une faiblesse? Oui, pour les cupcakes.",
       "emojis": [
-        "😈",
-        "🛡️",
-        "🔵",
-        "☁️"
+        "demon.png",
+        "bouclier.png",
+        "bleu.png",
+        "nuage.png"
       ],
       "icon_path": "assets/clash_royale_cards/mega gargouille.png"
     },
@@ -3065,7 +3063,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": false,
       "count": 1,
       "attack_type": "Zone",
@@ -3080,10 +3078,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/BykyeWDqzn4PlHSszu3NbrXT1mHxW2EA8vHbQGR5LDE.png",
       "description": "Vous ne passerez pas! Sauf si vous êtes trop nombreux... Corrompt une zone avec la magie noire, infligeant des dégâts aux troupes et aux bâtiments ennemis qui se trouvent à l'intérieur. Moins il y a de cibles dans la zone, plus elles subissent de dégâts.",
       "emojis": [
-        "🌌",
-        "☄️",
-        "🔦",
-        "⚛️"
+        "galaxie.png",
+        "comete.png",
+        "lampe.png",
+        "nucleaire.png"
       ],
       "icon_path": "assets/clash_royale_cards/neant.png"
     },
@@ -3101,7 +3099,7 @@
       "hitpoints": 3760,
       "hit_speed": 1.8,
       "targets": "Sol",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": "Moyenne",
       "count": 1,
       "attack_type": "Unique",
@@ -3116,11 +3114,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/MlArURKhn_zWAZY-Xj1qIRKLVKquarG25BXDjUQajNs.png",
       "description": "Une combattante de mêlée peu rapide, pourvue d'une épaisse armure. Impulsive mais sacrément percutante.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "coeurv.png",
+        "épées.png",
+        "bouclier.png",
+        "bot.png"
       ],
       "icon_path": "assets/clash_royale_cards/pekka.png"
     },
@@ -3153,10 +3150,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/dY-gSseki6KBpkIG17safHH5YlB8SErFZO9OXbJxf9w.png",
       "description": "Qui a oublié son neveu dans l'arène?! Cette affreuse canaille princière gagne de la vitesse de frappe à chaque tir, tant qu'elle reste immobile. Il a l'air faible, mais il est toujours surveillé de loin...",
       "emojis": [
-        "🤴",
-        "🧔",
-        "🏹",
-        "🛡️"
+        "roi.png",
+        "barbe.png",
+        "arc",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/petit prince.png"
     },
@@ -3189,10 +3186,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/i0RoY1fs6ay7VAxyFEfZGIPnD002nAKcne9FtJsWBHM.png",
       "description": "Lorsqu'elle est à terre, cette créature mythique renaît sous la forme d'un œuf. Si l'œuf éclot, le phénix revient à la vie! Quel oiseau incroyable, quand même! Renaître de ses cendres est fatigant, alors le phénix renaît avec moins de points de vie et de dégâts (80 % du total).",
       "emojis": [
-        "🪽",
-        "🟠",
-        "🔥",
-        "🐦‍🔥"
+        "aile.png",
+        "orange.png",
+        "feu.png",
+        "phoenix.png"
       ],
       "icon_path": "assets/clash_royale_cards/phenix.png"
     },
@@ -3210,7 +3207,7 @@
       "hitpoints": 529,
       "hit_speed": null,
       "targets": "Sol",
-      "speed": false,
+      "speed": null,
       "range": false,
       "count": 1,
       "attack_type": "Unique",
@@ -3225,10 +3222,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/LjSfSbwQfkZuRJY4pVxKspZ-a0iM5KAhU8w-a_N5Z7Y.png",
       "description": "Bâtiment qui déploie régulièrement des squelettes pour affronter l'ennemi. Sa destruction fait surgir 4 squelettes. Terrifiant!",
       "emojis": [
-        "🪦",
-        "💀",
-        "🧱",
-        "🛡️"
+        "cimetiere.png",
+        "crane.png",
+        "mur.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/pierre tombale.png"
     },
@@ -3246,7 +3243,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": false,
       "count": 1,
       "attack_type": "Zone",
@@ -3261,10 +3258,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/98HDkG2189yOULcVG9jz2QbJKtfuhH21DIrIjkOjxI8.png",
       "description": "Recouvre la zone ciblée d'une toxine mortelle qui inflige des dégâts aux combattants et bâtiments ennemis au fil du temps. Étonnamment, l'herbe reste verte et épaisse sur son passage... Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "🧪",
-        "🤢",
-        "💀",
-        "🪄"
+        "tube.png",
+        "vomi.png",
+        "crane.png",
+        "baguette.png"
       ],
       "icon_path": "assets/clash_royale_cards/poison.png"
     },
@@ -3297,10 +3294,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/3JntJV62aY0G1Qh6LIs-ek-0ayeYFY3VItpG7cb9I60.png",
       "description": "Ne vous laissez pas berner par son petit poney. Une fois le prince lancé, vous risquez fort de vous faire piétiner. Les dégâts infligés doublent quand il charge.",
       "emojis": [
-        "🏇",
-        "🗡️",
-        "🛡️",
-        "🏃"
+        "cheval.png",
+        "épée.png",
+        "bouclier.png",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/prince.png"
     },
@@ -3333,10 +3330,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/M7fXlrKXHu2IvpSGpk36kXVstslbR08Bbxcy0jQcln8.png",
       "description": "Le prince ténébreux inflige des dégâts de zone et laisse son gourdin à pointes s'exprimer à sa place... parce que quand il parle, on a l'impression qu'il a un seau sur la tête.",
       "emojis": [
-        "🏇",
-        "🛡️",
-        "🔨",
-        "🏃"
+        "cheval.png",
+        "bouclier.png",
+        "marteau.png",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/prince-tenebreux.png"
     },
@@ -3369,10 +3366,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/bAwMcqp9EKVIKH3ZLm_m0MqZFSG72zG-vKxpx8aKoVs.png",
       "description": "La sublime princesse décoche des flèches enflammées à longue portée. Si vous avez l'impression de vous consumer pour elle, c'est probablement que vous êtes en feu.",
       "emojis": [
-        "🏰",
-        "🎯",
-        "👸",
-        "🏹"
+        "chateau.png",
+        "cible",
+        "reine.png",
+        "arc"
       ],
       "icon_path": "assets/clash_royale_cards/princesse.png"
     },
@@ -3405,10 +3402,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/U2KZ3g0wyufcuA5P2Xrn3Z3lr1WiJmc5S0IWOZHgizQ.png",
       "description": "Ceinture noire de coup de bar, un art ancien mystérieux. Son attaque à distance lui permet d'attirer à lui ses adversaires et de se hisser vers les bâtiments ennemis.",
       "emojis": [
-        "🎣",
-        "🧔",
-        "🐟",
-        "⚓"
+        "canne.png",
+        "barbe.png",
+        "poisson.png",
+        "ancre.png"
       ],
       "icon_path": "assets/clash_royale_cards/pecheur.png"
     },
@@ -3426,7 +3423,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": false,
       "count": 1,
       "attack_type": "Zone",
@@ -3441,10 +3438,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/bGP21OOmcpHMJ5ZA79bHVV2D-NzPtDkvBskCNJb7pg0.png",
       "description": "Accélère le déplacement et la vitesse d'attaque des combattants. Les bâtiments attaquent et invoquent des troupes plus rapidement. Chaaaargez!",
       "emojis": [
-        "🧪",
-        "😡",
-        "🟣",
-        "🪄"
+        "tube.png",
+        "colere.png",
+        "violet.png",
+        "baguette.png"
       ],
       "icon_path": "assets/clash_royale_cards/rage.png"
     },
@@ -3477,10 +3474,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/jcNyYGUiXXNz3kuz8NBkHNKNREQKraXlb_Ts7rhCIdM.png",
       "description": "Déploie une ligne de recrues armées de lances, de boucliers et portant un seau en bois sur la tête. Leur rêve? Un poney et la chance de porter un jour un seau en métal sur la tête.",
       "emojis": [
-        "🛡️",
-        "🧱",
-        "😤",
-        "🪵"
+        "bouclier.png",
+        "mur.png",
+        "nerf.png",
+        "buche.png"
       ],
       "icon_path": "assets/clash_royale_cards/recrues-royales.png"
     },
@@ -3513,10 +3510,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/p7OQmOAFTery7zCzlpDdm-LOD1kINTm42AwIHchZfWk.png",
       "description": "Elle est rapide, mortelle et insaisissable. Attention à ses carreaux d'arbalète et ne clignez pas trop des yeux : vous risqueriez de la rater!",
       "emojis": [
-        "👸",
-        "🏹",
-        "👑",
-        "🛡️"
+        "reine.png",
+        "arc",
+        "couronne.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/reine-des-archers.png"
     },
@@ -3549,10 +3546,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/dCd69_wN9f8DxwuqOGtR4QgWhHIPIaTNxZ1e23RzAAc.png",
       "description": "Le roi des morts-vivants en personne. Quand il se sent seul (peut-être à cause de son physique difficile), il invoque des amis qui combattent avec lui par-delà la mort. Même les gros durs peuvent avoir un cœur tendre!",
       "emojis": [
-        "👑",
-        "💀",
-        "🪦",
-        "🛡️"
+        "couronne.png",
+        "crane.png",
+        "cimetiere.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/roi-squelette.png"
     },
@@ -3562,7 +3559,7 @@
       "id": 97,
       "key": "ronces",
       "elixir": 3,
-      "rarity": "Épique",
+      "rarity": "Epique",
       "type": "Sort",
       "arena_unlock": 8,
       "damage": 306,
@@ -3570,7 +3567,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": false,
       "count": 1,
       "attack_type": "Unique",
@@ -3585,10 +3582,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/V5sJlPuo2WBRtirJ1lGEPJA4NvQ0KPwFeMrpxLX5z_8.png",
       "description": "Envahissez le champ de bataille et étourdissez les trois unités ou bâtiments avec le plus de PV, tout en leur infligeant des dégâts. Les troupes aériennes tombent au sol. Ils vont être verts de rage !",
       "emojis": [
-        "🟢",
-        "🪢",
-        "🍃",
-        "🌿"
+        "vert.png",
+        "noeux.png",
+        "feuille.png",
+        "branche.png"
       ],
       "icon_path": "assets/clash_royale_cards/ronces.png"
     },
@@ -3606,7 +3603,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": false,
       "count": 1,
       "attack_type": "Zone",
@@ -3621,10 +3618,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Ie07nQNK9CjhKOa4-arFAewi4EroqaA-86Xo7r5tx94.png",
       "description": "Inflige d'importants dégâts sur une petite zone. Et avec une classe inégalée. Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "☢️",
-        "🐌",
-        "🚬",
-        "🚀"
+        "radio.png",
+        "escargot.png",
+        "cigarette.png",
+        "fusee.png"
       ],
       "icon_path": "assets/clash_royale_cards/roquette.png"
     },
@@ -3634,7 +3631,7 @@
       "id": 99,
       "key": "sapeurs",
       "elixir": 2,
-      "rarity": "Épique",
+      "rarity": "Epique",
       "type": "Troupe",
       "arena_unlock": 12,
       "damage": 350,
@@ -3642,7 +3639,7 @@
       "hitpoints": 330,
       "hit_speed": null,
       "targets": "Bâtiments",
-      "speed": " Très Rapide",
+      "speed": "Très Rapide",
       "range": "Mélée",
       "count": 2,
       "attack_type": "Zone",
@@ -3657,10 +3654,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/_xPphEfC8eEwFNrfU3cMQG9-f5JaLQ31ARCA7l3XtW4.png",
       "description": "Un audacieux duo de sapeurs sans reproche, dont la plus grande passion est de faire péter des bâtiments.",
       "emojis": [
-        "💣",
-        "💀",
-        "🧱",
-        "💥"
+        "bombe.png",
+        "crane.png",
+        "mur.png",
+        "explosion.png"
       ],
       "icon_path": "assets/clash_royale_cards/sapeurs.png"
     },
@@ -3693,10 +3690,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/Mej7vnv4H_3p_8qPs_N6_GKahy6HDr7pU7i9eTHS84U.png",
       "description": "Le sorcier est l'homme le plus génial qui ait jamais franchi les portes de l'arène. Sa beauté embrasera votre coeur...tout comme ses boules de feu.",
       "emojis": [
-        "🔥",
-        "💥",
-        "🏃",
-        "🧙"
+        "feu.png",
+        "explosion.png",
+        "run.png",
+        "sorcier.png"
       ],
       "icon_path": "assets/clash_royale_cards/sorcier.png"
     },
@@ -3729,10 +3726,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/W3dkw0HTw9n1jB-zbknY2w3wHuyuLxSRIAV5fUT1SEY.png",
       "description": "Ce magicien lance sur les ennemis des éclats de glace qui ralentissent leur vitesse de déplacement et d'attaque. Certes, ça jette un froid, mais il a quand même la moustache en guidon la plus torride du royaume.",
       "emojis": [
-        "❄️",
-        "🧊",
-        "🥶",
-        "🧙"
+        "flocon.png",
+        "glacon.png",
+        "froid.png",
+        "sorcier.png"
       ],
       "icon_path": "assets/clash_royale_cards/sorcier de glace.png"
     },
@@ -3765,10 +3762,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/cfwk1vzehVyHC-uloEIH6NOI0hOdofCutR5PyhIgO6w.png",
       "description": "Elle invoque des squelettes, tire des rayons destructeurs et à des yeux roses lumineux qui malheureusement ne lancent pas de lasers.",
       "emojis": [
-        "🧙",
-        "💀",
-        "🪄",
-        "🌑"
+        "sorcier.png",
+        "crane.png",
+        "baguette.png",
+        "lune.png"
       ],
       "icon_path": "assets/clash_royale_cards/sorciere.png"
     },
@@ -3801,10 +3798,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/NpCrXDEDBBJgNv9QrBAcJmmMFbS7pe3KCY8xJ5VB18A.png",
       "description": "Invoque des chauves-souris qui obéissent à ses ordres et n'hesite pas à se servir de son redoutable bâton si vous l'approchez de trop près.",
       "emojis": [
-        "🧙",
-        "🦇",
-        "🗡️",
-        "🌑"
+        "sorcier.png",
+        "chauve.png",
+        "épée.png",
+        "lune.png"
       ],
       "icon_path": "assets/clash_royale_cards/sorciere de la nuit.png"
     },
@@ -3837,10 +3834,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/0p0gd0XaVRu1Hb1iSG1hTYbz2AN6aEiZnhaAib5O8Z8.png",
       "description": "Plus le squelette est imposant, plus la bombe qu'il transporte est grosse. Elle explose quand le squelette geant meurt.",
       "emojis": [
-        "💀",
-        "💣",
-        "🦴",
-        "🧱"
+        "crane.png",
+        "bombe.png",
+        "os.png",
+        "mur.png"
       ],
       "icon_path": "assets/clash_royale_cards/squelette geant.png"
     },
@@ -3859,7 +3856,7 @@
       "hit_speed": 1.1,
       "targets": "Sol",
       "speed": "Rapide",
-      "range": null,
+      "range": "Mélée",
       "count": 3,
       "attack_type": "Unique",
       "radius": null,
@@ -3873,11 +3870,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/oO7iKMU5m0cdxhYPZA3nWQiAUh2yoGgdThLWB1rVSec.png",
       "description": "Trois combattants de mélée, rapides mais très faibles. Encercler vos ennemis avec ces tas d'os !",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "run.png",
+        "os.png",
+        "épée.png",
+        "crane.png"
       ],
       "icon_path": "assets/clash_royale_cards/squelettes.png"
     },
@@ -3895,7 +3891,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Sol",
-      "speed": false,
+      "speed": null,
       "range": null,
       "count": 1,
       "attack_type": "Zone",
@@ -3910,10 +3906,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/XeQXcrUu59C52DslyZVwCnbi4yamID-WxfVZLShgZmE.png",
       "description": "Inflige des dégâts par seconde aux troupes et aux tours couronnées. Ce sort fait très, très mal aux bâtiments, mais n'affecte pas les unités volantes !",
       "emojis": [
-        "🫨",
-        "🏚️",
-        "🧱",
-        "🪄"
+        "seisme.png",
+        "abando.png",
+        "mur.png",
+        "baguette.png"
       ],
       "icon_path": "assets/clash_royale_cards/seisme.png"
     },
@@ -3931,7 +3927,7 @@
       "hitpoints": 1152,
       "hit_speed": 1.1,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": 5.5,
       "count": 1,
       "attack_type": "Unique",
@@ -3946,10 +3942,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/OiwnGrxFMNiHetYEerE-UZt0L_uYNzFY7qV_CA_OxR4.png",
       "description": "Bâtiment défensif. Quand la tour Tesla n'électrocute pas l'ennemu, sa puissance électrisante est confinée sous terre.",
       "emojis": [
-        "⚡",
-        "🔌",
-        "🧱",
-        "🛡️"
+        "eclair.png",
+        "prise.png",
+        "mur.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/tesla.png"
     },
@@ -3967,7 +3963,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": null,
       "count": 1,
       "attack_type": "Zone",
@@ -3982,10 +3978,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/QJB-QK1QJHdw4hjpAwVSyZBozc2ZWAR9pQ-SMUyKaT0.png",
       "description": "Inflige des dégâts aux troupes ennemis après les avoirs attirées en son centre comme un aimant. Un gros aimant-tornade tourbillonnant.",
       "emojis": [
-        "🌀",
-        "🎯",
-        "🪄",
-        "🌪️"
+        "tourbillon.png",
+        "cible",
+        "baguette.png",
+        "tornade.png"
       ],
       "icon_path": "assets/clash_royale_cards/tornade.png"
     },
@@ -4003,7 +3999,7 @@
       "hitpoints": 1748,
       "hit_speed": 0.4,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": 6,
       "count": 1,
       "attack_type": "Unique",
@@ -4018,10 +4014,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/GSHY_wrooMMLET6bG_WJB8redtwx66c4i80ipi4gYOM.png",
       "description": "Ce bâtiment défensif fait rôtir ses cibles, leur infligeant des dégats qui augmentent au fil du temps. Même les ennemis les plus imposants et robustes sont dévorés par ses flammes !",
       "emojis": [
-        "🔥",
-        "☀️",
-        "🧱",
-        "🛡️"
+        "feu.png",
+        "sun.png",
+        "mur.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/tour de l'enfer.png"
     },
@@ -4039,7 +4035,7 @@
       "hitpoints": 1356,
       "hit_speed": 1.8,
       "targets": "Sol",
-      "speed": false,
+      "speed": null,
       "range": 6,
       "count": 1,
       "attack_type": "Zone",
@@ -4054,10 +4050,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/rirYRyHPc97emRjoH-c1O8uZCBzPVnToaGuNGusF3TQ.png",
       "description": "Bâtiment défensif équipé d'un bombardier. Inflige des dégâts de zone à tout ce qui est assez bête pour l'approcher.",
       "emojis": [
-        "💣",
-        "💀",
-        "🧱",
-        "💥"
+        "bombe.png",
+        "crane.png",
+        "mur.png",
+        "explosion.png"
       ],
       "icon_path": "assets/clash_royale_cards/tour a bombe.png"
     },
@@ -4075,7 +4071,7 @@
       "hitpoints": 883,
       "hit_speed": 1.3,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 6,
       "count": 3,
       "attack_type": "Unique",
@@ -4090,10 +4086,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/_J2GhbkX3vswaFk1wG-dopwiHyNc_YiPhwroiKF3Mek.png",
       "description": "Un puissant trio de tireuses d'élite, dont lélégance n'a d'égale que leur visée. Elles pourfendent leurs ennemis et leur tirent dessus, au nom de la justice et de l'honneur. ",
       "emojis": [
-        "🎯",
-        "🔫",
-        "👩‍🦱",
-        "🏃"
+        "cible",
+        "pistolet.png",
+        "femme.png",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/trois mousquetaires.png"
     },
@@ -4126,10 +4122,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/0lIoYf3Y_plFTzo95zZL93JVxpfb3MMgFDDhgSDGU9A.png",
       "description": "Combattante de mêlée efficace qui inflige des dégâts de zone autour d'elle. Face à une horde d'ennemis, aucun problème. Elle est capable de les anéantir en quelques petits tours.",
       "emojis": [
-        "🪓",
-        "🔄",
-        "👩‍🦰",
-        "🛡️"
+        "hache.png",
+        "reverse.png",
+        "meuf.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/valkyrie.png"
     },
@@ -4162,10 +4158,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/QWDdXMKJNpv0go-HYaWQWP6p8uIOHjqn-zX7G0p3DyM.png",
       "description": "La voleuse fonce sur sa cible et lui assène un coup très fort. Quand elle charge, elle ne peut pas être touchée. Son masque dissimule son identité...et lui donne beaucoup de classe ! ",
       "emojis": [
-        "🎭",
-        "🤫",
-        "🧥",
-        "🦯"
+        "theatre.png",
+        "chut.png",
+        "manteau.png",
+        "aveugle.png"
       ],
       "icon_path": "assets/clash_royale_cards/voleuse.png"
     },
@@ -4183,7 +4179,7 @@
       "hitpoints": 1451,
       "hit_speed": 4,
       "targets": "Sol",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": 5,
       "count": 1,
       "attack_type": "Zone",
@@ -4198,10 +4194,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/2GKMkBrArZXgQxf2ygFjDs4VvGYPbx8F6Lj_68iVhIM.png",
       "description": "Zappy se charge lentement, puis décharge toute son énergie sur une énorme zone de dégâts. Vraiment, Zappy ne fait pas dans la dentelle. ",
       "emojis": [
-        "⚡",
-        "🛞",
-        "🧱",
-        "⚡"
+        "eclair.png",
+        "roue.png",
+        "mur.png",
+        "eclair.png"
       ],
       "icon_path": "assets/clash_royale_cards/zappy.png"
     },
@@ -4219,7 +4215,7 @@
       "hitpoints": 998,
       "hit_speed": 2.1,
       "targets": "Air & Sol ",
-      "speed": "Moyen",
+      "speed": "Moyenne",
       "range": 3.5,
       "count": 1,
       "attack_type": "Zone",
@@ -4234,11 +4230,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/tN9h6lnMNPCNsx0LMFmvpHgznbDZ1fBRkx-C7UfNmfY.png",
       "description": "Crache des arcs électriques qui touchent jusqu'à trois cibles. Moins mignon que le bébé dragon, moins farouche que le dragon de l'enfer, mais il mérite quand même qu'on s'y attache.",
       "emojis": [
-        "❓",
-        "❓",
-        "❓",
-        "❓",
-        "❓"
+        "bleu.png",
+        "pile.png",
+        "eclair.png",
+        "dragon.png"
       ],
       "icon_path": "assets/clash_royale_cards/electro-dragon.png"
     },
@@ -4271,10 +4266,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/WKd4-IAFsgPpMo7dDi9sujmYjRhOMEWiE07OUJpvD9g.png",
       "description": "Il se jette gaiment sur les ennemis, étourdissant jusqu'à neuf unités et infligeant des dégâts de zone. En ce moment, il essaie aussi de se laisser pousser la moustache pour tenter de rivaliser avec le chevalier.",
       "emojis": [
-        "⚡",
-        "🔵",
-        "🪄",
-        "👻"
+        "eclair.png",
+        "bleu.png",
+        "baguette.png",
+        "fantome.png"
       ],
       "icon_path": "assets/clash_royale_cards/electro-esprit.png"
     },
@@ -4292,7 +4287,7 @@
       "hitpoints": 3855,
       "hit_speed": 2.1,
       "targets": "Bâtiments",
-      "speed": "Lent",
+      "speed": "Lente",
       "range": "Mélée",
       "count": 1,
       "attack_type": "Unique",
@@ -4307,10 +4302,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/_uChZkNHAMq6tPb3v6A49xinOe3CnhjstOhG6OZbPYc.png",
       "description": "Grâce à son Zap Pack dernier cri, l'électro-géant étourdit et inflige des dégâts aux ennemis qui s'approchent de trop près en les électrocutant. Attention, quiconque critique son style sera zappé.",
       "emojis": [
-        "⚡",
-        "🧔",
-        "🧱",
-        "🛡️"
+        "eclair.png",
+        "barbe.png",
+        "mur.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/electro-geant.png"
     },
@@ -4343,10 +4338,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/RsFaHgB3w6vXsTjXdPr3x8l_GbV9TbOUCvIx07prbrQ.png",
       "description": "Il atterrit dans un grand FLASH!, étourdissant les ennemis à proximité, et lance des éclairs avec ses deux mains. Quel frimeur.",
       "emojis": [
-        "🧙",
-        "⚡",
-        "💡",
-        "🏃"
+        "sorcier.png",
+        "eclair.png",
+        "ampoule.png",
+        "run.png"
       ],
       "icon_path": "assets/clash_royale_cards/electro-sorcier.png"
     },
@@ -4379,10 +4374,10 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/QZfHRpLRmutZbCr5fpLnTpIp89vLI6NrAwzGZ8tHEc4.png",
       "description": "Fait apparaître des électrocuteurs miniatures contrôlés par... En fait, seul le maître ouvrier le sait.",
       "emojis": [
-        "🤖",
-        "⚡",
-        "🛞",
-        "🛡️"
+        "bot.png",
+        "eclair.png",
+        "roue.png",
+        "bouclier.png"
       ],
       "icon_path": "assets/clash_royale_cards/electrocuteurs.png"
     },
@@ -4400,7 +4395,7 @@
       "hitpoints": null,
       "hit_speed": null,
       "targets": "Air & Sol ",
-      "speed": false,
+      "speed": null,
       "range": null,
       "count": 1,
       "attack_type": "Zone",
@@ -4415,12 +4410,300 @@
       "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
       "description": "Foudroie les ennemis, les étourdit brièvement et inflige des dégâts dans un faible rayon. Dégâts réduits sur les tours couronnées.",
       "emojis": [
-        "⚡",
-        "💡",
-        "🎯",
-        "🪄"
+        "eclair.png",
+        "ampoule.png",
+        "cible",
+        "baguette.png"
       ],
       "icon_path": "assets/clash_royale_cards/electrocution.png"
+    },
+    {
+      "name": "TK78 Machine Personnelle",
+      "name_en": "TK78 Machine Personnelle",
+      "id": 121,
+      "key": "tk-machine-personnelle",
+      "elixir": 5,
+      "rarity": "Champion",
+      "type": "Troupe",
+      "arena_unlock": 22,
+      "damage": 302,
+      "damage_per_sec": null,
+      "hitpoints": 4000,
+      "hit_speed": 4.0,
+      "targets": "Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2017,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "Mange tes morts pour le prochain défi. Y'a quand même, parce que c'est un beau chiffre 302 fils de pute qui ont liker ce defi. On est 55 milliards sur Terre et faut que ce genre de chose arrive à une personne et cette personne c'est qui ? C'est OIM !",
+      "emojis": [
+        "ampoule.png",
+        "baguette.png",
+        "bombe.png",
+        "theatre.png"
+      ],
+      "icon_path": "assets/easter_eggs/tk-machine-personnelle.jpg"
+    },
+    {
+      "name": "TK78 Acsenseur",
+      "name_en": "tk-acsenseur",
+      "id": 122,
+      "key": "tk-ascenseur",
+      "elixir": 4,
+      "rarity": "Champion",
+      "type": "Troupe",
+      "arena_unlock": 22,
+      "damage": 302,
+      "damage_per_sec": null,
+      "hitpoints": 4000,
+      "hit_speed": 4.0,
+      "targets": "Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2017,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "J'aime très beaucoup le tennis. Tu fais du tennis ? Nan j'en fais pas.",
+      "emojis": [
+        "ampoule.png",
+        "baguette.png",
+        "bombe.png",
+        "theatre.png"
+      ],
+      "icon_path": "assets/easter_eggs/tk-ascenseur.png"
+    },
+    {
+      "name": "Noé",
+      "name_en": "Noe",
+      "id": 123,
+      "key": "tennis-man",
+      "elixir": 2,
+      "rarity": "Légendaire",
+      "type": "Troupe",
+      "arena_unlock": 22,
+      "damage": 10,
+      "damage_per_sec": null,
+      "hitpoints": 111,
+      "hit_speed": 2.0,
+      "targets": "Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "J'aime très beaucoup le tennis. Tu fais du tennis ? Nan j'en fais pas.",
+      "emojis": [
+        "ampoule.png",
+        "baguette.png",
+        "bombe.png",
+        "theatre.png"
+      ],
+      "icon_path": "assets/easter_eggs/tennis-man.png"
+    },
+    {
+      "name": "Silvain Duriff",
+      "name_en": "Silvain Duriff",
+      "id": 124,
+      "key": "sivlain-duriff",
+      "elixir": 10,
+      "rarity": "Légendaire",
+      "type": "Troupe",
+      "arena_unlock": 24,
+      "damage": 9999,
+      "damage_per_sec": 9999,
+      "hitpoints": 9999,
+      "hit_speed": 1.0,
+      "targets": "Air & Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "Bonjour à tous, je suis Sylvain Pierre Durif, Je suis le Grand Monarque, Le Christ Cosmique, Le Messie, Le Pape Pierre d'Alcyone, Et je suis également Oriane, l'incarnation de l'énergie de la Vierge Marie.",
+      "emojis": [
+        "ampoule.png",
+        "baguette.png",
+        "bombe.png",
+        "theatre.png"
+      ],
+      "icon_path": "assets/easter_eggs/silvain-duriff.png"
+    },
+    {
+      "name": "Ogeman",
+      "name_en": "Ogeman",
+      "id": 125,
+      "key": "ogeman",
+      "elixir": 10,
+      "rarity": "Epique",
+      "type": "Troupe",
+      "arena_unlock": 10,
+      "damage": 10,
+      "damage_per_sec": null,
+      "hitpoints": 200,
+      "hit_speed": 1.3,
+      "targets": "Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "Mets toute sa thune dans des kebabs et campait devant webedia toute la journée",
+      "emojis": [
+        "ampoule.png",
+        "baguette.png",
+        "bombe.png",
+        "theatre.png"
+      ],
+      "icon_path": "assets/easter_eggs/ogeman.jpg"
+    },
+    {
+      "name": "Coudoux",
+      "name_en": "Coudoux",
+      "id": 125,
+      "key": "coudoux",
+      "elixir": 0,
+      "rarity": "Epique",
+      "type": "Troupe",
+      "arena_unlock": 0,
+      "damage": 1,
+      "damage_per_sec": null,
+      "hitpoints": 10,
+      "hit_speed": 10.0,
+      "targets": "Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "Un coto comme on en a jamais vu qui arrive a conjugué des verbes comme ordinateur, iphone 16 et chausseur taille 42. C'est qu'est ce que je dis !",
+      "emojis": [
+        "ampoule.png",
+        "baguette.png",
+        "bombe.png",
+        "theatre.png"
+      ],
+      "icon_path": "assets/easter_eggs/coudoux.png"
+    },
+    {
+      "name": "Mister Coaster Clown",
+      "name_en": "Mister Coaster",
+      "id": 126,
+      "key": "mister-coaster",
+      "elixir": 0,
+      "rarity": "Rare",
+      "type": "Troupe",
+      "arena_unlock": 0,
+      "damage": 5,
+      "damage_per_sec": null,
+      "hitpoints": 10,
+      "hit_speed": 10.0,
+      "targets": "Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": true,
+      "has_hero": false,
+      "release_year": 2016,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "Un petit clown qui fait du cirque et fait du diabolo avec son fils autiste et like tous les messages sur tiktok même ceux qui les insultes.",
+      "emojis": [
+        "ampoule.png",
+        "baguette.png",
+        "bombe.png",
+        "theatre.png"
+      ],
+      "icon_path": "assets/easter_eggs/mister-coaster-clown.png"
+    },
+    {
+      "name": "Romain/Autiste",
+      "name_en": "Romain Autistic",
+      "id": 127,
+      "key": "romain",
+      "elixir": 3,
+      "rarity": "Commune",
+      "type": "Troupe",
+      "arena_unlock": 0,
+      "damage": 1,
+      "damage_per_sec": null,
+      "hitpoints": 10,
+      "hit_speed": 10.0,
+      "targets": "Sol",
+      "speed": "Lente",
+      "range": "Mélée",
+      "count": 1,
+      "attack_type": "Unique",
+      "radius": null,
+      "duration": null,
+      "slowdown_ennemies": null,
+      "crown_tower_damage": null,
+      "stun_duration": null,
+      "has_evolution": false,
+      "has_hero": false,
+      "release_year": 2006,
+      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
+      "description": "Cet autiste a un petit peu de mal à marcher normalement avec son enorme pouce. Il réclame plus de points qu'il en a. Il est le fervant utilisateur de la méthode d'apprendre par coeur les exercices. Mais tranquille il est open to work.",
+      "emojis": [
+        "enorme-pouce.jpg",
+        "lunettes.jpg",
+        "lunettes.jpg",
+        "lunettes.jpg"
+      ],
+      "icon_path": "assets/easter_eggs/romain.jpg"
     }
   ]
 }

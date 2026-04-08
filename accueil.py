@@ -3,7 +3,8 @@ from PIL import Image, ImageTk
 
 from recherche import Recherche
 from classic import main as main_classic
-# from emoji import main as main_emoji
+from description import main as main_description
+from emoji import main as main_emoji
 from description import main as main_description
 
 class Accueil():
@@ -54,7 +55,7 @@ class Accueil():
         self.bouton6 = Button(self.fenetre, image=self.photo_bouton6, relief="flat", borderwidth=0, command=self.classic)
         self.bouton6.image = self.photo_bouton6
 
-        self.logo = Image.open("assets/logoofficielroyaledle.png").resize((self.largeur_rect, self.hauteur_rect+200))  # Redimensionner à la taille du logo
+        self.logo = Image.open("assets/logoofficielroyaledle.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du logo
         self.photo_logo = ImageTk.PhotoImage(self.logo)
 
         # Créer un Label avec l'image
@@ -137,7 +138,7 @@ class Accueil():
 
     def emoji(self):
         self.redimensionner_canvas()
-        return
+        main_emoji(self.fenetre)
 
     def description(self):
         self.redimensionner_canvas()
