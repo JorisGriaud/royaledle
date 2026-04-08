@@ -143,7 +143,7 @@ class Accueil():
 
     def description(self):
         self.redimensionner_canvas()
-  
+        main_description(self.fenetre)
         return
     
     def nettoyer_fenetre(self):
