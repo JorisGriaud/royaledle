@@ -4,7 +4,6 @@ from tkinter import*
 from recherche import Recherche
 from PIL import Image, ImageTk
 cards = Cards()
-all_cards_list = cards.get_all_card_name_with_image_path()
 largeur_carre = 75
 hauteur_carre = 75
 
@@ -58,6 +57,7 @@ def progression():
 
       
 def main(fenetre):
+   all_cards_list = cards.get_all_card_name_with_image_path()
    hauteur = fenetre.winfo_height()
    wrong_labels = []
    t=texteatroues()
@@ -109,27 +109,27 @@ def main(fenetre):
              label_description.config(text=tab)
              img_bouton = Image.open("assets/victoiredescr.png").resize((250, 270))
              photo_bouton = ImageTk.PhotoImage(img_bouton)
-             bouton3 = Button(fenetre, image=photo_bouton, relief="flat", borderwidth=0,command=lambda:[fenetre.after(0, bouton3.destroy()),recommencer()])
-             label = Label(fenetre, image=photo_bouton)
-             label.image = photo_bouton
-             label.place(x=555, y=50)
-
-
+             bouton = Button(fenetre, image=photo_bouton, relief="flat", borderwidth=0,command=lambda:[fenetre.after(0, bouton.destroy()),recommencer()])
+             bouton.image = photo_bouton
+             bouton.place(x=555, y=50)
+             bouton.lift()
          row = compteur[0] % 3
          column = compteur[0] // 3
          data_carte.grid(row=row, column=column, pady=1, padx=15)
          compteur[0]+= 1 
-         
 
-         
             
-            
-            
-            
+   def recommencer():
+        nonlocal wrong_labels
+        for label in wrong_labels:
+            label.destroy()
+        wrong_labels = []  
+        card=choixcarte()        
+        texteatroues()
 
-        
-         
-   Recherche(fenetre, all_cards_list, OnSearchInput)
+
+     
+   Recherche(fenetre, all_cards_list, callback=OnSearchInput)
 
     
 
