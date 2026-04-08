@@ -143,6 +143,8 @@ class Accueil():
         main_emoji(self.fenetre)
 
     def description(self):
+        pygame.mixer.music.load(f"assets/sound/Eaeaea_yaya_original_lovely_sad_24gh.mp3")
+        pygame.mixer.music.play(loops=-1)
         self.redimensionner_canvas()
         return
     
