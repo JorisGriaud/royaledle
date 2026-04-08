@@ -215,6 +215,9 @@ class Recherche():
             elif self.input == "Coudoux":
                 pygame.mixer.music.load(f"assets/music/La_Coudanse_de_Coudoux.mp3")
                 pygame.mixer.music.play(loops=0)
+            elif self.input == "Silvain Durif":
+                pygame.mixer.music.load(f"assets/music/LA_FLUTE_COSMIQUE_-_Pintade_Cosmique.mp3")
+                pygame.mixer.music.play(loops=0)
             else:
                 pygame.mixer.music.load(f"assets/sound/{random.choice(["Clash_Royale_Hehe_HaHa.mp3", "Crying_Goblin_Clash_Royale_Emotes.mp3"])}")
                 pygame.mixer.music.play(loops=0)
