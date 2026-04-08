@@ -6,7 +6,6 @@ from PIL import Image, ImageTk
 import webbrowser
 
 cards = Cards()
-all_cards_list = cards.get_all_card_name_with_image_path()
 
 largeur_carre = 75
 hauteur_carre = 75
@@ -53,6 +52,7 @@ def afficher_emoji(fenetre, card, num):
             emoji_labels.append(lbl)
 
 def main(fenetre):
+    all_cards_list = cards.get_all_card_name_with_image_path()
     global emoji_labels
     pub(fenetre)
     card = tirer_carte()
