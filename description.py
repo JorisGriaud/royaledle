@@ -63,6 +63,7 @@ def main(fenetre):
    t=texteatroues()
    id=t[-1]
    carte=str(cards.get_card_by_id(id).get_name())
+   print(f"DEBUG description: {carte}")
    description=str(choixdescription(id))
    tab=description.split(sep=" ")
    t.pop(t.index(t[-1]))

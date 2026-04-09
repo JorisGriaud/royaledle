@@ -22,7 +22,7 @@ def GetRandomCard():
     nbre_aleatoire = randint(0, nbre_cards)
     card = cards.get_card_by_id(nbre_aleatoire)
     # card = cards.get_card_by_name("Gel") # Debug
-    print(card.get_name()) # Debug
+    print(f"DEBUG classic: {card.get_name()}") # Debug
     return card
 
 def main(fenetre):
