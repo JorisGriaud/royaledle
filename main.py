@@ -14,7 +14,7 @@ musics = ["01 - Kpoint - Ma 6t a craqué (feat. Ninho).flac", "02 - Kendji Girac
           "03 - Calogero - Face à la mer.flac", "01 - AleFra - Dream in Motion.flac", 
           "03 - Francis Cabrel - Les murs de poussière (Remastered).flac", "02 - Bramsito - Sale mood(Explicit).flac",
           "04 - Kaaris - Gun salute(Explicit).flac", "05 - Niska - Medellín(Explicit).flac", 
-          "01 - Tomawok - Angers City.flac"]
+          "01 - Tomawok - Angers City.flac", "Koba LaD - Freestyle Ténébreux #1.mp3"]
     
 def play_intro():
     pygame.mixer.music.load("assets/sound/Clash_Royale_Intro_Sound_Effect.mp3")
