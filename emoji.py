@@ -56,6 +56,7 @@ def main(fenetre):
     global emoji_labels
     pub(fenetre)
     card = tirer_carte()
+    print(f"DEBUG emoji: {card.get_name()}")
     nbtour = [1]  # on commence à 1 emoji affiché
 
     emoji_labels = []
