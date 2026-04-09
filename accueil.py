@@ -148,6 +148,7 @@ class Accueil():
         pygame.mixer.music.load(f"assets/sound/Eaeaea_yaya_original_lovely_sad_24gh.mp3")
         pygame.mixer.music.play(loops=-1)
         self.redimensionner_canvas()
+        main_description(self.fenetre)
         return
     
     def play(self, song):
