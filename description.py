@@ -3,9 +3,9 @@ from random import randint
 from tkinter import*
 from recherche import Recherche
 from PIL import Image, ImageTk
+import pygame
 cards = Cards()
-largeur_carre = 75
-hauteur_carre = 75
+
 
 def choixcarte():
    carte=randint(0,cards.get_number_of_cards()-1)
@@ -141,9 +141,9 @@ if __name__ == "__main__":
     fenetre.title("RoyaleDLE - Description")
     fenetre.geometry("1525x800")
     fenetre.iconbitmap("assets/logo.ico")
+    pygame.mixer.init() 
     
     main(fenetre)
-
     fenetre.mainloop()
 
 
