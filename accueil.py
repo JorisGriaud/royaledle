@@ -39,7 +39,7 @@ class Accueil():
 
         self.image_bouton3 = Image.open("assets/description.png").resize((self.largeur_carre, self.hauteur_carre))  # Redimensionner à la taille du bouton
         self.photo_bouton3 = ImageTk.PhotoImage(self.image_bouton3)
-        self.bouton3 = Button(self.fenetre, image=self.photo_bouton3, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.classidescription()])
+        self.bouton3 = Button(self.fenetre, image=self.photo_bouton3, relief="flat", borderwidth=0, command=lambda:[self.nettoyer_fenetre() ,self.description()])
         self.bouton3.image = self.photo_bouton3
 
         self.image_bouton4 = Image.open("assets/descdeb.png").resize((self.largeur_rect, self.hauteur_rect))  # Redimensionner à la taille du bouton
@@ -148,6 +148,7 @@ class Accueil():
         pygame.mixer.music.load(f"assets/sound/Eaeaea_yaya_original_lovely_sad_24gh.mp3")
         pygame.mixer.music.play(loops=-1)
         self.redimensionner_canvas()
+        main_description(self.fenetre)
         return
     
     def play(self, song):
