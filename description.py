@@ -58,7 +58,6 @@ def progression():
 
       
 def main(fenetre):
-   print("DEBUG: description")
    hauteur = fenetre.winfo_height()
    wrong_labels = []
    t=texteatroues()
