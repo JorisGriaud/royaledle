@@ -4669,42 +4669,6 @@
         "theatre.png"
       ],
       "icon_path": "assets/easter_eggs/mister-coaster-clown.png"
-    },
-    {
-      "name": "Romain/Autiste",
-      "name_en": "Romain Autistic",
-      "id": 127,
-      "key": "romain",
-      "elixir": 3,
-      "rarity": "Commune",
-      "type": "Troupe",
-      "arena_unlock": 0,
-      "damage": 1,
-      "damage_per_sec": null,
-      "hitpoints": 10,
-      "hit_speed": 10.0,
-      "targets": "Sol",
-      "speed": "Lente",
-      "range": "Mélée",
-      "count": 1,
-      "attack_type": "Unique",
-      "radius": null,
-      "duration": null,
-      "slowdown_ennemies": null,
-      "crown_tower_damage": null,
-      "stun_duration": null,
-      "has_evolution": false,
-      "has_hero": false,
-      "release_year": 2006,
-      "icon": "https://api-assets.clashroyale.com/cards/300/7dxh2-yCBy1x44GrBaL29vjqnEEeJXHEAlsi5g6D1eY.png",
-      "description": "Cet autiste a un petit peu de mal à marcher normalement avec son enorme pouce. Il réclame plus de points qu'il en a. Il est le fervant utilisateur de la méthode d'apprendre par coeur les exercices. Mais tranquille il est open to work.",
-      "emojis": [
-        "enorme-pouce.jpg",
-        "lunettes.jpg",
-        "lunettes.jpg",
-        "lunettes.jpg"
-      ],
-      "icon_path": "assets/easter_eggs/romain.jpg"
     }
   ]
 }
