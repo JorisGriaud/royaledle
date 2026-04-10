@@ -125,6 +125,15 @@ class Card():
         """ Return a list of emojis of the card"""
         return self.card['emojis']
 
+    def get_portee_or_radius(self):
+        """ Return the range or radius based on card type.
+            For spells : returns radius
+            For troops and buildings: returns range
+        """
+        if self.get_type() == "Sort":
+            return self.get_radius()
+        else:  # Troupe or Bâtiment
+            return self.get_range()
 class Cards():
 
     def __init__(self):

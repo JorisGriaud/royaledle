@@ -4,6 +4,13 @@ import os
 from Cards import Cards
 import pygame
 import random
+import unicodedata
+
+from video import Video
+
+def remove_accents(text):
+    n = unicodedata.normalize('NFKD', str(text))
+    return ''.join([c for c in n if not unicodedata.combining(c)])
 
 class Recherche():
     def __init__(self, fenetre, cards_list, callback=None):
@@ -105,7 +112,8 @@ class Recherche():
         x1 = (largeur - largeur_totale) // 2
         y1 = (hauteur - self.hauteur_bouton) // 2 - 80 + self.hauteur_bouton
 
-        self.filtered_data = [item for item in self.cards if search_term in item["name"].lower()]
+        # Filtrer les cartes sans tenir compte des accents et des majuscules
+        self.filtered_data = [item for item in self.cards if remove_accents(search_term) in remove_accents(item["name"].lower())]
 
         if self.filtered_data:
             for item in self.filtered_data:
@@ -204,8 +212,11 @@ class Recherche():
                 pygame.mixer.music.load("assets/music/01 - MattOfficiel - Vos mères les tricératops (feat. TK78).flac")
                 pygame.mixer.music.play(loops=0)
             elif self.input == "TK78 Machine Personnelle":
-                pygame.mixer.music.load("assets/music/13 - Reda Taliani - n'brik sans pitié.flac")
-                pygame.mixer.music.play(loops=0)
+                # pygame.mixer.music.load("assets/music/OMG_THEKAIRI78_DEFONCE_UNE_PORTE_ET_DANSE_AVEC_UN_BALAIS.mp3")
+                # pygame.mixer.music.play(loops=0)
+                Video().tk(self.fenetre)
+            elif self.input == "Noé":
+                Video().noe(self.fenetre)
             elif self.input == "Mister Coaster Clown":
                 pygame.mixer.music.load("assets/music/La_nouvelle_musique_de_Buffalo_Grill.mp3")
                 pygame.mixer.music.play(loops=0)
